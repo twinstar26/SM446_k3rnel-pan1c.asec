@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend for SIH 2020",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twinstar26/k3rnel-pan1c.asec.git"
+  },
+  "author": "SIH 2020",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twinstar26/k3rnel-pan1c.asec/issues"
+  },
+  "homepage": "https://github.com/twinstar26/k3rnel-pan1c.asec#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
