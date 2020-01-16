@@ -4,6 +4,7 @@
 https://kernel-panic.atlassian.net/rest/api/2/project
 
 # ISSUES
+* fields.issuetype.name = "Task"
 
 ## BASED ON PROJECT
 
@@ -73,3 +74,63 @@ https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY?fields=description
 * Created
 * Updated
 * Linked Issues
+
+# EPICS: ALMOST SAME AS ISSUES
+* fields.issuetype.name = "Epic"
+
+## BASED ON PROJECT
+x
+* All issues by Project Name: ProjectName    
+https://kernel-panic.atlassian.net/rest/api/2/search?jql=project=ProjectName
+
+* All Todo issues: ProjectName  
+https://kernel-panic.atlassian.net/rest/api/2/search?jql=project=ProjectName
+
+* All In progress issues: ProjectName  
+https://kernel-panic.atlassian.net/rest/api/2/search?jql=project=ProjectName
+
+* All Done issues: ProjectName  
+https://kernel-panic.atlassian.net/rest/api/2/search?jql=project=ProjectName
+
+## BASED ON USERNAME
+
+* All issues by a user: UserName  
+https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
+
+* All Todo issues: UserName  
+https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
+
+* All In progress issues: UserName  
+https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
+
+* All Done issues: UserName  
+https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
+
+## BASED ON BOTH
+
+* All issues by a user: UserName, ProjectName  
+https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
+
+* All Todo issues: UserName, ProjectName  
+https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
+
+* All In progress issues: UserName, ProjectName  
+https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
+
+* All Done issues: UserName, ProjectName  
+https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
+
+* Get issue by keyname: IssueKEY
+https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY
+
+## COMMENTS
+* Get comments for a given epic: IssueKEY  
+https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY/comment
+
+## ATTACHMENT
+* Get attachments for a given epic: IssueKEY  
+https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY?fields=attachment
+
+## DESCRIPTION
+* Get descrption for a given epic: IssueKEY  
+https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY?fields=description
