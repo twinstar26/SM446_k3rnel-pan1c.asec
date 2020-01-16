@@ -1,0 +1,96 @@
+# returns all pull requests authored by selected user
+---
+type: intent
+name: allPullRequestByUser
+slots:
+  - name: userName
+    entity: userName
+utterances:
+  - Give me pull request made by [userName](atharvaveer)
+  - Show me pull request made by [userName](atharvaveer)
+  - Please show me pull request by [userName](atharvaveer)
+  - Provide me with pull request made by [userName](atharvaveer)
+
+# returns all public repos of workspace
+---
+type: intent
+name: allRepos
+slots: 
+  - name: userName
+    entity: userName
+utterances: 
+  - Give me public repositories of [userName](atharvaveer) workspace
+  - Show me public repositories made by [userName](atharvaveer)
+  - Please show me public repositories by [userName](atharvaveer)
+  - Provide me with public repositories of [userName](atharvaveer)
+
+# returns all commits made in project in workspace
+---
+type: intent
+name: allcommits
+slots: 
+  - name: projectName
+    entity: projectName
+  - name: userName
+    entity: userName
+utterances: 
+  - Show me commits made in [projectType](google) project in [userName](atharvaveer) workspace
+  - Please give me commits made in [projectType](google) project in [userName](atharvaveer) workspace
+  - Provide me with commits commited in [projectType](google) project in [userName](atharvaveer) workspace
+
+# returns all forks made in project in workspace
+---
+type: intent
+name: allforks
+slots: 
+  - name: projectName
+    entity: projectName
+  - name: userName
+    entity: userName
+utterances: 
+  - Show me forks made in [projectType](google) project in [userName](atharvaveer) workspace
+  - Please give me forks made in [projectType](google) project in [userName](atharvaveer) workspace
+  - Provide me with forks made in [projectType](google) project in [userName](atharvaveer) workspace
+
+# returns all issues made in project in workspace
+---
+type: intent
+name: allissues
+slots: 
+  - name: projectName
+    entity: projectName
+  - name: userName
+    entity: userName
+utterances: 
+  - Show me issues made in [projectType](google) project in [userName](atharvaveer) workspace
+  - Please give me issues made in [projectType](google) project in [userName](atharvaveer) workspace
+  - Provide me with issues made in [projectType](google) project in [userName](atharvaveer) workspace
+
+# returns all pull requests made in project in workspace
+---
+type: intent
+name: allpullrequest
+slots: 
+  - name: projectName
+    entity: projectName
+  - name: userName
+    entity: userName
+utterances: 
+  - Show me pull requests made in [projectType](google) project in [userName](atharvaveer) workspace
+  - Please give me pull requests made in [projectType](google) project in [userName](atharvaveer) workspace
+  - Provide me with pull requests commited in [projectType](google) project in [userName](atharvaveer) workspace
+
+# returns version of project in workspace
+---
+type: intent
+name: version
+slots: 
+  - name: projectName
+    entity: projectName
+  - name: userName
+    entity: userName
+utterances: 
+  - Show me version of [projectType](google) project in [userName](atharvaveer) workspace
+  - Please give me version of [projectType](google) project in [userName](atharvaveer) workspace
+  - Provide me with version of [projectType](google) project in [userName](atharvaveer) workspace
+  - What is the version of [projectType](google) project in [userName](atharvaveer) workspace
