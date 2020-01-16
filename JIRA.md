@@ -47,7 +47,29 @@ https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
 * All Done issues: UserName, ProjectName  
 https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
 
+* Get issue by keyname: IssueKEY
+https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY
 
 ## COMMENTS
 * Get comments for a given issue: IssueKEY  
 https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY/comment
+
+## ATTACHMENT
+* Get attachments for a given issue: IssueKEY  
+https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY?fields=attachment
+
+## DESCRIPTION
+* Get descrption for a given issue: IssueKEY  
+https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY?fields=description
+
+# ATTRIBUTES WHICH WE DISPLAY FOR ISSUE
+* Watches
+* Comments
+* Description
+* Attachments
+* Reporter
+* Assignee
+* Labels
+* Created
+* Updated
+* Linked Issues
