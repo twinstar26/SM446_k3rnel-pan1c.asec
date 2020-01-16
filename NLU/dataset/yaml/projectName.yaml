@@ -1,0 +1,10 @@
+# projectName entity
+---
+type: entity
+name: projectName
+automatically_extensible: yes
+values:
+- chatbot
+- google
+- amazon
+- test

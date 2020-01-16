@@ -8,3 +8,79 @@ utterances:
   - Display all projects
   - Show me all projects
 
+# all issues from specific project
+---
+type: intent
+name: allIssuesByProject
+slots:
+  - name: projectName
+    entity: projectName
+utterances:
+  - Give me all issues from [projectName](google) project
+  - Give me all issues from [projectName](atharva) project
+  - Show me all the issues from [projectName](atharva) project
+  - Show me all the issues from [projectName](harsh chheda) project
+
+# all issues from specific project and issue type
+---
+type: intent
+name: allIssuesByProjectAndIssueType
+slots:
+  - name: projectName
+    entity: projectName
+  - name: issueType
+    entity: issueType
+utterances:
+  - Give me issues from [projectName](google) project of [issueType](todo)
+  - Give me issues from [projectName](atharva) project of [issueType](in progress)
+  - Give me [issueType](todo) issues from [projectName](google) project
+  - Give me [issueType](in progress) issues from [projectName](atharva) project
+  - Show me [issueType](done) the issues from [projectName](atharva) project
+  - Show me the issues from [projectName](atharva) project of [issueType](done)
+  - Show me the issues from [projectName](harsh chheda) project of [issueType](done)
+  - Show me [issueType](done) the issues from [projectName](harsh chheda) project
+  - Give me [issueType](all) issues from [projectName](google) project
+  - Give me [issueType](all) issues from [projectName](atharva) project
+  - Show me [issueType](all) the issues from [projectName](atharva) project
+
+# all issues based on assignee and issue type
+---
+type: intent
+name: allIssuesByAssigneeAndIssueType
+slots:
+  - name: issueType
+    entity: issueType
+  - name: userName
+    entity: userName
+utterances:
+  - Give me [issueType](todo) issues assigned to [userName](atharvaveer)
+  - Give me [issueType](in progress) issues assigned to [userName](atharvaveer)
+  - Show me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Show me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Give me [issueType](all) issues assigned to [userName](atharvaveer)
+  - Give me [issueType](all) issues assigned to [userName](atharvaveer)
+  - Show me [issueType](all) issues assigned to [userName](atharvaveer)
+  - Give me issues assigned to [userName](atharvaveer) of [issueType](todo)
+  - Give me issues assigned to [userName](atharvaveer) of [issueType](in progress)
+  - Show me issues assigned to [userName](atharvaveer) of [issueType](done)
+  - Show me issues assigned to [userName](atharvaveer) of [issueType](done)
+  - Give me issues assigned to [userName](atharvaveer) of [issueType](all)
+  - Give me issues assigned to [userName](atharvaveer) of [issueType](all)
+  - Show me issues assigned to [userName](atharvaveer) of [issueType](all)
+
+# all issues based on project name and assignee
+---
+type: intent
+name: allIssuesByAssigneeAndProjectName
+slots:
+  - name: projectName
+    entity: projectName
+  - name: userName
+    entity: userName
+utterances:
+  - Give me all issues from [projectType](google) project assigned to [userName](atharvaveer)
+  - Give me all issues from [projectType](google) project assigned to [userName](divypatel9881)
+  - Give me all issues from [projectType](ethereum) project assigned to [userName](divypatel9881)
+  - Give me all issues from [projectType](google) project assigned to [userName](divypatel9881)
+  - Give me all issues from [projectType](google) project assigned to [userName](yashjain)
+  - Give me all issues from [projectType](google) project assigned to [userName](harshchheda)

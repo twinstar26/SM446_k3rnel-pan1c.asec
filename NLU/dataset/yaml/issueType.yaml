@@ -1,0 +1,10 @@
+# issueType entity
+---
+type: entity
+name: issueType
+automatically_extensible: no
+values:
+- done
+- [in progress, inprogress, in-progress]
+- [todo, to do, to-do]
+- all

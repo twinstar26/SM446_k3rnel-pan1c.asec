@@ -1,16 +1,12 @@
 import json
+import sys
 from snips_nlu import SnipsNLUEngine
 from snips_nlu.default_configs import CONFIG_EN
-import sys
 
 seed = 42
 engine = SnipsNLUEngine(config=CONFIG_EN, random_state=seed)
 
-
-# with io.open("dataset.json") as f:
-#     dataset = json.load(f)
-
-with open("dataset/json/jira.json",encoding='utf-16', errors='ignore') as f:
+with open("/k3rnel-pan1c.asec/NLU/dataset/json/dataset1.json",encoding='utf-16', errors='ignore') as f:
      dataset = json.load(f, strict=False)
 
 engine.fit(dataset)

@@ -1,0 +1,10 @@
+# userName entity
+---
+type: entity
+name: userName
+automatically_extensible: yes
+values:
+- atharvaveer
+- harshchheda
+- yashjain
+- divypatel
