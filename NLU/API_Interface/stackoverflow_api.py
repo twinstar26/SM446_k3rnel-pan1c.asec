@@ -1,7 +1,7 @@
 import re
 import requests
 
-def getResult(error):
+def topPostAnswer(error):
 
     r = requests.get("https://api.stackexchange.com/2.2/search/advanced?order=desc&sort=activity&site=stackoverflow&q={}".format(error.replace(" ", "+")))
     links = []

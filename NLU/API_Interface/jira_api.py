@@ -366,7 +366,3 @@ def allProjects():
         html += '<li style="font-size: 1.25rem;">{}</li>'.format(project["name"])
     html += "</div></div>"
     return html
-
-# allProjects()
-# allIssuesByProject("Hackathon")
-issueByIssueKey("HAC-4")
