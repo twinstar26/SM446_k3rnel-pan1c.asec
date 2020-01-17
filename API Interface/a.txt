@@ -1,29 +1,23 @@
-https://stackoverflow.com/questions/29368205/cant-find-python-executable-npm-install-hangs
-<style> pre {
-        padding: 10px;
-        background-color: #E8EBEF;
-    } </style><div class="container "style="width: 50rem;"><h1 class="m-4">How to update node?</h1>
-        <div class="card m-4 p-4" style="width: 100%; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
-            <div class="post-text" itemprop="text"><p>I am using "npm install" to download and compile all the dependencies of a small node.js app I have written. The "package.json" file I am using is correct and contains all the needed information.</p><p>One of the packages to be installed has "node-gyp" as a dependency, so I have previously installed the "python2" package.</p><p>Now, at a certain point I start getting error messages:</p><pre><code>&gt; node-gyp rebuild<br><br>gyp ERR! configure error<br>gyp ERR! stack Error: Can\'t find Python executable "python", you can set the PYTHON env variable.<br>gyp ERR! stack     at failNoPython (/usr/lib/node_modules/npm/node_modules/node-gyp/lib/configure.js:103:14)<br>gyp ERR! stack     at /usr/lib/node_modules/npm/node_modules/node-gyp/lib/configure.js:42:11<br>gyp ERR! stack     at F (/usr/lib/node_modules/npm/node_modules/which/which.js:40:25)<br>gyp ERR! stack     at E (/usr/lib/node_modules/npm/node_modules/which/which.js:43:29)<br>gyp ERR! stack     at /usr/lib/node_modules/npm/node_modules/which/which.js:54:16<br>gyp ERR! stack     at FSReqWrap.oncomplete (fs.js:99:15)<br>gyp ERR! System Linux 3.18.9-200.fc21.x86_64<br>gyp ERR! command "node" "/usr/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"<br>gyp ERR! cwd /srv/visitor/node_modules/phantom/node_modules/dnode/node_modules/weak<br>gyp ERR! node -v v0.12.1<br>gyp ERR! node-gyp -v v1.0.3<br>gyp ERR! not ok<br>npm WARN optional dep failed, continuing weak@0.3.4<br></code></pre><p>The issues seems to be that an environment variable is missing. </p><p>Can anyone point me in the right direction? No matter where I search on the Internet, there is no mention of a "PYTHON" variable, only "PYTHONPATH" and others like it. What is the correct way to fix this, so that I do not get those errors?</p><p><strong>UPDATE 1:</strong></p><p>After following advice from this thread I added these commands before executing "npm install":</p><pre><code>PYTHON=/usr/sbin/python2<br>export PYTHON<br></code></pre><p>Now I am getting this error:</p><pre><code>&gt; node-gyp rebuild<br><br>gyp ERR! build error<br>gyp ERR! stack Error: not found: make<br>gyp ERR! stack     at F (/usr/lib/node_modules/npm/node_modules/which/which.js:40:28)<br>gyp ERR! stack     at E (/usr/lib/node_modules/npm/node_modules/which/which.js:43:29)<br>gyp ERR! stack     at /usr/lib/node_modules/npm/node_modules/which/which.js:54:16<br>gyp ERR! stack     at FSReqWrap.oncomplete (fs.js:99:15)<br>gyp ERR! System Linux 3.18.9-200.fc21.x86_64<br>gyp ERR! command "node" "/usr/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"<br>gyp ERR! cwd /srv/visitor/node_modules/phantom/node_modules/dnode/node_modules/weak<br>gyp ERR! node -v v0.12.1<br>gyp ERR! node-gyp -v v1.0.3<br>gyp ERR! not ok<br>npm WARN optional dep failed, continuing weak@0.3.4<br></code></pre><p>I find it absurd that it says "...not found: make...". Is there any possibility of it being so? If yes, how come packages install correctly?</p><p>Frankly, I do not understand a thing. Any ideas?</p>    </div>            
+
+        <div class='container p-4'><h2>Issues in atharvaveer/test</h2>
+    <div class="card p-4 mt-4" style="width: 30rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
+                <div style="font-size: 1.25rem;">Second Issue</div>
+                <hr>
+                <div><b>Reporter: </b> atharva.d.veer</div>
+                <div><b>Repo: </b> <a href="https://bitbucket.org/atharvaveer/test"> atharvaveer/test</a></div>
+                <div><b>Priority: </b> major</div>
+                <div><b>Kind: </b> <a href="https://bitbucket.org/atharvaveer/test/issues/2/second-issue">bug</a></div>
+                <div><b>Watches: </b> 1</div>
+                <div><b>Created: </b> 2020-01-16</div>
+            </div>
+        <div class="card p-4 mt-4" style="width: 30rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
+                <div style="font-size: 1.25rem;">First issue</div>
+                <hr>
+                <div><b>Reporter: </b> atharva.d.veer</div>
+                <div><b>Repo: </b> <a href="https://bitbucket.org/atharvaveer/test"> atharvaveer/test</a></div>
+                <div><b>Priority: </b> major</div>
+                <div><b>Kind: </b> <a href="https://bitbucket.org/atharvaveer/test/issues/1/first-issue">bug</a></div>
+                <div><b>Watches: </b> 1</div>
+                <div><b>Created: </b> 2020-01-16</div>
+            </div>
         </div>
-        
-        <div class="card m-4 p-4" style="width: 100%; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
-            <div class="post-text" itemprop="text">        <p>Try running this</p><pre><code>PYTHON=$PYTHON:/usr/bin/python<br>export PYTHON<br></code></pre><p>Add this to profile file (like <code>~/.bash_profile</code> etc. depending on your shell) to make it persistent.</p><p>If your python isn\'t installed in <code>/usr/bin/python</code> then you can run <code>which python</code> to find out where it is installed.</p>    </div>            
-        </div>
-        
-        <div class="card m-4 p-4" style="width: 100%; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
-            <div class="post-text" itemprop="text">        <p>First things first: I want to thank all who pitched in to help me with my issue, and especially @adarsh.</p><p>Now the real issue was that I was missing "make" and "gcc". At first, when a compiler message suggested so, I found it absurd. But keep in mind that this is an image PULLed from the Docker registry. </p><p>I added "pacman -S --needed --noconfirm make gcc" in my Dockerfile, and the build process completes successfully.</p><p>It should go without saying, that I also needed to make the suggested changes to the environmental variables.</p>    </div>            
-        </div>
-        
-        <div class="card m-4 p-4" style="width: 100%; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
-            <div class="post-text" itemprop="text">        <p>This worked for me..</p><pre><code>node-gyp --python C:\\Users\\username\\.windows-build-tools\\python27\\python.exe build<br></code></pre><p>We need to point to <strong><em>python.exe</em></strong> not just up to the installation folder.</p>    </div>            
-        </div>
-        
-        <div class="card m-4 p-4" style="width: 100%; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
-            <div class="post-text" itemprop="text">        <p>Configuration: window 10, 64 bit, node v8.13.0, npm v6.4.1</p><p>Follow the below steps :</p><ol><li><p>Restart the system</p></li><li><p>Open cmd by administrator</p></li><li><p>Delete C:\\Users\\user_name.node-gyp</p></li><li><p>Delete %AppData%/npm</p></li><li><p>Delete %AppData%/npm-cache</p></li><li><p>Check out <a href="https://github.com/nodejs/node-gyp" rel="nofollow noreferrer">node-gyp package</a></p></li><li><p>npm install -g node-gyp</p></li><li><p>npm install --global --production windows-build-tools</p></li><li><p>node-gyp configure --python C:\\Users\\pcq158.windows-build-tools\\python27\\python.exe</p></li><li><p>npm config set msvs_version 2017 --global</p></li><li><p>npm install</p></li></ol>    </div>            
-        </div>
-        
-        <div class="card m-4 p-4" style="width: 100%; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
-            <div class="post-text" itemprop="text">        <p>In <em>CMD</em></p><p><em>if local on drive:</em> <code>npm install express-generator</code></p><pre><code>#npm install express-generator -g<br>#express --ejs .<br></code></pre><p><em>choose yes</em></p><pre><code>#y<br></code></pre>    </div>            
-        </div>
-        
