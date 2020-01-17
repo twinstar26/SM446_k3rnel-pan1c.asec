@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>STT</title>
+</head>
+<body>
+    <!-- <a id="download">Download</a>
+    <button id="stop">Stop</button> -->
+    <script>
+      navigator.mediaDevices.getUserMedia({ audio: true })
+  .then(stream => {
+    const mediaRecorder = new MediaRecorder(stream);
+    mediaRecorder.start();
+
+    const audioChunks = [];
+    mediaRecorder.addEventListener("dataavailable", event => {
+      audioChunks.push(event.data);
+    });
+
+    mediaRecorder.addEventListener("stop", () => {
+      const audioBlob = new Blob(audioChunks, { 'type' : 'audio/wav' });
+      const audioUrl = URL.createObjectURL(audioBlob);
+      const audio = new Audio(audioUrl);
+
+      $.post("/stt", {
+          body: audioBlob
+      }, function(data, status) {
+          if(status == success) {
+              console.log("Success")
+          }
+      })
+    //   console.log(audio)
+    //   audio.play();
+    });
+
+    setTimeout(() => {
+      mediaRecorder.stop();
+    }, 5000);
+  });
+    </script>
+</body>
+</html>
