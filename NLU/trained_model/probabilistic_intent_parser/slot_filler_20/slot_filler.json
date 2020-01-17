@@ -176,7 +176,7 @@
     "unit_name": "crf_slot_filler"
   },
   "crf_model_file": "model.crfsuite",
-  "intent": "allRepositoriesByWorkspace",
+  "intent": "allPullRequestByUserName",
   "language_code": "en",
   "slot_name_mapping": {
     "userName": "userName"
