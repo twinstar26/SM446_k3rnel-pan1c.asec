@@ -50,4 +50,4 @@ def giveHTMLFromIntents(jsonResponse):
     elif jsonResponse['intent']["intentName"] == "topPostAnswer":
         return topPostAnswer(jsonResponse["slots"][0]["rawValue"])
     else:
-        return "Yash tu ghar pe ja"
+        return "Nothing relative found"
