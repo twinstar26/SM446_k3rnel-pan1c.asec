@@ -797,109 +797,109 @@ slots:
   - name: issueKey
     entity: issueKey
 utterances:
-  - Give me epic of [issueKey](hac-7) issue key
-  - Show me epic of [issueKey](hac-9) issue key
-  - Give me epic of [issueKey](hac-7) issue key
+  - Give me issue of [issueKey](hac-7) issue key
+  - Show me issue of [issueKey](hac-9) issue key
+  - Give me issue of [issueKey](hac-7) issue key
   - Show me [issueKey](hac-9) issue key issues
-  - display me epic of [issueKey](hac-7) issue key
+  - display me issue of [issueKey](hac-7) issue key
   - display me [issueKey](hac-9) issue key issues
-  - present me epic of [issueKey](hac-7) issue key
+  - present me issue of [issueKey](hac-7) issue key
   - present me [issueKey](hac-9) issue key issues
-  - render me epic of [issueKey](hac-7) issue key
+  - render me issue of [issueKey](hac-7) issue key
   - render me [issueKey](hac-9) issue key issues
-  - express me epic of [issueKey](hac-7) issue key
+  - express me issue of [issueKey](hac-7) issue key
   - express me [issueKey](hac-9) issue key issues
-  - indicate me epic of [issueKey](hac-7) issue key
+  - indicate me issue of [issueKey](hac-7) issue key
   - indicate me [issueKey](hac-9) issue key issues
-  - point me epic of [issueKey](hac-7) issue key
+  - point me issue of [issueKey](hac-7) issue key
   - point me [issueKey](hac-9) issue key issues
-  - show_up me epic of [issueKey](hac-7) issue key
+  - show_up me issue of [issueKey](hac-7) issue key
   - show_up me [issueKey](hac-9) issue key issues
-  - read me epic of [issueKey](hac-7) issue key
+  - read me issue of [issueKey](hac-7) issue key
   - read me [issueKey](hac-9) issue key issues
-  - yield me epic of [issueKey](hac-7) issue key
+  - yield me issue of [issueKey](hac-7) issue key
   - yield me [issueKey](hac-9) issue key issues
-  - throw me epic of [issueKey](hac-7) issue key
+  - throw me issue of [issueKey](hac-7) issue key
   - throw me [issueKey](hac-9) issue key issues
-  - gift me epic of [issueKey](hac-7) issue key
+  - gift me issue of [issueKey](hac-7) issue key
   - gift me [issueKey](hac-9) issue key issues
-  - generate me epic of [issueKey](hac-7) issue key
+  - generate me issue of [issueKey](hac-7) issue key
   - generate me [issueKey](hac-9) issue key issues
-  - impart me epic of [issueKey](hac-7) issue key
+  - impart me issue of [issueKey](hac-7) issue key
   - impart me [issueKey](hac-9) issue key issues
-  - leave me epic of [issueKey](hac-7) issue key
+  - leave me issue of [issueKey](hac-7) issue key
   - leave me [issueKey](hac-9) issue key issues
   - import [issueKey](hac-9) issue key issues
   - import issues from [projectName](atharva)
-  - pass me epic of [issueKey](hac-7) issue key
+  - pass me issue of [issueKey](hac-7) issue key
   - pass me [issueKey](hac-9) issue key issues
-  - hand me epic of [issueKey](hac-7) issue key
+  - hand me issue of [issueKey](hac-7) issue key
   - hand me [issueKey](hac-9) issue key issues
-  - turn_over to me epic of [issueKey](hac-7) issue key
+  - turn_over to me issue of [issueKey](hac-7) issue key
   - turn_over to me [issueKey](hac-9) issue key issues
-  - grant me epic of [issueKey](hac-7) issue key
+  - grant me issue of [issueKey](hac-7) issue key
   - grant me [issueKey](hac-9) issue key issues
-  - feed me epic of [issueKey](hac-7) issue key
+  - feed me issue of [issueKey](hac-7) issue key
   - feed me [issueKey](hac-9) issue key issues
-  - open me epic of [issueKey](hac-7) issue key
+  - open me issue of [issueKey](hac-7) issue key
   - open me [issueKey](hac-9) issue key issues
-  - supply me epic of [issueKey](hac-7) issue key
+  - supply me issue of [issueKey](hac-7) issue key
   - supply me [issueKey](hac-9) issue key issues
-  - ply me epic of [issueKey](hac-7) issue key
+  - ply me issue of [issueKey](hac-7) issue key
   - ply me [issueKey](hac-9) issue key issues
-  - cater me epic of [issueKey](hac-7) issue key
+  - cater me issue of [issueKey](hac-7) issue key
   - cater me [issueKey](hac-9) issue key issues
-  - provide me epic of [issueKey](hac-7) issue key
+  - provide me issue of [issueKey](hac-7) issue key
   - provide me [issueKey](hac-9) issue key issues
-  - Please Give me epic of [issueKey](hac-7) issue key project
+  - Please Give me issue of [issueKey](hac-7) issue key project
   - Please Show me [issueKey](hac-9) issue key issues
-  - Please display me epic of [issueKey](hac-7) issue key
+  - Please display me issue of [issueKey](hac-7) issue key
   - Please display me [issueKey](hac-9) issue key issues
-  - Please present me epic of [issueKey](hac-7) issue key
+  - Please present me issue of [issueKey](hac-7) issue key
   - Please present me [issueKey](hac-9) issue key issues
-  - Please render me epic of [issueKey](hac-7) issue key
+  - Please render me issue of [issueKey](hac-7) issue key
   - Please render me [issueKey](hac-9) issue key issues
-  - Please express me epic of [issueKey](hac-7) issue key
+  - Please express me issue of [issueKey](hac-7) issue key
   - Please express me [issueKey](hac-9) issue key issues
-  - Please indicate me epic of [issueKey](hac-7) issue key
+  - Please indicate me issue of [issueKey](hac-7) issue key
   - Please indicate me [issueKey](hac-9) issue key issues
-  - Please point me epic of [issueKey](hac-7) issue key
+  - Please point me issue of [issueKey](hac-7) issue key
   - Please point me [issueKey](hac-9) issue key issues
-  - Please show_up me epic of [issueKey](hac-7) issue key
+  - Please show_up me issue of [issueKey](hac-7) issue key
   - Please show_up me [issueKey](hac-9) issue key issues
-  - Please read me epic of [issueKey](hac-7) issue key
+  - Please read me issue of [issueKey](hac-7) issue key
   - Please read me [issueKey](hac-9) issue key issues
-  - Please yield me epic of [issueKey](hac-7) issue key
+  - Please yield me issue of [issueKey](hac-7) issue key
   - Please yield me [issueKey](hac-9) issue key issues
-  - Please throw me epic of [issueKey](hac-7) issue key
+  - Please throw me issue of [issueKey](hac-7) issue key
   - Please throw me [issueKey](hac-9) issue key issues
-  - Please gift me epic of [issueKey](hac-7) issue key
+  - Please gift me issue of [issueKey](hac-7) issue key
   - Please gift me [issueKey](hac-9) issue key issues
-  - Please generate me epic of [issueKey](hac-7) issue key
+  - Please generate me issue of [issueKey](hac-7) issue key
   - Please generate me [issueKey](hac-9) issue key issues
-  - Please impart me epic of [issueKey](hac-7) issue key
+  - Please impart me issue of [issueKey](hac-7) issue key
   - Please impart me [issueKey](hac-9) issue key issues
-  - Please leave me epic of [issueKey](hac-7) issue key
+  - Please leave me issue of [issueKey](hac-7) issue key
   - Please leave me [issueKey](hac-9) issue key issues
   - Please import [issueKey](hac-9) issue key issues
   - Please import issues from [projectName](atharva)
-  - Please pass me epic of [issueKey](hac-7) issue key
+  - Please pass me issue of [issueKey](hac-7) issue key
   - Please pass me [issueKey](hac-9) issue key issues
-  - Please hand me epic of [issueKey](hac-7) issue key
+  - Please hand me issue of [issueKey](hac-7) issue key
   - Please hand me [issueKey](hac-9) issue key issues
-  - Please turn_over to me epic of [issueKey](hac-7) issue key
+  - Please turn_over to me issue of [issueKey](hac-7) issue key
   - Please turn_over to me [issueKey](hac-9) issue key issues
-  - Please grant me epic of [issueKey](hac-7) issue key
+  - Please grant me issue of [issueKey](hac-7) issue key
   - Please grant me [issueKey](hac-9) issue key issues
-  - Please feed me epic of [issueKey](hac-7) issue key
+  - Please feed me issue of [issueKey](hac-7) issue key
   - Please feed me [issueKey](hac-9) issue key issues
-  - Please open me epic of [issueKey](hac-7) issue key
+  - Please open me issue of [issueKey](hac-7) issue key
   - Please open me [issueKey](hac-9) issue key issues
-  - Please supply me epic of [issueKey](hac-7) issue key
+  - Please supply me issue of [issueKey](hac-7) issue key
   - Please supply me [issueKey](hac-9) issue key issues
-  - Please ply me epic of [issueKey](hac-7) issue key
+  - Please ply me issue of [issueKey](hac-7) issue key
   - Please ply me [issueKey](hac-9) issue key issues
-  - Please cater me epic of [issueKey](hac-7) issue key
+  - Please cater me issue of [issueKey](hac-7) issue key
   - Please cater me [issueKey](hac-9) issue key issues
-  - Please provide me epic of [issueKey](hac-7) issue key
+  - Please provide me issue of [issueKey](hac-7) issue key
   - Please provide me [issueKey](hac-9) issue key issues
