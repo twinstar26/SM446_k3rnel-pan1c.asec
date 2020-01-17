@@ -1,0 +1,9 @@
+# all-projects intent
+---
+type: intent
+name: allProjects
+utterances:
+  - Give me names of all projects
+  - Give me details on all projects
+  - Display all projects
+  - Show me all projects

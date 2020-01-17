@@ -1,0 +1,15 @@
+# issueKey entity
+---
+type: entity
+name: issueKey
+automatically_extensible: yes
+values:
+- hac-5
+- hac-6
+- hac-7
+- hac-8
+- hac-10
+- key-1
+- key-10
+- hello-9
+- hello-90

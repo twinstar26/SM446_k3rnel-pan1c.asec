@@ -1,0 +1,155 @@
+# all epics from specific project
+---
+type: intent
+name: allEpicsByProject
+slots:
+  - name: projectName
+    entity: projectName
+utterances:
+  - Give me epics from [projectName](google) project
+  - Give me epics from [projectName](atharva) project
+  - Show me epics from [projectName](atharva) project
+  - Show me epics from [projectName](harsh chheda) project
+
+# all epics from specific project and issue type
+---
+type: intent
+name: allEpicsByProjectAndIssueType
+slots:
+  - name: projectName
+    entity: projectName
+  - name: issueType
+    entity: issueType
+utterances:
+  - Give me epics from [projectName](google) project of [issueType](todo)
+  - Give me epics from [projectName](atharva) project of [issueType](in progress)
+  - Give me [issueType](todo) epics from [projectName](google) project
+  - Give me [issueType](in progress) epics from [projectName](atharva) project
+  - Show me [issueType](done) epics from [projectName](atharva) project
+  - Show me epics from [projectName](atharva) project of [issueType](done)
+  - Show me epics from [projectName](harsh chheda) project of [issueType](done)
+  - Show me [issueType](done) epics from [projectName](harsh chheda) project
+  - Give me [issueType](all) epics from [projectName](google) project
+  - Give me [issueType](all) epics from [projectName](atharva) project
+  - Show me [issueType](all) epics from [projectName](atharva) project
+
+# all epics based on assignee and issue type
+---
+type: intent
+name: allEpicsByAssigneeAndIssueType
+slots:
+  - name: issueType
+    entity: issueType
+  - name: userName
+    entity: userName
+utterances:
+  - Give me [issueType](todo) epics assigned to [userName](atharvaveer)
+  - Give me [issueType](in progress) epics assigned to [userName](atharvaveer)
+  - Show me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Show me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Give me [issueType](all) epics assigned to [userName](atharvaveer)
+  - Give me [issueType](all) epics assigned to [userName](atharvaveer)
+  - Show me [issueType](all) epics assigned to [userName](atharvaveer)
+  - Give me epics assigned to [userName](atharvaveer) of [issueType](todo)
+  - Give me epics assigned to [userName](atharvaveer) of [issueType](in progress)
+  - Show me epics assigned to [userName](atharvaveer) of [issueType](done)
+  - Show me epics assigned to [userName](atharvaveer) of [issueType](done)
+  - Give me epics assigned to [userName](atharvaveer) of [issueType](all)
+  - Give me epics assigned to [userName](atharvaveer) of [issueType](all)
+  - Show me epics assigned to [userName](atharvaveer) of [issueType](all)
+
+# all epics based on project name and assignee
+---
+type: intent
+name: allEpicsByAssigneeAndProjectName
+slots:
+  - name: projectName
+    entity: projectName
+  - name: userName
+    entity: userName
+utterances:
+  - Give me epics from [projectType](google) project assigned to [userName](atharvaveer)
+  - Give me epics from [projectType](google) project assigned to [userName](divypatel9881)
+  - Give me epics from [projectType](ethereum) project assigned to [userName](divypatel9881)
+  - Show me epics from [projectType](google) project assigned to [userName](divypatel9881)
+  - Show me epics from [projectType](google) project assigned to [userName](yashjain)
+  - Show me epics from [projectType](google) project assigned to [userName](harshchheda)
+
+# all epics based on project name, assignee and issue type
+---
+type: intent
+name: allEpicsByAssigneeProjectNameAndIssueType
+slots:
+  - name: projectName
+    entity: projectName
+  - name: userName
+    entity: userName
+  - name: issueType
+    entity: issueType
+utterances:
+  - Give me [issueType](todo) epics from [projectType](google) project assigned to [userName](atharvaveer)
+  - Give me [issueType](done) epics from [projectType](google) project assigned to [userName](divypatel9881)
+  - Give me [issueType](in progress) epics from [projectType](ethereum) project assigned to [userName](divypatel9881)
+  - Show me [issueType](todo) epics from [projectType](google) project assigned to [userName](divypatel9881)
+  - Show me [issueType](all) epics from [projectType](google) project assigned to [userName](yashjain)
+  - Show me [issueType](done) epics from [projectType](google) project assigned to [userName](harshchheda)
+
+# epic based on issue key
+---
+type: intent
+name: allEpicsByIssueKey
+slots:
+  - name: issueKey
+    entity: issueKey
+utterances:
+  - Give me epic of [issueKey](hac-7) issue key
+  - Give me epic of [issueKey](hac-3) issue key
+  - Give me epic of [issueKey](hac-5) issue key
+  - Show me epic of [issueKey](hac-9) issue key
+  - Show me epic of [issueKey](hac-7) issue key
+  - Show me epic of [issueKey](hac-8) issue key
+
+# all comments of a specific epic based on issue key
+---
+type: intent
+name: allCommentsByIssueKey
+slots:
+  - name: issueKey
+    entity: issueKey
+utterances:
+  - Give me comments of epic of [issueKey](hac-7) issue key
+  - Give me comments of epic of [issueKey](hac-10) issue key
+  - Give me comments of epic of [issueKey](hac-8) issue key
+  - Show me comments of epic of [issueKey](hac-9) issue key
+  - Show me comments of epic of [issueKey](hac-90) issue key
+  - Show me comments of epic of [issueKey](test-10) issue key
+
+# all attachment of a specific epic based on issue key
+---
+type: intent
+name: allAttachmentsByIssueKey
+slots:
+  - name: issueKey
+    entity: issueKey
+utterances:
+  - Give me attachments of epic of [issueKey](hac-7) issue key
+  - Give me attachments of epic of [issueKey](hac-10) issue key
+  - Give me attachments of epic of [issueKey](hac-8) issue key
+  - Show me attachments of epic of [issueKey](hac-9) issue key
+  - Show me attachments of epic of [issueKey](hac-90) issue key
+  - Show me attachments of epic of [issueKey](test-10) issue key
+
+# all attachment of a specific epic based on issue key
+---
+type: intent
+name: allDescriptionByIssueKey
+slots:
+  - name: issueKey
+    entity: issueKey
+utterances:
+  - Give me description of epic of [issueKey](hac-7) issue key
+  - Give me description of epic of [issueKey](hac-10) issue key
+  - Give me description of epic of [issueKey](hac-8) issue key
+  - Show me description of epic of [issueKey](hac-9) issue key
+  - Show me description of epic of [issueKey](hac-90) issue key
+  - Show me description of epic of [issueKey](test-10) issue key

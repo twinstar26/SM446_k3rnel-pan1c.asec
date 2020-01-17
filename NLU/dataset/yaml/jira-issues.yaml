@@ -1,0 +1,155 @@
+# all issues from specific project
+---
+type: intent
+name: allIssuesByProject
+slots:
+  - name: projectName
+    entity: projectName
+utterances:
+  - Give me issues from [projectName](google) project
+  - Give me issues from [projectName](atharva) project
+  - Show me the issues from [projectName](atharva) project
+  - Show me the issues from [projectName](harsh chheda) project
+
+# all issues from specific project and issue type
+---
+type: intent
+name: allIssuesByProjectAndIssueType
+slots:
+  - name: projectName
+    entity: projectName
+  - name: issueType
+    entity: issueType
+utterances:
+  - Give me issues from [projectName](google) project of [issueType](todo)
+  - Give me issues from [projectName](atharva) project of [issueType](in progress)
+  - Give me [issueType](todo) issues from [projectName](google) project
+  - Give me [issueType](in progress) issues from [projectName](atharva) project
+  - Show me [issueType](done) issues from [projectName](atharva) project
+  - Show me the issues from [projectName](atharva) project of [issueType](done)
+  - Show me the issues from [projectName](harsh chheda) project of [issueType](done)
+  - Show me [issueType](done) issues from [projectName](harsh chheda) project
+  - Give me [issueType](all) issues from [projectName](google) project
+  - Give me [issueType](all) issues from [projectName](atharva) project
+  - Show me [issueType](all) issues from [projectName](atharva) project
+
+# all issues based on assignee and issue type
+---
+type: intent
+name: allIssuesByAssigneeAndIssueType
+slots:
+  - name: issueType
+    entity: issueType
+  - name: userName
+    entity: userName
+utterances:
+  - Give me [issueType](todo) issues assigned to [userName](atharvaveer)
+  - Give me [issueType](in progress) issues assigned to [userName](atharvaveer)
+  - Show me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Show me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Give me [issueType](all) issues assigned to [userName](atharvaveer)
+  - Give me [issueType](all) issues assigned to [userName](atharvaveer)
+  - Show me [issueType](all) issues assigned to [userName](atharvaveer)
+  - Give me issues assigned to [userName](atharvaveer) of [issueType](todo)
+  - Give me issues assigned to [userName](atharvaveer) of [issueType](in progress)
+  - Show me issues assigned to [userName](atharvaveer) of [issueType](done)
+  - Show me issues assigned to [userName](atharvaveer) of [issueType](done)
+  - Give me issues assigned to [userName](atharvaveer) of [issueType](all)
+  - Give me issues assigned to [userName](atharvaveer) of [issueType](all)
+  - Show me issues assigned to [userName](atharvaveer) of [issueType](all)
+
+# all issues based on project name and assignee
+---
+type: intent
+name: allIssuesByAssigneeAndProjectName
+slots:
+  - name: projectName
+    entity: projectName
+  - name: userName
+    entity: userName
+utterances:
+  - Give me issues from [projectType](google) project assigned to [userName](atharvaveer)
+  - Give me issues from [projectType](google) project assigned to [userName](divypatel9881)
+  - Give me issues from [projectType](ethereum) project assigned to [userName](divypatel9881)
+  - Show me issues from [projectType](google) project assigned to [userName](divypatel9881)
+  - Show me issues from [projectType](google) project assigned to [userName](yashjain)
+  - Show me issues from [projectType](google) project assigned to [userName](harshchheda)
+
+# all issues based on project name, assignee and issue type
+---
+type: intent
+name: allIssuesByAssigneeProjectNameAndIssueType
+slots:
+  - name: projectName
+    entity: projectName
+  - name: userName
+    entity: userName
+  - name: issueType
+    entity: issueType
+utterances:
+  - Give me [issueType](todo) issues from [projectType](google) project assigned to [userName](atharvaveer)
+  - Give me [issueType](done) issues from [projectType](google) project assigned to [userName](divypatel9881)
+  - Give me [issueType](in progress) issues from [projectType](ethereum) project assigned to [userName](divypatel9881)
+  - Show me [issueType](todo) issues from [projectType](google) project assigned to [userName](divypatel9881)
+  - Show me [issueType](all) issues from [projectType](google) project assigned to [userName](yashjain)
+  - Show me [issueType](done) issues from [projectType](google) project assigned to [userName](harshchheda)
+
+# issue based on issue key
+---
+type: intent
+name: allIssuesByIssueKey
+slots:
+  - name: issueKey
+    entity: issueKey
+utterances:
+  - Give me issue of [issueKey](hac-7) issue key
+  - Give me issue of [issueKey](hac-3) issue key
+  - Give me issue of [issueKey](hac-5) issue key
+  - Show me issue of [issueKey](hac-9) issue key
+  - Show me issue of [issueKey](hac-7) issue key
+  - Show me issue of [issueKey](hac-8) issue key
+
+# all comments of a specific issue based on issue key
+---
+type: intent
+name: allCommentsByIssueKey
+slots:
+  - name: issueKey
+    entity: issueKey
+utterances:
+  - Give me comments of issue of [issueKey](hac-7) issue key
+  - Give me comments of issue of [issueKey](hac-10) issue key
+  - Give me comments of issue of [issueKey](hac-8) issue key
+  - Show me comments of issue of [issueKey](hac-9) issue key
+  - Show me comments of issue of [issueKey](hac-90) issue key
+  - Show me comments of issue of [issueKey](test-10) issue key
+
+# all attachment of a specific issue based on issue key
+---
+type: intent
+name: allAttachmentsByIssueKey
+slots:
+  - name: issueKey
+    entity: issueKey
+utterances:
+  - Give me attachments of issue of [issueKey](hac-7) issue key
+  - Give me attachments of issue of [issueKey](hac-10) issue key
+  - Give me attachments of issue of [issueKey](hac-8) issue key
+  - Show me attachments of issue of [issueKey](hac-9) issue key
+  - Show me attachments of issue of [issueKey](hac-90) issue key
+  - Show me attachments of issue of [issueKey](test-10) issue key
+
+# all attachment of a specific issue based on issue key
+---
+type: intent
+name: allDescriptionByIssueKey
+slots:
+  - name: issueKey
+    entity: issueKey
+utterances:
+  - Give me description of issue of [issueKey](hac-7) issue key
+  - Give me description of issue of [issueKey](hac-10) issue key
+  - Give me description of issue of [issueKey](hac-8) issue key
+  - Show me description of issue of [issueKey](hac-9) issue key
+  - Show me description of issue of [issueKey](hac-90) issue key
+  - Show me description of issue of [issueKey](test-10) issue key

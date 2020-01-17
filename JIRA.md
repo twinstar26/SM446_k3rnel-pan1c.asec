@@ -80,47 +80,47 @@ https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY?fields=description
 
 ## BASED ON PROJECT
 x
-* All issues by Project Name: ProjectName    
+* All epics by Project Name: ProjectName
 https://kernel-panic.atlassian.net/rest/api/2/search?jql=project=ProjectName
 
-* All Todo issues: ProjectName  
+* All Todo epics: ProjectName  
 https://kernel-panic.atlassian.net/rest/api/2/search?jql=project=ProjectName
 
-* All In progress issues: ProjectName  
+* All In progress epics: ProjectName  
 https://kernel-panic.atlassian.net/rest/api/2/search?jql=project=ProjectName
 
-* All Done issues: ProjectName  
+* All Done epics: ProjectName  
 https://kernel-panic.atlassian.net/rest/api/2/search?jql=project=ProjectName
 
 ## BASED ON USERNAME
 
-* All issues by a user: UserName  
+* All epics by a user: UserName
 https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
 
-* All Todo issues: UserName  
+* All Todo epics: UserName
 https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
 
-* All In progress issues: UserName  
+* All In progress epics: UserName
 https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
 
-* All Done issues: UserName  
+* All Done epics: UserName
 https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
 
 ## BASED ON BOTH
 
-* All issues by a user: UserName, ProjectName  
+* All epics by a user: UserName, ProjectName
 https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
 
-* All Todo issues: UserName, ProjectName  
+* All Todo epics: UserName, ProjectName
 https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
 
-* All In progress issues: UserName, ProjectName  
+* All In progress epics: UserName, ProjectName  
 https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
 
-* All Done issues: UserName, ProjectName  
+* All Done epics: UserName, ProjectName  
 https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee=UserName
 
-* Get issue by keyname: IssueKEY
+* Get epic by keyname: IssueKEY
 https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY
 
 ## COMMENTS
@@ -132,5 +132,5 @@ https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY/comment
 https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY?fields=attachment
 
 ## DESCRIPTION
-* Get descrption for a given epic: IssueKEY  
+* Get description for a given epic: IssueKEY  
 https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY?fields=description
