@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Document</title>
-</head>
-<body>
-    <div class='container p-4'><h1>Issue for ID: HAC-4</h1>
+<div class='container p-4'><h1>Issue for ID: HAC-4</h1>
         <div class="card p-4 mt-4" style="display: block; width: 40rem;">
             <h3>Hi How are you</h3>
             <hr>
@@ -21,6 +11,3 @@
     <hr><div><b>Description</b></div><div>This is a *Image*</div><hr><div><b>Attachments</b></div><div><li><a href='https://kernel-panic.atlassian.net/secure/attachment/10001/test.py'>test.py</a></li><li><a href='https://kernel-panic.atlassian.net/secure/attachment/10000/WhatsApp+Image+2020-01-13+at+1.02.54+PM+%281%29.jpeg'>WhatsApp Image 2020-01-13 at 1.02.54 PM (1).jpeg</a></li></div><hr><div><b>Comments</b></div><div class="jumbotron mt-2" style="padding: 20px;"><div><div style="display: flex; justify-content: space-between;"><span><b>Kritika Ravishankar</b></span><span style="color: gray;">2020-01-16</span></div><div>HeeloHello
 
 </div><hr></div>
-
-</body>
-</html>
