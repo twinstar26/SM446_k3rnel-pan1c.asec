@@ -19,3 +19,12 @@ pip install -r requirements.txt
 ```
 python -m snips_nlu download en
 ```
+
+- [ ] Stack overflow API
+- [ ] Inflate intents
+- [ ] Chatbot hosting
+- [ ] Frontent hosting
+- [ ] Frontend UI
+- [ ] Construct Info HTML
+- [ ] Meeting
+- [ ] STT and TTS
