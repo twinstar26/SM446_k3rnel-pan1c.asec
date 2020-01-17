@@ -7,9 +7,110 @@ slots:
     entity: projectName
 utterances:
   - Give me epics from [projectName](google) project
-  - Give me epics from [projectName](atharva) project
   - Show me epics from [projectName](atharva) project
-  - Show me epics from [projectName](harsh chheda) project
+  - display me epics from [projectName](google)
+  - display me epics from [projectName](atharva) project
+  - present me epics from [projectName](google)
+  - present me epics from [projectName](atharva) project
+  - render me epics from [projectName](google)
+  - render me epics from [projectName](atharva) project
+  - express me epics from [projectName](google)
+  - express me epics from [projectName](atharva) project
+  - indicate me epics from [projectName](google)
+  - indicate me epics from [projectName](atharva) project
+  - point me epics from [projectName](google)
+  - point me epics from [projectName](atharva) project
+  - show_up me epics from [projectName](google)
+  - show_up me epics from [projectName](atharva) project
+  - read me epics from [projectName](google)
+  - read me epics from [projectName](atharva) project
+  - yield me epics from [projectName](google)
+  - yield me epics from [projectName](atharva) project
+  - throw me epics from [projectName](google)
+  - throw me epics from [projectName](atharva) project
+  - gift me epics from [projectName](google)
+  - gift me epics from [projectName](atharva) project
+  - generate me epics from [projectName](google)
+  - generate me epics from [projectName](atharva) project
+  - impart me epics from [projectName](google)
+  - impart me epics from [projectName](atharva) project
+  - leave me epics from [projectName](google)
+  - leave me epics from [projectName](atharva) project
+  - import epics from [projectName](atharva) project
+  - import epics from [projectName](atharva)
+  - pass me epics from [projectName](google)
+  - pass me epics from [projectName](atharva) project
+  - hand me epics from [projectName](google)
+  - hand me epics from [projectName](atharva) project
+  - turn_over to me epics from [projectName](google)
+  - turn_over to me epics from [projectName](atharva) project
+  - grant me epics from [projectName](google)
+  - grant me epics from [projectName](atharva) project
+  - feed me epics from [projectName](google)
+  - feed me epics from [projectName](atharva) project
+  - open me epics from [projectName](google)
+  - open me epics from [projectName](atharva) project
+  - supply me epics from [projectName](google)
+  - supply me epics from [projectName](atharva) project
+  - ply me epics from [projectName](google)
+  - ply me epics from [projectName](atharva) project
+  - cater me epics from [projectName](google)
+  - cater me epics from [projectName](atharva) project
+  - provide me epics from [projectName](google)
+  - provide me epics from [projectName](atharva) project
+  - Please Give me epics from [projectName](google) project
+  - Please Show me epics from [projectName](atharva) project
+  - Please display me epics from [projectName](google)
+  - Please display me epics from [projectName](atharva) project
+  - Please present me epics from [projectName](google)
+  - Please present me epics from [projectName](atharva) project
+  - Please render me epics from [projectName](google)
+  - Please render me epics from [projectName](atharva) project
+  - Please express me epics from [projectName](google)
+  - Please express me epics from [projectName](atharva) project
+  - Please indicate me epics from [projectName](google)
+  - Please indicate me epics from [projectName](atharva) project
+  - Please point me epics from [projectName](google)
+  - Please point me epics from [projectName](atharva) project
+  - Please show_up me epics from [projectName](google)
+  - Please show_up me epics from [projectName](atharva) project
+  - Please read me epics from [projectName](google)
+  - Please read me epics from [projectName](atharva) project
+  - Please yield me epics from [projectName](google)
+  - Please yield me epics from [projectName](atharva) project
+  - Please throw me epics from [projectName](google)
+  - Please throw me epics from [projectName](atharva) project
+  - Please gift me epics from [projectName](google)
+  - Please gift me epics from [projectName](atharva) project
+  - Please generate me epics from [projectName](google)
+  - Please generate me epics from [projectName](atharva) project
+  - Please impart me epics from [projectName](google)
+  - Please impart me epics from [projectName](atharva) project
+  - Please leave me epics from [projectName](google)
+  - Please leave me epics from [projectName](atharva) project
+  - Please import epics from [projectName](atharva) project
+  - Please import epics from [projectName](atharva)
+  - Please pass me epics from [projectName](google)
+  - Please pass me epics from [projectName](atharva) project
+  - Please hand me epics from [projectName](google)
+  - Please hand me epics from [projectName](atharva) project
+  - Please turn_over to me epics from [projectName](google)
+  - Please turn_over to me epics from [projectName](atharva) project
+  - Please grant me epics from [projectName](google)
+  - Please grant me epics from [projectName](atharva) project
+  - Please feed me epics from [projectName](google)
+  - Please feed me epics from [projectName](atharva) project
+  - Please open me epics from [projectName](google)
+  - Please open me epics from [projectName](atharva) project
+  - Please supply me epics from [projectName](google)
+  - Please supply me epics from [projectName](atharva) project
+  - Please ply me epics from [projectName](google)
+  - Please ply me epics from [projectName](atharva) project
+  - Please cater me epics from [projectName](google)
+  - Please cater me epics from [projectName](atharva) project
+  - Please provide me epics from [projectName](google)
+  - Please provide me epics from [projectName](atharva) project
+
 
 # all epics from specific project and issue type
 ---
@@ -22,16 +123,213 @@ slots:
     entity: issueType
 utterances:
   - Give me epics from [projectName](google) project of [issueType](todo)
-  - Give me epics from [projectName](atharva) project of [issueType](in progress)
+  - Show me epics from [projectName](atharva) project of [issueType](todo)
+  - display me epics from [projectName](google)
+  - display me epics from [projectName](atharva) project of [issueType](todo)
+  - present me epics from [projectName](google)
+  - present me epics from [projectName](atharva) project of [issueType](todo)
+  - render me epics from [projectName](google)
+  - render me epics from [projectName](atharva) project of [issueType](todo)
+  - express me epics from [projectName](google)
+  - express me epics from [projectName](atharva) project of [issueType](todo)
+  - indicate me epics from [projectName](google)
+  - indicate me epics from [projectName](atharva) project of [issueType](todo)
+  - point me epics from [projectName](google)
+  - point me epics from [projectName](atharva) project of [issueType](todo)
+  - show_up me epics from [projectName](google)
+  - show_up me epics from [projectName](atharva) project of [issueType](todo)
+  - read me epics from [projectName](google)
+  - read me epics from [projectName](atharva) project of [issueType](todo)
+  - yield me epics from [projectName](google)
+  - yield me epics from [projectName](atharva) project of [issueType](todo)
+  - throw me epics from [projectName](google)
+  - throw me epics from [projectName](atharva) project of [issueType](todo)
+  - gift me epics from [projectName](google)
+  - gift me epics from [projectName](atharva) project of [issueType](todo)
+  - generate me epics from [projectName](google)
+  - generate me epics from [projectName](atharva) project of [issueType](todo)
+  - impart me epics from [projectName](google)
+  - impart me epics from [projectName](atharva) project of [issueType](todo)
+  - leave me epics from [projectName](google)
+  - leave me epics from [projectName](atharva) project of [issueType](todo)
+  - import epics from [projectName](atharva) project of [issueType](todo)
+  - import epics from [projectName](atharva)
+  - pass me epics from [projectName](google)
+  - pass me epics from [projectName](atharva) project of [issueType](todo)
+  - hand me epics from [projectName](google)
+  - hand me epics from [projectName](atharva) project of [issueType](todo)
+  - turn_over to me epics from [projectName](google)
+  - turn_over to me epics from [projectName](atharva) project of [issueType](todo)
+  - grant me epics from [projectName](google)
+  - grant me epics from [projectName](atharva) project of [issueType](todo)
+  - feed me epics from [projectName](google)
+  - feed me epics from [projectName](atharva) project of [issueType](todo)
+  - open me epics from [projectName](google)
+  - open me epics from [projectName](atharva) project of [issueType](todo)
+  - supply me epics from [projectName](google)
+  - supply me epics from [projectName](atharva) project of [issueType](todo)
+  - ply me epics from [projectName](google)
+  - ply me epics from [projectName](atharva) project of [issueType](todo)
+  - cater me epics from [projectName](google)
+  - cater me epics from [projectName](atharva) project of [issueType](todo)
+  - provide me epics from [projectName](google)
+  - provide me epics from [projectName](atharva) project of [issueType](todo)
+  - Please Give me epics from [projectName](google) project of [issueType](todo)
+  - Please Show me epics from [projectName](atharva) project of [issueType](todo)
+  - Please display me epics from [projectName](google)
+  - Please display me epics from [projectName](atharva) project of [issueType](todo)
+  - Please present me epics from [projectName](google)
+  - Please present me epics from [projectName](atharva) project of [issueType](todo)
+  - Please render me epics from [projectName](google)
+  - Please render me epics from [projectName](atharva) project of [issueType](todo)
+  - Please express me epics from [projectName](google)
+  - Please express me epics from [projectName](atharva) project of [issueType](todo)
+  - Please indicate me epics from [projectName](google)
+  - Please indicate me epics from [projectName](atharva) project of [issueType](todo)
+  - Please point me epics from [projectName](google)
+  - Please point me epics from [projectName](atharva) project of [issueType](todo)
+  - Please show_up me epics from [projectName](google)
+  - Please show_up me epics from [projectName](atharva) project of [issueType](todo)
+  - Please read me epics from [projectName](google)
+  - Please read me epics from [projectName](atharva) project of [issueType](todo)
+  - Please yield me epics from [projectName](google)
+  - Please yield me epics from [projectName](atharva) project of [issueType](todo)
+  - Please throw me epics from [projectName](google)
+  - Please throw me epics from [projectName](atharva) project of [issueType](todo)
+  - Please gift me epics from [projectName](google)
+  - Please gift me epics from [projectName](atharva) project of [issueType](todo)
+  - Please generate me epics from [projectName](google)
+  - Please generate me epics from [projectName](atharva) project of [issueType](todo)
+  - Please impart me epics from [projectName](google)
+  - Please impart me epics from [projectName](atharva) project of [issueType](todo)
+  - Please leave me epics from [projectName](google)
+  - Please leave me epics from [projectName](atharva) project of [issueType](todo)
+  - Please import epics from [projectName](atharva) project of [issueType](todo)
+  - Please import epics from [projectName](atharva)
+  - Please pass me epics from [projectName](google)
+  - Please pass me epics from [projectName](atharva) project of [issueType](todo)
+  - Please hand me epics from [projectName](google)
+  - Please hand me epics from [projectName](atharva) project of [issueType](todo)
+  - Please turn_over to me epics from [projectName](google)
+  - Please turn_over to me epics from [projectName](atharva) project of [issueType](todo)
+  - Please grant me epics from [projectName](google)
+  - Please grant me epics from [projectName](atharva) project of [issueType](todo)
+  - Please feed me epics from [projectName](google)
+  - Please feed me epics from [projectName](atharva) project of [issueType](todo)
+  - Please open me epics from [projectName](google)
+  - Please open me epics from [projectName](atharva) project of [issueType](todo)
+  - Please supply me epics from [projectName](google)
+  - Please supply me epics from [projectName](atharva) project of [issueType](todo)
+  - Please ply me epics from [projectName](google)
+  - Please ply me epics from [projectName](atharva) project of [issueType](todo)
+  - Please cater me epics from [projectName](google)
+  - Please cater me epics from [projectName](atharva) project of [issueType](todo)
+  - Please provide me epics from [projectName](google)
+  - Please provide me epics from [projectName](atharva) project of [issueType](todo)
   - Give me [issueType](todo) epics from [projectName](google) project
-  - Give me [issueType](in progress) epics from [projectName](atharva) project
-  - Show me [issueType](done) epics from [projectName](atharva) project
-  - Show me epics from [projectName](atharva) project of [issueType](done)
-  - Show me epics from [projectName](harsh chheda) project of [issueType](done)
-  - Show me [issueType](done) epics from [projectName](harsh chheda) project
-  - Give me [issueType](all) epics from [projectName](google) project
-  - Give me [issueType](all) epics from [projectName](atharva) project
-  - Show me [issueType](all) epics from [projectName](atharva) project
+  - Show me [issueType](todo) epics from [projectName](atharva) project
+  - display me [issueType](todo) epics from [projectName](google)
+  - display me [issueType](todo) epics from [projectName](atharva) project
+  - present me [issueType](todo) epics from [projectName](google)
+  - present me [issueType](todo) epics from [projectName](atharva) project
+  - render me [issueType](todo) epics from [projectName](google)
+  - render me [issueType](todo) epics from [projectName](atharva) project
+  - express me [issueType](todo) epics from [projectName](google)
+  - express me [issueType](todo) epics from [projectName](atharva) project
+  - indicate me [issueType](todo) epics from [projectName](google)
+  - indicate me [issueType](todo) epics from [projectName](atharva) project
+  - point me [issueType](todo) epics from [projectName](google)
+  - point me [issueType](todo) epics from [projectName](atharva) project
+  - show_up me [issueType](todo) epics from [projectName](google)
+  - show_up me [issueType](todo) epics from [projectName](atharva) project
+  - read me [issueType](todo) epics from [projectName](google)
+  - read me [issueType](todo) epics from [projectName](atharva) project
+  - yield me [issueType](todo) epics from [projectName](google)
+  - yield me [issueType](todo) epics from [projectName](atharva) project
+  - throw me [issueType](todo) epics from [projectName](google)
+  - throw me [issueType](todo) epics from [projectName](atharva) project
+  - gift me [issueType](todo) epics from [projectName](google)
+  - gift me [issueType](todo) epics from [projectName](atharva) project
+  - generate me [issueType](todo) epics from [projectName](google)
+  - generate me [issueType](todo) epics from [projectName](atharva) project
+  - impart me [issueType](todo) epics from [projectName](google)
+  - impart me [issueType](todo) epics from [projectName](atharva) project
+  - leave me [issueType](todo) epics from [projectName](google)
+  - leave me [issueType](todo) epics from [projectName](atharva) project
+  - import epics from [projectName](atharva) project
+  - import epics from [projectName](atharva)
+  - pass me [issueType](todo) epics from [projectName](google)
+  - pass me [issueType](todo) epics from [projectName](atharva) project
+  - hand me [issueType](todo) epics from [projectName](google)
+  - hand me [issueType](todo) epics from [projectName](atharva) project
+  - turn_over to me [issueType](todo) epics from [projectName](google)
+  - turn_over to me [issueType](todo) epics from [projectName](atharva) project
+  - grant me [issueType](todo) epics from [projectName](google)
+  - grant me [issueType](todo) epics from [projectName](atharva) project
+  - feed me [issueType](todo) epics from [projectName](google)
+  - feed me [issueType](todo) epics from [projectName](atharva) project
+  - open me [issueType](todo) epics from [projectName](google)
+  - open me [issueType](todo) epics from [projectName](atharva) project
+  - supply me [issueType](todo) epics from [projectName](google)
+  - supply me [issueType](todo) epics from [projectName](atharva) project
+  - ply me [issueType](todo) epics from [projectName](google)
+  - ply me [issueType](todo) epics from [projectName](atharva) project
+  - cater me [issueType](todo) epics from [projectName](google)
+  - cater me [issueType](todo) epics from [projectName](atharva) project
+  - provide me [issueType](todo) epics from [projectName](google)
+  - provide me [issueType](todo) epics from [projectName](atharva) project
+  - Please Give me [issueType](todo) epics from [projectName](google) project
+  - Please Show me [issueType](todo) epics from [projectName](atharva) project
+  - Please display me [issueType](todo) epics from [projectName](google)
+  - Please display me [issueType](todo) epics from [projectName](atharva) project
+  - Please present me [issueType](todo) epics from [projectName](google)
+  - Please present me [issueType](todo) epics from [projectName](atharva) project
+  - Please render me [issueType](todo) epics from [projectName](google)
+  - Please render me [issueType](todo) epics from [projectName](atharva) project
+  - Please express me [issueType](todo) epics from [projectName](google)
+  - Please express me [issueType](todo) epics from [projectName](atharva) project
+  - Please indicate me [issueType](todo) epics from [projectName](google)
+  - Please indicate me [issueType](todo) epics from [projectName](atharva) project
+  - Please point me [issueType](todo) epics from [projectName](google)
+  - Please point me [issueType](todo) epics from [projectName](atharva) project
+  - Please show_up me [issueType](todo) epics from [projectName](google)
+  - Please show_up me [issueType](todo) epics from [projectName](atharva) project
+  - Please read me [issueType](todo) epics from [projectName](google)
+  - Please read me [issueType](todo) epics from [projectName](atharva) project
+  - Please yield me [issueType](todo) epics from [projectName](google)
+  - Please yield me [issueType](todo) epics from [projectName](atharva) project
+  - Please throw me [issueType](todo) epics from [projectName](google)
+  - Please throw me [issueType](todo) epics from [projectName](atharva) project
+  - Please gift me [issueType](todo) epics from [projectName](google)
+  - Please gift me [issueType](todo) epics from [projectName](atharva) project
+  - Please generate me [issueType](todo) epics from [projectName](google)
+  - Please generate me [issueType](todo) epics from [projectName](atharva) project
+  - Please impart me [issueType](todo) epics from [projectName](google)
+  - Please impart me [issueType](todo) epics from [projectName](atharva) project
+  - Please leave me [issueType](todo) epics from [projectName](google)
+  - Please leave me [issueType](todo) epics from [projectName](atharva) project
+  - Please import epics from [projectName](atharva) project
+  - Please import epics from [projectName](atharva)
+  - Please pass me [issueType](todo) epics from [projectName](google)
+  - Please pass me [issueType](todo) epics from [projectName](atharva) project
+  - Please hand me [issueType](todo) epics from [projectName](google)
+  - Please hand me [issueType](todo) epics from [projectName](atharva) project
+  - Please turn_over to me [issueType](todo) epics from [projectName](google)
+  - Please turn_over to me [issueType](todo) epics from [projectName](atharva) project
+  - Please grant me [issueType](todo) epics from [projectName](google)
+  - Please grant me [issueType](todo) epics from [projectName](atharva) project
+  - Please feed me [issueType](todo) epics from [projectName](google)
+  - Please feed me [issueType](todo) epics from [projectName](atharva) project
+  - Please open me [issueType](todo) epics from [projectName](google)
+  - Please open me [issueType](todo) epics from [projectName](atharva) project
+  - Please supply me [issueType](todo) epics from [projectName](google)
+  - Please supply me [issueType](todo) epics from [projectName](atharva) project
+  - Please ply me [issueType](todo) epics from [projectName](google)
+  - Please ply me [issueType](todo) epics from [projectName](atharva) project
+  - Please cater me [issueType](todo) epics from [projectName](google)
+  - Please cater me [issueType](todo) epics from [projectName](atharva) project
+  - Please provide me [issueType](todo) epics from [projectName](google)
+  - Please provide me [issueType](todo) epics from [projectName](atharva) project
 
 # all epics based on assignee and issue type
 ---
@@ -44,19 +342,218 @@ slots:
     entity: userName
 utterances:
   - Give me [issueType](todo) epics assigned to [userName](atharvaveer)
-  - Give me [issueType](in progress) epics assigned to [userName](atharvaveer)
-  - Show me [issueType](done) epics assigned to [userName](atharvaveer)
-  - Show me [issueType](done) epics assigned to [userName](atharvaveer)
-  - Give me [issueType](all) epics assigned to [userName](atharvaveer)
-  - Give me [issueType](all) epics assigned to [userName](atharvaveer)
-  - Show me [issueType](all) epics assigned to [userName](atharvaveer)
-  - Give me epics assigned to [userName](atharvaveer) of [issueType](todo)
   - Give me epics assigned to [userName](atharvaveer) of [issueType](in progress)
+  - Show me [issueType](done) epics assigned to [userName](atharvaveer)
   - Show me epics assigned to [userName](atharvaveer) of [issueType](done)
-  - Show me epics assigned to [userName](atharvaveer) of [issueType](done)
-  - Give me epics assigned to [userName](atharvaveer) of [issueType](all)
-  - Give me epics assigned to [userName](atharvaveer) of [issueType](all)
-  - Show me epics assigned to [userName](atharvaveer) of [issueType](all)
+  - Give me epics from [projectName](google) project of [issueType](todo)
+  - Show me epics from [projectName](atharva) project of [issueType](todo)
+  - display me [issueType](done) epics assigned to [userName](atharvaveer)
+  - display me epics from [projectName](atharva) project of [issueType](todo)
+  - present me [issueType](done) epics assigned to [userName](atharvaveer)
+  - present me epics from [projectName](atharva) project of [issueType](todo)
+  - render me [issueType](done) epics assigned to [userName](atharvaveer)
+  - render me epics from [projectName](atharva) project of [issueType](todo)
+  - express me [issueType](done) epics assigned to [userName](atharvaveer)
+  - express me epics from [projectName](atharva) project of [issueType](todo)
+  - indicate me [issueType](done) epics assigned to [userName](atharvaveer)
+  - indicate me epics from [projectName](atharva) project of [issueType](todo)
+  - point me [issueType](done) epics assigned to [userName](atharvaveer)
+  - point me epics from [projectName](atharva) project of [issueType](todo)
+  - show_up me [issueType](done) epics assigned to [userName](atharvaveer)
+  - show_up me epics from [projectName](atharva) project of [issueType](todo)
+  - read me [issueType](done) epics assigned to [userName](atharvaveer)
+  - read me epics from [projectName](atharva) project of [issueType](todo)
+  - yield me [issueType](done) epics assigned to [userName](atharvaveer)
+  - yield me epics from [projectName](atharva) project of [issueType](todo)
+  - throw me [issueType](done) epics assigned to [userName](atharvaveer)
+  - throw me epics from [projectName](atharva) project of [issueType](todo)
+  - gift me [issueType](done) epics assigned to [userName](atharvaveer)
+  - gift me epics from [projectName](atharva) project of [issueType](todo)
+  - generate me [issueType](done) epics assigned to [userName](atharvaveer)
+  - generate me epics from [projectName](atharva) project of [issueType](todo)
+  - impart me [issueType](done) epics assigned to [userName](atharvaveer)
+  - impart me epics from [projectName](atharva) project of [issueType](todo)
+  - leave me [issueType](done) epics assigned to [userName](atharvaveer)
+  - leave me epics from [projectName](atharva) project of [issueType](todo)
+  - import epics from [projectName](atharva) project of [issueType](todo)
+  - import epics from [projectName](atharva)
+  - pass me [issueType](done) epics assigned to [userName](atharvaveer)
+  - pass me epics from [projectName](atharva) project of [issueType](todo)
+  - hand me [issueType](done) epics assigned to [userName](atharvaveer)
+  - hand me epics from [projectName](atharva) project of [issueType](todo)
+  - turn_over to me [issueType](done) epics assigned to [userName](atharvaveer)
+  - turn_over to me epics from [projectName](atharva) project of [issueType](todo)
+  - grant me [issueType](done) epics assigned to [userName](atharvaveer)
+  - grant me epics from [projectName](atharva) project of [issueType](todo)
+  - feed me [issueType](done) epics assigned to [userName](atharvaveer)
+  - feed me epics from [projectName](atharva) project of [issueType](todo)
+  - open me [issueType](done) epics assigned to [userName](atharvaveer)
+  - open me epics from [projectName](atharva) project of [issueType](todo)
+  - supply me [issueType](done) epics assigned to [userName](atharvaveer)
+  - supply me epics from [projectName](atharva) project of [issueType](todo)
+  - ply me [issueType](done) epics assigned to [userName](atharvaveer)
+  - ply me epics from [projectName](atharva) project of [issueType](todo)
+  - cater me [issueType](done) epics assigned to [userName](atharvaveer)
+  - cater me epics from [projectName](atharva) project of [issueType](todo)
+  - provide me [issueType](done) epics assigned to [userName](atharvaveer)
+  - provide me epics from [projectName](atharva) project of [issueType](todo)
+  - Please Give me [issueType](done) epics assigned to [userName](atharvaveer) project of [issueType](todo)
+  - Please Show me epics from [projectName](atharva) project of [issueType](todo)
+  - Please display me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please display me epics from [projectName](atharva) project of [issueType](todo)
+  - Please present me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please present me epics from [projectName](atharva) project of [issueType](todo)
+  - Please render me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please render me epics from [projectName](atharva) project of [issueType](todo)
+  - Please express me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please express me epics from [projectName](atharva) project of [issueType](todo)
+  - Please indicate me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please indicate me epics from [projectName](atharva) project of [issueType](todo)
+  - Please point me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please point me epics from [projectName](atharva) project of [issueType](todo)
+  - Please show_up me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please show_up me epics from [projectName](atharva) project of [issueType](todo)
+  - Please read me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please read me epics from [projectName](atharva) project of [issueType](todo)
+  - Please yield me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please yield me epics from [projectName](atharva) project of [issueType](todo)
+  - Please throw me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please throw me epics from [projectName](atharva) project of [issueType](todo)
+  - Please gift me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please gift me epics from [projectName](atharva) project of [issueType](todo)
+  - Please generate me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please generate me epics from [projectName](atharva) project of [issueType](todo)
+  - Please impart me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please impart me epics from [projectName](atharva) project of [issueType](todo)
+  - Please leave me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please leave me epics from [projectName](atharva) project of [issueType](todo)
+  - Please import epics from [projectName](atharva) project of [issueType](todo)
+  - Please import epics from [projectName](atharva)
+  - Please pass me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please pass me epics from [projectName](atharva) project of [issueType](todo)
+  - Please hand me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please hand me epics from [projectName](atharva) project of [issueType](todo)
+  - Please turn_over to me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please turn_over to me epics from [projectName](atharva) project of [issueType](todo)
+  - Please grant me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please grant me epics from [projectName](atharva) project of [issueType](todo)
+  - Please feed me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please feed me epics from [projectName](atharva) project of [issueType](todo)
+  - Please open me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please open me epics from [projectName](atharva) project of [issueType](todo)
+  - Please supply me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please supply me epics from [projectName](atharva) project of [issueType](todo)
+  - Please ply me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please ply me epics from [projectName](atharva) project of [issueType](todo)
+  - Please cater me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please cater me epics from [projectName](atharva) project of [issueType](todo)
+  - Please provide me [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please provide me epics from [projectName](atharva) project of [issueType](todo)
+  - Give me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer) project
+  - Show me [issueType](todo) epics from [projectName](atharva) project
+  - display me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - display me [issueType](todo) epics from [projectName](atharva) project
+  - present me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - present me [issueType](todo) epics from [projectName](atharva) project
+  - render me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - render me [issueType](todo) epics from [projectName](atharva) project
+  - express me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - express me [issueType](todo) epics from [projectName](atharva) project
+  - indicate me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - indicate me [issueType](todo) epics from [projectName](atharva) project
+  - point me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - point me [issueType](todo) epics from [projectName](atharva) project
+  - show_up me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - show_up me [issueType](todo) epics from [projectName](atharva) project
+  - read me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - read me [issueType](todo) epics from [projectName](atharva) project
+  - yield me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - yield me [issueType](todo) epics from [projectName](atharva) project
+  - throw me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - throw me [issueType](todo) epics from [projectName](atharva) project
+  - gift me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - gift me [issueType](todo) epics from [projectName](atharva) project
+  - generate me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - generate me [issueType](todo) epics from [projectName](atharva) project
+  - impart me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - impart me [issueType](todo) epics from [projectName](atharva) project
+  - leave me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - leave me [issueType](todo) epics from [projectName](atharva) project
+  - import epics from [projectName](atharva) project
+  - import epics from [projectName](atharva)
+  - pass me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - pass me [issueType](todo) epics from [projectName](atharva) project
+  - hand me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - hand me [issueType](todo) epics from [projectName](atharva) project
+  - turn_over to me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - turn_over to me [issueType](todo) epics from [projectName](atharva) project
+  - grant me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - grant me [issueType](todo) epics from [projectName](atharva) project
+  - feed me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - feed me [issueType](todo) epics from [projectName](atharva) project
+  - open me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - open me [issueType](todo) epics from [projectName](atharva) project
+  - supply me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - supply me [issueType](todo) epics from [projectName](atharva) project
+  - ply me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - ply me [issueType](todo) epics from [projectName](atharva) project
+  - cater me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - cater me [issueType](todo) epics from [projectName](atharva) project
+  - provide me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - provide me [issueType](todo) epics from [projectName](atharva) project
+  - Please Give me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer) project
+  - Please Show me [issueType](todo) epics from [projectName](atharva) project
+  - Please display me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please display me [issueType](todo) epics from [projectName](atharva) project
+  - Please present me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please present me [issueType](todo) epics from [projectName](atharva) project
+  - Please render me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please render me [issueType](todo) epics from [projectName](atharva) project
+  - Please express me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please express me [issueType](todo) epics from [projectName](atharva) project
+  - Please indicate me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please indicate me [issueType](todo) epics from [projectName](atharva) project
+  - Please point me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please point me [issueType](todo) epics from [projectName](atharva) project
+  - Please show_up me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please show_up me [issueType](todo) epics from [projectName](atharva) project
+  - Please read me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please read me [issueType](todo) epics from [projectName](atharva) project
+  - Please yield me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please yield me [issueType](todo) epics from [projectName](atharva) project
+  - Please throw me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please throw me [issueType](todo) epics from [projectName](atharva) project
+  - Please gift me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please gift me [issueType](todo) epics from [projectName](atharva) project
+  - Please generate me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please generate me [issueType](todo) epics from [projectName](atharva) project
+  - Please impart me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please impart me [issueType](todo) epics from [projectName](atharva) project
+  - Please leave me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please leave me [issueType](todo) epics from [projectName](atharva) project
+  - Please import epics from [projectName](atharva) project
+  - Please import epics from [projectName](atharva)
+  - Please pass me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please pass me [issueType](todo) epics from [projectName](atharva) project
+  - Please hand me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please hand me [issueType](todo) epics from [projectName](atharva) project
+  - Please turn_over to me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please turn_over to me [issueType](todo) epics from [projectName](atharva) project
+  - Please grant me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please grant me [issueType](todo) epics from [projectName](atharva) project
+  - Please feed me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please feed me [issueType](todo) epics from [projectName](atharva) project
+  - Please open me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please open me [issueType](todo) epics from [projectName](atharva) project
+  - Please supply me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please supply me [issueType](todo) epics from [projectName](atharva) project
+  - Please ply me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please ply me [issueType](todo) epics from [projectName](atharva) project
+  - Please cater me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please cater me [issueType](todo) epics from [projectName](atharva) project
+  - Please provide me [issueType](todo) [issueType](done) epics assigned to [userName](atharvaveer)
+  - Please provide me [issueType](todo) epics from [projectName](atharva) project
+
 
 # all epics based on project name and assignee
 ---
@@ -69,11 +566,111 @@ slots:
     entity: userName
 utterances:
   - Give me epics from [projectName](google) project assigned to [userName](atharvaveer)
-  - Give me epics from [projectName](google) project assigned to [userName](divypatel9881)
-  - Give me epics from [projectName](ethereum) project assigned to [userName](divypatel9881)
   - Show me epics from [projectName](google) project assigned to [userName](divypatel9881)
-  - Show me epics from [projectName](google) project assigned to [userName](yashjain)
-  - Show me epics from [projectName](google) project assigned to [userName](harshchheda)
+  - Give me epics from [projectName] assigned to [userName](atharvaveer)
+  - Show me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - display me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - display me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - present me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - present me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - render me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - render me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - express me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - express me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - indicate me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - indicate me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - point me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - point me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - show_up me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - show_up me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - read me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - read me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - yield me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - yield me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - throw me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - throw me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - gift me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - gift me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - generate me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - generate me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - impart me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - impart me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - leave me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - leave me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - import epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - import epics from [projectName](atharva)
+  - pass me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - pass me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - hand me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - hand me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - turn_over to me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - turn_over to me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - grant me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - grant me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - feed me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - feed me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - open me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - open me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - supply me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - supply me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - ply me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - ply me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - cater me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - cater me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - provide me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - provide me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please Give me epics from [projectName] assigned to [userName](atharvaveer)
+  - Please Show me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please display me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please display me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please present me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please present me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please render me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please render me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please express me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please express me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please indicate me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please indicate me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please point me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please point me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please show_up me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please show_up me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please read me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please read me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please yield me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please yield me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please throw me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please throw me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please gift me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please gift me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please generate me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please generate me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please impart me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please impart me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please leave me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please leave me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please import epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please import epics from [projectName](atharva)
+  - Please pass me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please pass me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please hand me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please hand me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please turn_over to me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please turn_over to me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please grant me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please grant me epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please feed me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please feed me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - Please open me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please open me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - Please supply me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please supply me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - Please ply me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please ply me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - Please cater me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please cater me epics assigned to [userName](divypatel9881) from [projectName](google)
+  - Please provide me epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please provide me epics assigned to [userName](divypatel9881) from [projectName](google)
 
 # all epics based on project name, assignee and issue type
 ---
@@ -88,11 +685,112 @@ slots:
     entity: issueType
 utterances:
   - Give me [issueType](todo) epics from [projectName](google) project assigned to [userName](atharvaveer)
-  - Give me [issueType](done) epics from [projectName](google) project assigned to [userName](divypatel9881)
-  - Give me [issueType](in progress) epics from [projectName](ethereum) project assigned to [userName](divypatel9881)
   - Show me [issueType](todo) epics from [projectName](google) project assigned to [userName](divypatel9881)
-  - Show me [issueType](all) epics from [projectName](google) project assigned to [userName](yashjain)
-  - Show me [issueType](done) epics from [projectName](google) project assigned to [userName](harshchheda)
+  - Give me [issueType](todo) epics from [projectName] assigned to [userName](atharvaveer)
+  - Show me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - display me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - display me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - present me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - present me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - render me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - render me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - express me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - express me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - indicate me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - indicate me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - point me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - point me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - show_up me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - show_up me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - read me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - read me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - yield me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - yield me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - throw me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - throw me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - gift me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - gift me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - generate me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - generate me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - impart me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - impart me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - leave me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - leave me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - import epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - import epics from [projectName](atharva)
+  - pass me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - pass me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - hand me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - hand me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - turn_over to me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - turn_over to me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - grant me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - grant me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - feed me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - feed me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - open me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - open me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - supply me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - supply me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - ply me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - ply me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - cater me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - cater me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - provide me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - provide me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please Give me [issueType](todo) epics from [projectName] assigned to [userName](atharvaveer)
+  - Please Show me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please display me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please display me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please present me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please present me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please render me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please render me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please express me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please express me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please indicate me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please indicate me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please point me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please point me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please show_up me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please show_up me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please read me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please read me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please yield me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please yield me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please throw me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please throw me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please gift me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please gift me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please generate me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please generate me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please impart me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please impart me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please leave me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please leave me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please import epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please import epics from [projectName](atharva)
+  - Please pass me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please pass me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please hand me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please hand me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please turn_over to me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please turn_over to me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please grant me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please grant me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please feed me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please feed me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - Please open me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please open me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - Please supply me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please supply me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - Please ply me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please ply me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - Please cater me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please cater me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+  - Please provide me [issueType](todo) epics from [projectName](google) assigned to [userName](atharvaveer)
+  - Please provide me [issueType](todo) epics assigned to [userName](divypatel9881) from [projectName](google)
+
 
 # epic based on issue key
 ---
@@ -103,8 +801,108 @@ slots:
     entity: issueKey
 utterances:
   - Give me epic of [issueKey](hac-7) issue key
-  - Give me epic of [issueKey](hac-3) issue key
-  - Give me epic of [issueKey](hac-5) issue key
   - Show me epic of [issueKey](hac-9) issue key
-  - Show me epic of [issueKey](hac-7) issue key
-  - Show me epic of [issueKey](hac-8) issue key
+  - Give me epic of [issueKey](hac-7) issue key
+  - Show me [issueKey](hac-9) issue key epics
+  - display me epic of [issueKey](hac-7) issue key
+  - display me [issueKey](hac-9) issue key epics
+  - present me epic of [issueKey](hac-7) issue key
+  - present me [issueKey](hac-9) issue key epics
+  - render me epic of [issueKey](hac-7) issue key
+  - render me [issueKey](hac-9) issue key epics
+  - express me epic of [issueKey](hac-7) issue key
+  - express me [issueKey](hac-9) issue key epics
+  - indicate me epic of [issueKey](hac-7) issue key
+  - indicate me [issueKey](hac-9) issue key epics
+  - point me epic of [issueKey](hac-7) issue key
+  - point me [issueKey](hac-9) issue key epics
+  - show_up me epic of [issueKey](hac-7) issue key
+  - show_up me [issueKey](hac-9) issue key epics
+  - read me epic of [issueKey](hac-7) issue key
+  - read me [issueKey](hac-9) issue key epics
+  - yield me epic of [issueKey](hac-7) issue key
+  - yield me [issueKey](hac-9) issue key epics
+  - throw me epic of [issueKey](hac-7) issue key
+  - throw me [issueKey](hac-9) issue key epics
+  - gift me epic of [issueKey](hac-7) issue key
+  - gift me [issueKey](hac-9) issue key epics
+  - generate me epic of [issueKey](hac-7) issue key
+  - generate me [issueKey](hac-9) issue key epics
+  - impart me epic of [issueKey](hac-7) issue key
+  - impart me [issueKey](hac-9) issue key epics
+  - leave me epic of [issueKey](hac-7) issue key
+  - leave me [issueKey](hac-9) issue key epics
+  - import [issueKey](hac-9) issue key epics
+  - import epics from [projectName](atharva)
+  - pass me epic of [issueKey](hac-7) issue key
+  - pass me [issueKey](hac-9) issue key epics
+  - hand me epic of [issueKey](hac-7) issue key
+  - hand me [issueKey](hac-9) issue key epics
+  - turn_over to me epic of [issueKey](hac-7) issue key
+  - turn_over to me [issueKey](hac-9) issue key epics
+  - grant me epic of [issueKey](hac-7) issue key
+  - grant me [issueKey](hac-9) issue key epics
+  - feed me epic of [issueKey](hac-7) issue key
+  - feed me [issueKey](hac-9) issue key epics
+  - open me epic of [issueKey](hac-7) issue key
+  - open me [issueKey](hac-9) issue key epics
+  - supply me epic of [issueKey](hac-7) issue key
+  - supply me [issueKey](hac-9) issue key epics
+  - ply me epic of [issueKey](hac-7) issue key
+  - ply me [issueKey](hac-9) issue key epics
+  - cater me epic of [issueKey](hac-7) issue key
+  - cater me [issueKey](hac-9) issue key epics
+  - provide me epic of [issueKey](hac-7) issue key
+  - provide me [issueKey](hac-9) issue key epics
+  - Please Give me epic of [issueKey](hac-7) issue key project
+  - Please Show me [issueKey](hac-9) issue key epics
+  - Please display me epic of [issueKey](hac-7) issue key
+  - Please display me [issueKey](hac-9) issue key epics
+  - Please present me epic of [issueKey](hac-7) issue key
+  - Please present me [issueKey](hac-9) issue key epics
+  - Please render me epic of [issueKey](hac-7) issue key
+  - Please render me [issueKey](hac-9) issue key epics
+  - Please express me epic of [issueKey](hac-7) issue key
+  - Please express me [issueKey](hac-9) issue key epics
+  - Please indicate me epic of [issueKey](hac-7) issue key
+  - Please indicate me [issueKey](hac-9) issue key epics
+  - Please point me epic of [issueKey](hac-7) issue key
+  - Please point me [issueKey](hac-9) issue key epics
+  - Please show_up me epic of [issueKey](hac-7) issue key
+  - Please show_up me [issueKey](hac-9) issue key epics
+  - Please read me epic of [issueKey](hac-7) issue key
+  - Please read me [issueKey](hac-9) issue key epics
+  - Please yield me epic of [issueKey](hac-7) issue key
+  - Please yield me [issueKey](hac-9) issue key epics
+  - Please throw me epic of [issueKey](hac-7) issue key
+  - Please throw me [issueKey](hac-9) issue key epics
+  - Please gift me epic of [issueKey](hac-7) issue key
+  - Please gift me [issueKey](hac-9) issue key epics
+  - Please generate me epic of [issueKey](hac-7) issue key
+  - Please generate me [issueKey](hac-9) issue key epics
+  - Please impart me epic of [issueKey](hac-7) issue key
+  - Please impart me [issueKey](hac-9) issue key epics
+  - Please leave me epic of [issueKey](hac-7) issue key
+  - Please leave me [issueKey](hac-9) issue key epics
+  - Please import [issueKey](hac-9) issue key epics
+  - Please import epics from [projectName](atharva)
+  - Please pass me epic of [issueKey](hac-7) issue key
+  - Please pass me [issueKey](hac-9) issue key epics
+  - Please hand me epic of [issueKey](hac-7) issue key
+  - Please hand me [issueKey](hac-9) issue key epics
+  - Please turn_over to me epic of [issueKey](hac-7) issue key
+  - Please turn_over to me [issueKey](hac-9) issue key epics
+  - Please grant me epic of [issueKey](hac-7) issue key
+  - Please grant me [issueKey](hac-9) issue key epics
+  - Please feed me epic of [issueKey](hac-7) issue key
+  - Please feed me [issueKey](hac-9) issue key epics
+  - Please open me epic of [issueKey](hac-7) issue key
+  - Please open me [issueKey](hac-9) issue key epics
+  - Please supply me epic of [issueKey](hac-7) issue key
+  - Please supply me [issueKey](hac-9) issue key epics
+  - Please ply me epic of [issueKey](hac-7) issue key
+  - Please ply me [issueKey](hac-9) issue key epics
+  - Please cater me epic of [issueKey](hac-7) issue key
+  - Please cater me [issueKey](hac-9) issue key epics
+  - Please provide me epic of [issueKey](hac-7) issue key
+  - Please provide me [issueKey](hac-9) issue key epics

@@ -5,6 +5,57 @@ name: allPages
 utterances:
   - Give me pages
   - Show me pages
+  - show me pages
+  - display me pages
+  - present me pages
+  - picture me pages
+  - depict me pages
+  - render me pages
+  - yield me pages
+  - throw me pages
+  - gift me pages
+  - present me pages
+  - generate me pages
+  - impart me pages
+  - leave me pages
+  - pass_on me pages
+  - hand me pages
+  - pass_on me pages
+  - turn_over me pages
+  - grant me pages
+  - feed me pages
+  - chip_in me pages
+  - supply me pages
+  - ply me pages
+  - cater me pages
+  - leave me pages  
+  - please Give me pages
+  - please Show me pages
+  - please show me pages
+  - please display me pages
+  - please present me pages
+  - please picture me pages
+  - please depict me pages
+  - please render me pages
+  - please yield me pages
+  - please throw me pages
+  - please gift me pages
+  - please present me pages
+  - please generate me pages
+  - please impart me pages
+  - please leave me pages
+  - please pass_on me pages
+  - please hand me pages
+  - please pass_on me pages
+  - please turn_over me pages
+  - please grant me pages
+  - please feed me pages
+  - please chip_in me pages
+  - please supply me pages
+  - please ply me pages
+  - please cater me pages
+  - please leave me pages
+
 
 # page by ID
 ---
@@ -14,8 +65,110 @@ slots:
   - name: id
     entity: id
 utterances:
+  - Give me page of id [id](5265353)
+  - Show me page of id [id](5265353)
+  - show me page of id [id](5265353)
+  - display me page of id [id](5265353)
+  - present me page of id [id](5265353)
+  - picture me page of id [id](5265353)
+  - depict me page of id [id](5265353)
+  - render me page of id [id](5265353)
+  - yield me page of id [id](5265353)
+  - throw me page of id [id](5265353)
+  - gift me page of id [id](5265353)
+  - present me page of id [id](5265353)
+  - generate me page of id [id](5265353)
+  - impart me page of id [id](5265353)
+  - leave me page of id [id](5265353)
+  - pass_on me page of id [id](5265353)
+  - hand me page of id [id](5265353)
+  - pass_on me page of id [id](5265353)
+  - turn_over me page of id [id](5265353)
+  - grant me page of id [id](5265353)
+  - feed me page of id [id](5265353)
+  - chip_in me page of id [id](5265353)
+  - supply me page of id [id](5265353)
+  - ply me page of id [id](5265353)
+  - cater me page of id [id](5265353)
+  - leave me page of id [id](5265353)  
+  - please Give me page of id [id](5265353)
+  - please Show me page of id [id](5265353)
+  - please show me page of id [id](5265353)
+  - please display me page of id [id](5265353)
+  - please present me page of id [id](5265353)
+  - please picture me page of id [id](5265353)
+  - please depict me page of id [id](5265353)
+  - please render me page of id [id](5265353)
+  - please yield me page of id [id](5265353)
+  - please throw me page of id [id](5265353)
+  - please gift me page of id [id](5265353)
+  - please present me page of id [id](5265353)
+  - please generate me page of id [id](5265353)
+  - please impart me page of id [id](5265353)
+  - please leave me page of id [id](5265353)
+  - please pass_on me page of id [id](5265353)
+  - please hand me page of id [id](5265353)
+  - please pass_on me page of id [id](5265353)
+  - please turn_over me page of id [id](5265353)
+  - please grant me page of id [id](5265353)
+  - please feed me page of id [id](5265353)
+  - please chip_in me page of id [id](5265353)
+  - please supply me page of id [id](5265353)
+  - please ply me page of id [id](5265353)
+  - please cater me page of id [id](5265353)
+  - please leave me page of id [id](5265353)
   - Give me page of [id](5265353) id
   - Show me page of [id](5265353) id
+  - show me page of [id](5265353) id
+  - display me page of [id](5265353) id
+  - present me page of [id](5265353) id
+  - picture me page of [id](5265353) id
+  - depict me page of [id](5265353) id
+  - render me page of [id](5265353) id
+  - yield me page of [id](5265353) id
+  - throw me page of [id](5265353) id
+  - gift me page of [id](5265353) id
+  - present me page of [id](5265353) id
+  - generate me page of [id](5265353) id
+  - impart me page of [id](5265353) id
+  - leave me page of [id](5265353) id
+  - pass_on me page of [id](5265353) id
+  - hand me page of [id](5265353) id
+  - pass_on me page of [id](5265353) id
+  - turn_over me page of [id](5265353) id
+  - grant me page of [id](5265353) id
+  - feed me page of [id](5265353) id
+  - chip_in me page of [id](5265353) id
+  - supply me page of [id](5265353) id
+  - ply me page of [id](5265353) id
+  - cater me page of [id](5265353) id
+  - leave me page of [id](5265353) id  
+  - please Give me page of [id](5265353) id
+  - please Show me page of [id](5265353) id
+  - please show me page of [id](5265353) id
+  - please display me page of [id](5265353) id
+  - please present me page of [id](5265353) id
+  - please picture me page of [id](5265353) id
+  - please depict me page of [id](5265353) id
+  - please render me page of [id](5265353) id
+  - please yield me page of [id](5265353) id
+  - please throw me page of [id](5265353) id
+  - please gift me page of [id](5265353) id
+  - please present me page of [id](5265353) id
+  - please generate me page of [id](5265353) id
+  - please impart me page of [id](5265353) id
+  - please leave me page of [id](5265353) id
+  - please pass_on me page of [id](5265353) id
+  - please hand me page of [id](5265353) id
+  - please pass_on me page of [id](5265353) id
+  - please turn_over me page of [id](5265353) id
+  - please grant me page of [id](5265353) id
+  - please feed me page of [id](5265353) id
+  - please chip_in me page of [id](5265353) id
+  - please supply me page of [id](5265353) id
+  - please ply me page of [id](5265353) id
+  - please cater me page of [id](5265353) id
+  - please leave me page of [id](5265353) id
 
 # blog post by ID
 ---
@@ -27,3 +180,160 @@ slots:
 utterances:
   - Give me page of [title](SIH 2020) title
   - Show me page of [title](SIH 2020) title
+
+  - Give me page of [title](SIH 2020) title
+  - Show me page of [title](SIH 2020) title
+  - show me page of [title](SIH 2020) title
+  - display me page of [title](SIH 2020) title
+  - present me page of [title](SIH 2020) title
+  - picture me page of [title](SIH 2020) title
+  - depict me page of [title](SIH 2020) title
+  - render me page of [title](SIH 2020) title
+  - yield me page of [title](SIH 2020) title
+  - throw me page of [title](SIH 2020) title
+  - gift me page of [title](SIH 2020) title
+  - present me page of [title](SIH 2020) title
+  - generate me page of [title](SIH 2020) title
+  - impart me page of [title](SIH 2020) title
+  - leave me page of [title](SIH 2020) title
+  - pass_on me page of [title](SIH 2020) title
+  - hand me page of [title](SIH 2020) title
+  - pass_on me page of [title](SIH 2020) title
+  - turn_over me page of [title](SIH 2020) title
+  - grant me page of [title](SIH 2020) title
+  - feed me page of [title](SIH 2020) title
+  - chip_in me page of [title](SIH 2020) title
+  - supply me page of [title](SIH 2020) title
+  - ply me page of [title](SIH 2020) title
+  - cater me page of [title](SIH 2020) title
+  - leave me page of [title](SIH 2020) title  
+  - please Give me page of [title](SIH 2020) title
+  - please Show me page of [title](SIH 2020) title
+  - please show me page of [title](SIH 2020) title
+  - please display me page of [title](SIH 2020) title
+  - please present me page of [title](SIH 2020) title
+  - please picture me page of [title](SIH 2020) title
+  - please depict me page of [title](SIH 2020) title
+  - please render me page of [title](SIH 2020) title
+  - please yield me page of [title](SIH 2020) title
+  - please throw me page of [title](SIH 2020) title
+  - please gift me page of [title](SIH 2020) title
+  - please present me page of [title](SIH 2020) title
+  - please generate me page of [title](SIH 2020) title
+  - please impart me page of [title](SIH 2020) title
+  - please leave me page of [title](SIH 2020) title
+  - please pass_on me page of [title](SIH 2020) title
+  - please hand me page of [title](SIH 2020) title
+  - please pass_on me page of [title](SIH 2020) title
+  - please turn_over me page of [title](SIH 2020) title
+  - please grant me page of [title](SIH 2020) title
+  - please feed me page of [title](SIH 2020) title
+  - please chip_in me page of [title](SIH 2020) title
+  - please supply me page of [title](SIH 2020) title
+  - please ply me page of [title](SIH 2020) title
+  - please cater me page of [title](SIH 2020) title
+  - please leave me page of [title](SIH 2020) title
+  - Give me page of title [title](SIH 2020)
+  - Show me page of title [title](SIH 2020)
+  - show me page of title [title](SIH 2020)
+  - display me page of title [title](SIH 2020)
+  - present me page of title [title](SIH 2020)
+  - picture me page of title [title](SIH 2020)
+  - depict me page of title [title](SIH 2020)
+  - render me page of title [title](SIH 2020)
+  - yield me page of title [title](SIH 2020)
+  - throw me page of title [title](SIH 2020)
+  - gift me page of title [title](SIH 2020)
+  - present me page of title [title](SIH 2020)
+  - generate me page of title [title](SIH 2020)
+  - impart me page of title [title](SIH 2020)
+  - leave me page of title [title](SIH 2020)
+  - pass_on me page of title [title](SIH 2020)
+  - hand me page of title [title](SIH 2020)
+  - pass_on me page of title [title](SIH 2020)
+  - turn_over me page of title [title](SIH 2020)
+  - grant me page of title [title](SIH 2020)
+  - feed me page of title [title](SIH 2020)
+  - chip_in me page of title [title](SIH 2020)
+  - supply me page of title [title](SIH 2020)
+  - ply me page of title [title](SIH 2020)
+  - cater me page of title [title](SIH 2020)
+  - leave me page of title [title](SIH 2020)  
+  - please Give me page of title [title](SIH 2020)
+  - please Show me page of title [title](SIH 2020)
+  - please show me page of title [title](SIH 2020)
+  - please display me page of title [title](SIH 2020)
+  - please present me page of title [title](SIH 2020)
+  - please picture me page of title [title](SIH 2020)
+  - please depict me page of title [title](SIH 2020)
+  - please render me page of title [title](SIH 2020)
+  - please yield me page of title [title](SIH 2020)
+  - please throw me page of title [title](SIH 2020)
+  - please gift me page of title [title](SIH 2020)
+  - please present me page of title [title](SIH 2020)
+  - please generate me page of title [title](SIH 2020)
+  - please impart me page of title [title](SIH 2020)
+  - please leave me page of title [title](SIH 2020)
+  - please pass_on me page of title [title](SIH 2020)
+  - please hand me page of title [title](SIH 2020)
+  - please pass_on me page of title [title](SIH 2020)
+  - please turn_over me page of title [title](SIH 2020)
+  - please grant me page of title [title](SIH 2020)
+  - please feed me page of title [title](SIH 2020)
+  - please chip_in me page of title [title](SIH 2020)
+  - please supply me page of title [title](SIH 2020)
+  - please ply me page of title [title](SIH 2020)
+  - please cater me page of title [title](SIH 2020)
+  - please leave me page of title [title](SIH 2020)
+  - Give me page of title named [title](SIH 2020)
+  - Show me page of title named [title](SIH 2020)
+  - show me page of title named [title](SIH 2020)
+  - display me page of title named [title](SIH 2020)
+  - present me page of title named [title](SIH 2020)
+  - picture me page of title named [title](SIH 2020)
+  - depict me page of title named [title](SIH 2020)
+  - render me page of title named [title](SIH 2020)
+  - yield me page of title named [title](SIH 2020)
+  - throw me page of title named [title](SIH 2020)
+  - gift me page of title named [title](SIH 2020)
+  - present me page of title named [title](SIH 2020)
+  - generate me page of title named [title](SIH 2020)
+  - impart me page of title named [title](SIH 2020)
+  - leave me page of title named [title](SIH 2020)
+  - pass_on me page of title named [title](SIH 2020)
+  - hand me page of title named [title](SIH 2020)
+  - pass_on me page of title named [title](SIH 2020)
+  - turn_over me page of title named [title](SIH 2020)
+  - grant me page of title named [title](SIH 2020)
+  - feed me page of title named [title](SIH 2020)
+  - chip_in me page of title named [title](SIH 2020)
+  - supply me page of title named [title](SIH 2020)
+  - ply me page of title named [title](SIH 2020)
+  - cater me page of title named [title](SIH 2020)
+  - leave me page of title named [title](SIH 2020)  
+  - please Give me page of title named [title](SIH 2020)
+  - please Show me page of title named [title](SIH 2020)
+  - please show me page of title named [title](SIH 2020)
+  - please display me page of title named [title](SIH 2020)
+  - please present me page of title named [title](SIH 2020)
+  - please picture me page of title named [title](SIH 2020)
+  - please depict me page of title named [title](SIH 2020)
+  - please render me page of title named [title](SIH 2020)
+  - please yield me page of title named [title](SIH 2020)
+  - please throw me page of title named [title](SIH 2020)
+  - please gift me page of title named [title](SIH 2020)
+  - please present me page of title named [title](SIH 2020)
+  - please generate me page of title named [title](SIH 2020)
+  - please impart me page of title named [title](SIH 2020)
+  - please leave me page of title named [title](SIH 2020)
+  - please pass_on me page of title named [title](SIH 2020)
+  - please hand me page of title named [title](SIH 2020)
+  - please pass_on me page of title named [title](SIH 2020)
+  - please turn_over me page of title named [title](SIH 2020)
+  - please grant me page of title named [title](SIH 2020)
+  - please feed me page of title named [title](SIH 2020)
+  - please chip_in me page of title named [title](SIH 2020)
+  - please supply me page of title named [title](SIH 2020)
+  - please ply me page of title named [title](SIH 2020)
+  - please cater me page of title named [title](SIH 2020)
+  - please leave me page of title named [title](SIH 2020)
