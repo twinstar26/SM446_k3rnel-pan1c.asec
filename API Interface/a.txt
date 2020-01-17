@@ -1,23 +1,14 @@
-
-        <div class='container p-4'><h2>Issues in atharvaveer/test</h2>
-    <div class="card p-4 mt-4" style="width: 30rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
-                <div style="font-size: 1.25rem;">Second Issue</div>
-                <hr>
-                <div><b>Reporter: </b> atharva.d.veer</div>
-                <div><b>Repo: </b> <a href="https://bitbucket.org/atharvaveer/test"> atharvaveer/test</a></div>
-                <div><b>Priority: </b> major</div>
-                <div><b>Kind: </b> <a href="https://bitbucket.org/atharvaveer/test/issues/2/second-issue">bug</a></div>
-                <div><b>Watches: </b> 1</div>
-                <div><b>Created: </b> 2020-01-16</div>
-            </div>
-        <div class="card p-4 mt-4" style="width: 30rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
-                <div style="font-size: 1.25rem;">First issue</div>
-                <hr>
-                <div><b>Reporter: </b> atharva.d.veer</div>
-                <div><b>Repo: </b> <a href="https://bitbucket.org/atharvaveer/test"> atharvaveer/test</a></div>
-                <div><b>Priority: </b> major</div>
-                <div><b>Kind: </b> <a href="https://bitbucket.org/atharvaveer/test/issues/1/first-issue">bug</a></div>
-                <div><b>Watches: </b> 1</div>
-                <div><b>Created: </b> 2020-01-16</div>
-            </div>
-        </div>
+<div class='container p-4'><h2>Page Details for YASH JAIN</h2><div class="card p-4 mt-4" style="box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
+        <div style="font-size: 1.25rem;">YASH JAIN</div>
+        <hr>
+        <div><b>Author:</b> Kritika Ravishankar</div>
+        <div><b>Type: </b> page</div>
+        <div><b>Space: </b> Hackathon</div>
+        <div><b>Status: </b> current</div>
+        <div><b>Created: </b> Jan 16, 2020</div>
+        <hr>
+        <div><b>Content: </b> <p>YAsh Yash Yash yash</p></div>
+        <hr>
+        <div><b>Descrption</b><br></div>
+    </div>
+</div>
