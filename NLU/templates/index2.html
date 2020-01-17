@@ -17,11 +17,11 @@
             width: 100%;
             height: 100%;
             max-height: 100%;
+            /* overflow: hidden; */
         }
         .card {
             box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
             width: 100%;
-            height: 90%;
         }
         .query-box {
             display: flex;
@@ -36,6 +36,11 @@
             align-items: stretch;
             justify-content: space-between;
         }
+        .hags {
+            display: flex;
+            flex-direction: column;
+            height: 600px;
+        }
     </style>
     <title>IPM</title>
 </head>
@@ -43,7 +48,7 @@
     <div class="container xyz">
         <div class="row mt-4 mb-4 xyz">
             <div class="col-4 xyz">
-                <div class="card p-4 query-box xyz">
+                <div class="card p-4 query-box xyz hags">
                     <div class="query-upper y" style="overflow-y: auto;">
                         ENTER QUERIES
                         <hr>
@@ -64,7 +69,7 @@
                 </div>
             </div>
             <div class="col-8">
-                <div class="card p-4">
+                <div class="card p-4 hags" style="overflow-y: auto;">
                     QUERY RESULTS
                     <hr>
                     <div id="results" style="overflow-y: auto;"></div>

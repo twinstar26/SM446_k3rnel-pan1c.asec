@@ -8,7 +8,7 @@ def giveHTMLFromIntents(jsonResponse):
         if jsonResponse['intent']["intentName"] == "allIssuesByProject":
             return allIssuesByProject(jsonResponse["slots"][0]["rawValue"])
         elif jsonResponse['intent']["intentName"] == "topPostAnswer":
-            return topPostAnswer(jsonResponse["slots"][0]["rawValue"])
+            return topPostAnswer(jsonResponse["input"])
         elif jsonResponse['intent']["intentName"] == "allIssuesByProjectAndIssueType":
             return allIssuesByProjectAndIssueType(jsonResponse["slots"][0]["rawValue"], jsonResponse["slots"][1]["rawValue"])
         elif jsonResponse['intent']["intentName"] == "allIssuesByAssigneeAndIssueType":

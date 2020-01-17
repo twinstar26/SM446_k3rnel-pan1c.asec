@@ -46,11 +46,11 @@ def topPostAnswer(error):
         padding: 10px;
         background-color: #E8EBEF;
     } </style>'''
-    html += '<div class="container "style="width: 50rem;">'
+    html += '<div>'
     html += '<h1 class="m-4">{}</h1>'.format(error)
     for i in answers:
         html += '''
-        <div class="card m-4 p-4" style="width: 100%; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
+        <div class="card m-4 p-4" style="width: 35rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
             {}            
         </div>
         '''.format(i)

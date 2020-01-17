@@ -311,9 +311,7 @@
       "pageByTitle": {
         "title": "title"
       },
-      "topPostAnswer": {
-        "error": "error"
-      },
+      "topPostAnswer": {},
       "versionByProjectNameAndWorkspace": {
         "projectName": "projectName",
         "userName": "userName"
