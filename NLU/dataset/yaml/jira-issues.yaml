@@ -7,13 +7,109 @@ slots:
     entity: projectName
 utterances:
   - Give me issues from [projectName](google) project
-  - Give me issues from [projectName](atharva) project
-  - Show me the issues from [projectName](atharva) project
-  - Show me the issues from [projectName](harsh chheda) project
-  - Give me issues from [projectName](google)
-  - Give me issues from [projectName](atharva)
-  - Show me the issues from [projectName](atharva)
-  - Show me the issues from [projectName](harsh chheda)
+  - Show me issues from [projectName](atharva) project
+  - display me issues from [projectName](google)
+  - display me issues from [projectName](atharva) project
+  - present me issues from [projectName](google)
+  - present me issues from [projectName](atharva) project
+  - render me issues from [projectName](google)
+  - render me issues from [projectName](atharva) project
+  - express me issues from [projectName](google)
+  - express me issues from [projectName](atharva) project
+  - indicate me issues from [projectName](google)
+  - indicate me issues from [projectName](atharva) project
+  - point me issues from [projectName](google)
+  - point me issues from [projectName](atharva) project
+  - show_up me issues from [projectName](google)
+  - show_up me issues from [projectName](atharva) project
+  - read me issues from [projectName](google)
+  - read me issues from [projectName](atharva) project
+  - yield me issues from [projectName](google)
+  - yield me issues from [projectName](atharva) project
+  - throw me issues from [projectName](google)
+  - throw me issues from [projectName](atharva) project
+  - gift me issues from [projectName](google)
+  - gift me issues from [projectName](atharva) project
+  - generate me issues from [projectName](google)
+  - generate me issues from [projectName](atharva) project
+  - impart me issues from [projectName](google)
+  - impart me issues from [projectName](atharva) project
+  - leave me issues from [projectName](google)
+  - leave me issues from [projectName](atharva) project
+  - import issues from [projectName](atharva) project
+  - import issues from [projectName](atharva)
+  - pass me issues from [projectName](google)
+  - pass me issues from [projectName](atharva) project
+  - hand me issues from [projectName](google)
+  - hand me issues from [projectName](atharva) project
+  - turn_over to me issues from [projectName](google)
+  - turn_over to me issues from [projectName](atharva) project
+  - grant me issues from [projectName](google)
+  - grant me issues from [projectName](atharva) project
+  - feed me issues from [projectName](google)
+  - feed me issues from [projectName](atharva) project
+  - open me issues from [projectName](google)
+  - open me issues from [projectName](atharva) project
+  - supply me issues from [projectName](google)
+  - supply me issues from [projectName](atharva) project
+  - ply me issues from [projectName](google)
+  - ply me issues from [projectName](atharva) project
+  - cater me issues from [projectName](google)
+  - cater me issues from [projectName](atharva) project
+  - provide me issues from [projectName](google)
+  - provide me issues from [projectName](atharva) project
+  - Please Give me issues from [projectName](google) project
+  - Please Show me issues from [projectName](atharva) project
+  - Please display me issues from [projectName](google)
+  - Please display me issues from [projectName](atharva) project
+  - Please present me issues from [projectName](google)
+  - Please present me issues from [projectName](atharva) project
+  - Please render me issues from [projectName](google)
+  - Please render me issues from [projectName](atharva) project
+  - Please express me issues from [projectName](google)
+  - Please express me issues from [projectName](atharva) project
+  - Please indicate me issues from [projectName](google)
+  - Please indicate me issues from [projectName](atharva) project
+  - Please point me issues from [projectName](google)
+  - Please point me issues from [projectName](atharva) project
+  - Please show_up me issues from [projectName](google)
+  - Please show_up me issues from [projectName](atharva) project
+  - Please read me issues from [projectName](google)
+  - Please read me issues from [projectName](atharva) project
+  - Please yield me issues from [projectName](google)
+  - Please yield me issues from [projectName](atharva) project
+  - Please throw me issues from [projectName](google)
+  - Please throw me issues from [projectName](atharva) project
+  - Please gift me issues from [projectName](google)
+  - Please gift me issues from [projectName](atharva) project
+  - Please generate me issues from [projectName](google)
+  - Please generate me issues from [projectName](atharva) project
+  - Please impart me issues from [projectName](google)
+  - Please impart me issues from [projectName](atharva) project
+  - Please leave me issues from [projectName](google)
+  - Please leave me issues from [projectName](atharva) project
+  - Please import issues from [projectName](atharva) project
+  - Please import issues from [projectName](atharva)
+  - Please pass me issues from [projectName](google)
+  - Please pass me issues from [projectName](atharva) project
+  - Please hand me issues from [projectName](google)
+  - Please hand me issues from [projectName](atharva) project
+  - Please turn_over to me issues from [projectName](google)
+  - Please turn_over to me issues from [projectName](atharva) project
+  - Please grant me issues from [projectName](google)
+  - Please grant me issues from [projectName](atharva) project
+  - Please feed me issues from [projectName](google)
+  - Please feed me issues from [projectName](atharva) project
+  - Please open me issues from [projectName](google)
+  - Please open me issues from [projectName](atharva) project
+  - Please supply me issues from [projectName](google)
+  - Please supply me issues from [projectName](atharva) project
+  - Please ply me issues from [projectName](google)
+  - Please ply me issues from [projectName](atharva) project
+  - Please cater me issues from [projectName](google)
+  - Please cater me issues from [projectName](atharva) project
+  - Please provide me issues from [projectName](google)
+  - Please provide me issues from [projectName](atharva) project
 
 # all issues from specific project and issue type
 ---
@@ -26,16 +122,213 @@ slots:
     entity: issueType
 utterances:
   - Give me issues from [projectName](google) project of [issueType](todo)
-  - Give me issues from [projectName](atharva) project of [issueType](in progress)
+  - Show me issues from [projectName](atharva) project of [issueType](todo)
+  - display me issues from [projectName](google)
+  - display me issues from [projectName](atharva) project of [issueType](todo)
+  - present me issues from [projectName](google)
+  - present me issues from [projectName](atharva) project of [issueType](todo)
+  - render me issues from [projectName](google)
+  - render me issues from [projectName](atharva) project of [issueType](todo)
+  - express me issues from [projectName](google)
+  - express me issues from [projectName](atharva) project of [issueType](todo)
+  - indicate me issues from [projectName](google)
+  - indicate me issues from [projectName](atharva) project of [issueType](todo)
+  - point me issues from [projectName](google)
+  - point me issues from [projectName](atharva) project of [issueType](todo)
+  - show_up me issues from [projectName](google)
+  - show_up me issues from [projectName](atharva) project of [issueType](todo)
+  - read me issues from [projectName](google)
+  - read me issues from [projectName](atharva) project of [issueType](todo)
+  - yield me issues from [projectName](google)
+  - yield me issues from [projectName](atharva) project of [issueType](todo)
+  - throw me issues from [projectName](google)
+  - throw me issues from [projectName](atharva) project of [issueType](todo)
+  - gift me issues from [projectName](google)
+  - gift me issues from [projectName](atharva) project of [issueType](todo)
+  - generate me issues from [projectName](google)
+  - generate me issues from [projectName](atharva) project of [issueType](todo)
+  - impart me issues from [projectName](google)
+  - impart me issues from [projectName](atharva) project of [issueType](todo)
+  - leave me issues from [projectName](google)
+  - leave me issues from [projectName](atharva) project of [issueType](todo)
+  - import issues from [projectName](atharva) project of [issueType](todo)
+  - import issues from [projectName](atharva)
+  - pass me issues from [projectName](google)
+  - pass me issues from [projectName](atharva) project of [issueType](todo)
+  - hand me issues from [projectName](google)
+  - hand me issues from [projectName](atharva) project of [issueType](todo)
+  - turn_over to me issues from [projectName](google)
+  - turn_over to me issues from [projectName](atharva) project of [issueType](todo)
+  - grant me issues from [projectName](google)
+  - grant me issues from [projectName](atharva) project of [issueType](todo)
+  - feed me issues from [projectName](google)
+  - feed me issues from [projectName](atharva) project of [issueType](todo)
+  - open me issues from [projectName](google)
+  - open me issues from [projectName](atharva) project of [issueType](todo)
+  - supply me issues from [projectName](google)
+  - supply me issues from [projectName](atharva) project of [issueType](todo)
+  - ply me issues from [projectName](google)
+  - ply me issues from [projectName](atharva) project of [issueType](todo)
+  - cater me issues from [projectName](google)
+  - cater me issues from [projectName](atharva) project of [issueType](todo)
+  - provide me issues from [projectName](google)
+  - provide me issues from [projectName](atharva) project of [issueType](todo)
+  - Please Give me issues from [projectName](google) project of [issueType](todo)
+  - Please Show me issues from [projectName](atharva) project of [issueType](todo)
+  - Please display me issues from [projectName](google)
+  - Please display me issues from [projectName](atharva) project of [issueType](todo)
+  - Please present me issues from [projectName](google)
+  - Please present me issues from [projectName](atharva) project of [issueType](todo)
+  - Please render me issues from [projectName](google)
+  - Please render me issues from [projectName](atharva) project of [issueType](todo)
+  - Please express me issues from [projectName](google)
+  - Please express me issues from [projectName](atharva) project of [issueType](todo)
+  - Please indicate me issues from [projectName](google)
+  - Please indicate me issues from [projectName](atharva) project of [issueType](todo)
+  - Please point me issues from [projectName](google)
+  - Please point me issues from [projectName](atharva) project of [issueType](todo)
+  - Please show_up me issues from [projectName](google)
+  - Please show_up me issues from [projectName](atharva) project of [issueType](todo)
+  - Please read me issues from [projectName](google)
+  - Please read me issues from [projectName](atharva) project of [issueType](todo)
+  - Please yield me issues from [projectName](google)
+  - Please yield me issues from [projectName](atharva) project of [issueType](todo)
+  - Please throw me issues from [projectName](google)
+  - Please throw me issues from [projectName](atharva) project of [issueType](todo)
+  - Please gift me issues from [projectName](google)
+  - Please gift me issues from [projectName](atharva) project of [issueType](todo)
+  - Please generate me issues from [projectName](google)
+  - Please generate me issues from [projectName](atharva) project of [issueType](todo)
+  - Please impart me issues from [projectName](google)
+  - Please impart me issues from [projectName](atharva) project of [issueType](todo)
+  - Please leave me issues from [projectName](google)
+  - Please leave me issues from [projectName](atharva) project of [issueType](todo)
+  - Please import issues from [projectName](atharva) project of [issueType](todo)
+  - Please import issues from [projectName](atharva)
+  - Please pass me issues from [projectName](google)
+  - Please pass me issues from [projectName](atharva) project of [issueType](todo)
+  - Please hand me issues from [projectName](google)
+  - Please hand me issues from [projectName](atharva) project of [issueType](todo)
+  - Please turn_over to me issues from [projectName](google)
+  - Please turn_over to me issues from [projectName](atharva) project of [issueType](todo)
+  - Please grant me issues from [projectName](google)
+  - Please grant me issues from [projectName](atharva) project of [issueType](todo)
+  - Please feed me issues from [projectName](google)
+  - Please feed me issues from [projectName](atharva) project of [issueType](todo)
+  - Please open me issues from [projectName](google)
+  - Please open me issues from [projectName](atharva) project of [issueType](todo)
+  - Please supply me issues from [projectName](google)
+  - Please supply me issues from [projectName](atharva) project of [issueType](todo)
+  - Please ply me issues from [projectName](google)
+  - Please ply me issues from [projectName](atharva) project of [issueType](todo)
+  - Please cater me issues from [projectName](google)
+  - Please cater me issues from [projectName](atharva) project of [issueType](todo)
+  - Please provide me issues from [projectName](google)
+  - Please provide me issues from [projectName](atharva) project of [issueType](todo)
   - Give me [issueType](todo) issues from [projectName](google) project
-  - Give me [issueType](in progress) issues from [projectName](atharva) project
-  - Show me [issueType](done) issues from [projectName](atharva) project
-  - Show me the issues from [projectName](atharva) project of [issueType](done)
-  - Show me the issues from [projectName](harsh chheda) project of [issueType](done)
-  - Show me [issueType](done) issues from [projectName](harsh chheda) project
-  - Give me [issueType](all) issues from [projectName](google) project
-  - Give me [issueType](all) issues from [projectName](atharva) project
-  - Show me [issueType](all) issues from [projectName](atharva) project
+  - Show me [issueType](todo) issues from [projectName](atharva) project
+  - display me [issueType](todo) issues from [projectName](google)
+  - display me [issueType](todo) issues from [projectName](atharva) project
+  - present me [issueType](todo) issues from [projectName](google)
+  - present me [issueType](todo) issues from [projectName](atharva) project
+  - render me [issueType](todo) issues from [projectName](google)
+  - render me [issueType](todo) issues from [projectName](atharva) project
+  - express me [issueType](todo) issues from [projectName](google)
+  - express me [issueType](todo) issues from [projectName](atharva) project
+  - indicate me [issueType](todo) issues from [projectName](google)
+  - indicate me [issueType](todo) issues from [projectName](atharva) project
+  - point me [issueType](todo) issues from [projectName](google)
+  - point me [issueType](todo) issues from [projectName](atharva) project
+  - show_up me [issueType](todo) issues from [projectName](google)
+  - show_up me [issueType](todo) issues from [projectName](atharva) project
+  - read me [issueType](todo) issues from [projectName](google)
+  - read me [issueType](todo) issues from [projectName](atharva) project
+  - yield me [issueType](todo) issues from [projectName](google)
+  - yield me [issueType](todo) issues from [projectName](atharva) project
+  - throw me [issueType](todo) issues from [projectName](google)
+  - throw me [issueType](todo) issues from [projectName](atharva) project
+  - gift me [issueType](todo) issues from [projectName](google)
+  - gift me [issueType](todo) issues from [projectName](atharva) project
+  - generate me [issueType](todo) issues from [projectName](google)
+  - generate me [issueType](todo) issues from [projectName](atharva) project
+  - impart me [issueType](todo) issues from [projectName](google)
+  - impart me [issueType](todo) issues from [projectName](atharva) project
+  - leave me [issueType](todo) issues from [projectName](google)
+  - leave me [issueType](todo) issues from [projectName](atharva) project
+  - import issues from [projectName](atharva) project
+  - import issues from [projectName](atharva)
+  - pass me [issueType](todo) issues from [projectName](google)
+  - pass me [issueType](todo) issues from [projectName](atharva) project
+  - hand me [issueType](todo) issues from [projectName](google)
+  - hand me [issueType](todo) issues from [projectName](atharva) project
+  - turn_over to me [issueType](todo) issues from [projectName](google)
+  - turn_over to me [issueType](todo) issues from [projectName](atharva) project
+  - grant me [issueType](todo) issues from [projectName](google)
+  - grant me [issueType](todo) issues from [projectName](atharva) project
+  - feed me [issueType](todo) issues from [projectName](google)
+  - feed me [issueType](todo) issues from [projectName](atharva) project
+  - open me [issueType](todo) issues from [projectName](google)
+  - open me [issueType](todo) issues from [projectName](atharva) project
+  - supply me [issueType](todo) issues from [projectName](google)
+  - supply me [issueType](todo) issues from [projectName](atharva) project
+  - ply me [issueType](todo) issues from [projectName](google)
+  - ply me [issueType](todo) issues from [projectName](atharva) project
+  - cater me [issueType](todo) issues from [projectName](google)
+  - cater me [issueType](todo) issues from [projectName](atharva) project
+  - provide me [issueType](todo) issues from [projectName](google)
+  - provide me [issueType](todo) issues from [projectName](atharva) project
+  - Please Give me [issueType](todo) issues from [projectName](google) project
+  - Please Show me [issueType](todo) issues from [projectName](atharva) project
+  - Please display me [issueType](todo) issues from [projectName](google)
+  - Please display me [issueType](todo) issues from [projectName](atharva) project
+  - Please present me [issueType](todo) issues from [projectName](google)
+  - Please present me [issueType](todo) issues from [projectName](atharva) project
+  - Please render me [issueType](todo) issues from [projectName](google)
+  - Please render me [issueType](todo) issues from [projectName](atharva) project
+  - Please express me [issueType](todo) issues from [projectName](google)
+  - Please express me [issueType](todo) issues from [projectName](atharva) project
+  - Please indicate me [issueType](todo) issues from [projectName](google)
+  - Please indicate me [issueType](todo) issues from [projectName](atharva) project
+  - Please point me [issueType](todo) issues from [projectName](google)
+  - Please point me [issueType](todo) issues from [projectName](atharva) project
+  - Please show_up me [issueType](todo) issues from [projectName](google)
+  - Please show_up me [issueType](todo) issues from [projectName](atharva) project
+  - Please read me [issueType](todo) issues from [projectName](google)
+  - Please read me [issueType](todo) issues from [projectName](atharva) project
+  - Please yield me [issueType](todo) issues from [projectName](google)
+  - Please yield me [issueType](todo) issues from [projectName](atharva) project
+  - Please throw me [issueType](todo) issues from [projectName](google)
+  - Please throw me [issueType](todo) issues from [projectName](atharva) project
+  - Please gift me [issueType](todo) issues from [projectName](google)
+  - Please gift me [issueType](todo) issues from [projectName](atharva) project
+  - Please generate me [issueType](todo) issues from [projectName](google)
+  - Please generate me [issueType](todo) issues from [projectName](atharva) project
+  - Please impart me [issueType](todo) issues from [projectName](google)
+  - Please impart me [issueType](todo) issues from [projectName](atharva) project
+  - Please leave me [issueType](todo) issues from [projectName](google)
+  - Please leave me [issueType](todo) issues from [projectName](atharva) project
+  - Please import issues from [projectName](atharva) project
+  - Please import issues from [projectName](atharva)
+  - Please pass me [issueType](todo) issues from [projectName](google)
+  - Please pass me [issueType](todo) issues from [projectName](atharva) project
+  - Please hand me [issueType](todo) issues from [projectName](google)
+  - Please hand me [issueType](todo) issues from [projectName](atharva) project
+  - Please turn_over to me [issueType](todo) issues from [projectName](google)
+  - Please turn_over to me [issueType](todo) issues from [projectName](atharva) project
+  - Please grant me [issueType](todo) issues from [projectName](google)
+  - Please grant me [issueType](todo) issues from [projectName](atharva) project
+  - Please feed me [issueType](todo) issues from [projectName](google)
+  - Please feed me [issueType](todo) issues from [projectName](atharva) project
+  - Please open me [issueType](todo) issues from [projectName](google)
+  - Please open me [issueType](todo) issues from [projectName](atharva) project
+  - Please supply me [issueType](todo) issues from [projectName](google)
+  - Please supply me [issueType](todo) issues from [projectName](atharva) project
+  - Please ply me [issueType](todo) issues from [projectName](google)
+  - Please ply me [issueType](todo) issues from [projectName](atharva) project
+  - Please cater me [issueType](todo) issues from [projectName](google)
+  - Please cater me [issueType](todo) issues from [projectName](atharva) project
+  - Please provide me [issueType](todo) issues from [projectName](google)
+  - Please provide me [issueType](todo) issues from [projectName](atharva) project
 
 # all issues based on assignee and issue type
 ---
@@ -48,19 +341,217 @@ slots:
     entity: userName
 utterances:
   - Give me [issueType](todo) issues assigned to [userName](atharvaveer)
-  - Give me [issueType](in progress) issues assigned to [userName](atharvaveer)
-  - Show me [issueType](done) issues assigned to [userName](atharvaveer)
-  - Show me [issueType](done) issues assigned to [userName](atharvaveer)
-  - Give me [issueType](all) issues assigned to [userName](atharvaveer)
-  - Give me [issueType](all) issues assigned to [userName](atharvaveer)
-  - Show me [issueType](all) issues assigned to [userName](atharvaveer)
-  - Give me issues assigned to [userName](atharvaveer) of [issueType](todo)
   - Give me issues assigned to [userName](atharvaveer) of [issueType](in progress)
+  - Show me [issueType](done) issues assigned to [userName](atharvaveer)
   - Show me issues assigned to [userName](atharvaveer) of [issueType](done)
-  - Show me issues assigned to [userName](atharvaveer) of [issueType](done)
-  - Give me issues assigned to [userName](atharvaveer) of [issueType](all)
-  - Give me issues assigned to [userName](atharvaveer) of [issueType](all)
-  - Show me issues assigned to [userName](atharvaveer) of [issueType](all)
+  - Give me issues from [projectName](google) project of [issueType](todo)
+  - Show me issues from [projectName](atharva) project of [issueType](todo)
+  - display me [issueType](done) issues assigned to [userName](atharvaveer)
+  - display me issues from [projectName](atharva) project of [issueType](todo)
+  - present me [issueType](done) issues assigned to [userName](atharvaveer)
+  - present me issues from [projectName](atharva) project of [issueType](todo)
+  - render me [issueType](done) issues assigned to [userName](atharvaveer)
+  - render me issues from [projectName](atharva) project of [issueType](todo)
+  - express me [issueType](done) issues assigned to [userName](atharvaveer)
+  - express me issues from [projectName](atharva) project of [issueType](todo)
+  - indicate me [issueType](done) issues assigned to [userName](atharvaveer)
+  - indicate me issues from [projectName](atharva) project of [issueType](todo)
+  - point me [issueType](done) issues assigned to [userName](atharvaveer)
+  - point me issues from [projectName](atharva) project of [issueType](todo)
+  - show_up me [issueType](done) issues assigned to [userName](atharvaveer)
+  - show_up me issues from [projectName](atharva) project of [issueType](todo)
+  - read me [issueType](done) issues assigned to [userName](atharvaveer)
+  - read me issues from [projectName](atharva) project of [issueType](todo)
+  - yield me [issueType](done) issues assigned to [userName](atharvaveer)
+  - yield me issues from [projectName](atharva) project of [issueType](todo)
+  - throw me [issueType](done) issues assigned to [userName](atharvaveer)
+  - throw me issues from [projectName](atharva) project of [issueType](todo)
+  - gift me [issueType](done) issues assigned to [userName](atharvaveer)
+  - gift me issues from [projectName](atharva) project of [issueType](todo)
+  - generate me [issueType](done) issues assigned to [userName](atharvaveer)
+  - generate me issues from [projectName](atharva) project of [issueType](todo)
+  - impart me [issueType](done) issues assigned to [userName](atharvaveer)
+  - impart me issues from [projectName](atharva) project of [issueType](todo)
+  - leave me [issueType](done) issues assigned to [userName](atharvaveer)
+  - leave me issues from [projectName](atharva) project of [issueType](todo)
+  - import issues from [projectName](atharva) project of [issueType](todo)
+  - import issues from [projectName](atharva)
+  - pass me [issueType](done) issues assigned to [userName](atharvaveer)
+  - pass me issues from [projectName](atharva) project of [issueType](todo)
+  - hand me [issueType](done) issues assigned to [userName](atharvaveer)
+  - hand me issues from [projectName](atharva) project of [issueType](todo)
+  - turn_over to me [issueType](done) issues assigned to [userName](atharvaveer)
+  - turn_over to me issues from [projectName](atharva) project of [issueType](todo)
+  - grant me [issueType](done) issues assigned to [userName](atharvaveer)
+  - grant me issues from [projectName](atharva) project of [issueType](todo)
+  - feed me [issueType](done) issues assigned to [userName](atharvaveer)
+  - feed me issues from [projectName](atharva) project of [issueType](todo)
+  - open me [issueType](done) issues assigned to [userName](atharvaveer)
+  - open me issues from [projectName](atharva) project of [issueType](todo)
+  - supply me [issueType](done) issues assigned to [userName](atharvaveer)
+  - supply me issues from [projectName](atharva) project of [issueType](todo)
+  - ply me [issueType](done) issues assigned to [userName](atharvaveer)
+  - ply me issues from [projectName](atharva) project of [issueType](todo)
+  - cater me [issueType](done) issues assigned to [userName](atharvaveer)
+  - cater me issues from [projectName](atharva) project of [issueType](todo)
+  - provide me [issueType](done) issues assigned to [userName](atharvaveer)
+  - provide me issues from [projectName](atharva) project of [issueType](todo)
+  - Please Give me [issueType](done) issues assigned to [userName](atharvaveer) project of [issueType](todo)
+  - Please Show me issues from [projectName](atharva) project of [issueType](todo)
+  - Please display me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please display me issues from [projectName](atharva) project of [issueType](todo)
+  - Please present me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please present me issues from [projectName](atharva) project of [issueType](todo)
+  - Please render me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please render me issues from [projectName](atharva) project of [issueType](todo)
+  - Please express me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please express me issues from [projectName](atharva) project of [issueType](todo)
+  - Please indicate me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please indicate me issues from [projectName](atharva) project of [issueType](todo)
+  - Please point me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please point me issues from [projectName](atharva) project of [issueType](todo)
+  - Please show_up me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please show_up me issues from [projectName](atharva) project of [issueType](todo)
+  - Please read me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please read me issues from [projectName](atharva) project of [issueType](todo)
+  - Please yield me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please yield me issues from [projectName](atharva) project of [issueType](todo)
+  - Please throw me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please throw me issues from [projectName](atharva) project of [issueType](todo)
+  - Please gift me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please gift me issues from [projectName](atharva) project of [issueType](todo)
+  - Please generate me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please generate me issues from [projectName](atharva) project of [issueType](todo)
+  - Please impart me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please impart me issues from [projectName](atharva) project of [issueType](todo)
+  - Please leave me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please leave me issues from [projectName](atharva) project of [issueType](todo)
+  - Please import issues from [projectName](atharva) project of [issueType](todo)
+  - Please import issues from [projectName](atharva)
+  - Please pass me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please pass me issues from [projectName](atharva) project of [issueType](todo)
+  - Please hand me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please hand me issues from [projectName](atharva) project of [issueType](todo)
+  - Please turn_over to me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please turn_over to me issues from [projectName](atharva) project of [issueType](todo)
+  - Please grant me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please grant me issues from [projectName](atharva) project of [issueType](todo)
+  - Please feed me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please feed me issues from [projectName](atharva) project of [issueType](todo)
+  - Please open me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please open me issues from [projectName](atharva) project of [issueType](todo)
+  - Please supply me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please supply me issues from [projectName](atharva) project of [issueType](todo)
+  - Please ply me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please ply me issues from [projectName](atharva) project of [issueType](todo)
+  - Please cater me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please cater me issues from [projectName](atharva) project of [issueType](todo)
+  - Please provide me [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please provide me issues from [projectName](atharva) project of [issueType](todo)
+  - Give me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer) project
+  - Show me [issueType](todo) issues from [projectName](atharva) project
+  - display me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - display me [issueType](todo) issues from [projectName](atharva) project
+  - present me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - present me [issueType](todo) issues from [projectName](atharva) project
+  - render me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - render me [issueType](todo) issues from [projectName](atharva) project
+  - express me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - express me [issueType](todo) issues from [projectName](atharva) project
+  - indicate me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - indicate me [issueType](todo) issues from [projectName](atharva) project
+  - point me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - point me [issueType](todo) issues from [projectName](atharva) project
+  - show_up me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - show_up me [issueType](todo) issues from [projectName](atharva) project
+  - read me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - read me [issueType](todo) issues from [projectName](atharva) project
+  - yield me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - yield me [issueType](todo) issues from [projectName](atharva) project
+  - throw me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - throw me [issueType](todo) issues from [projectName](atharva) project
+  - gift me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - gift me [issueType](todo) issues from [projectName](atharva) project
+  - generate me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - generate me [issueType](todo) issues from [projectName](atharva) project
+  - impart me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - impart me [issueType](todo) issues from [projectName](atharva) project
+  - leave me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - leave me [issueType](todo) issues from [projectName](atharva) project
+  - import issues from [projectName](atharva) project
+  - import issues from [projectName](atharva)
+  - pass me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - pass me [issueType](todo) issues from [projectName](atharva) project
+  - hand me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - hand me [issueType](todo) issues from [projectName](atharva) project
+  - turn_over to me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - turn_over to me [issueType](todo) issues from [projectName](atharva) project
+  - grant me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - grant me [issueType](todo) issues from [projectName](atharva) project
+  - feed me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - feed me [issueType](todo) issues from [projectName](atharva) project
+  - open me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - open me [issueType](todo) issues from [projectName](atharva) project
+  - supply me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - supply me [issueType](todo) issues from [projectName](atharva) project
+  - ply me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - ply me [issueType](todo) issues from [projectName](atharva) project
+  - cater me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - cater me [issueType](todo) issues from [projectName](atharva) project
+  - provide me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - provide me [issueType](todo) issues from [projectName](atharva) project
+  - Please Give me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer) project
+  - Please Show me [issueType](todo) issues from [projectName](atharva) project
+  - Please display me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please display me [issueType](todo) issues from [projectName](atharva) project
+  - Please present me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please present me [issueType](todo) issues from [projectName](atharva) project
+  - Please render me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please render me [issueType](todo) issues from [projectName](atharva) project
+  - Please express me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please express me [issueType](todo) issues from [projectName](atharva) project
+  - Please indicate me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please indicate me [issueType](todo) issues from [projectName](atharva) project
+  - Please point me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please point me [issueType](todo) issues from [projectName](atharva) project
+  - Please show_up me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please show_up me [issueType](todo) issues from [projectName](atharva) project
+  - Please read me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please read me [issueType](todo) issues from [projectName](atharva) project
+  - Please yield me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please yield me [issueType](todo) issues from [projectName](atharva) project
+  - Please throw me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please throw me [issueType](todo) issues from [projectName](atharva) project
+  - Please gift me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please gift me [issueType](todo) issues from [projectName](atharva) project
+  - Please generate me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please generate me [issueType](todo) issues from [projectName](atharva) project
+  - Please impart me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please impart me [issueType](todo) issues from [projectName](atharva) project
+  - Please leave me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please leave me [issueType](todo) issues from [projectName](atharva) project
+  - Please import issues from [projectName](atharva) project
+  - Please import issues from [projectName](atharva)
+  - Please pass me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please pass me [issueType](todo) issues from [projectName](atharva) project
+  - Please hand me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please hand me [issueType](todo) issues from [projectName](atharva) project
+  - Please turn_over to me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please turn_over to me [issueType](todo) issues from [projectName](atharva) project
+  - Please grant me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please grant me [issueType](todo) issues from [projectName](atharva) project
+  - Please feed me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please feed me [issueType](todo) issues from [projectName](atharva) project
+  - Please open me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please open me [issueType](todo) issues from [projectName](atharva) project
+  - Please supply me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please supply me [issueType](todo) issues from [projectName](atharva) project
+  - Please ply me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please ply me [issueType](todo) issues from [projectName](atharva) project
+  - Please cater me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please cater me [issueType](todo) issues from [projectName](atharva) project
+  - Please provide me [issueType](todo) [issueType](done) issues assigned to [userName](atharvaveer)
+  - Please provide me [issueType](todo) issues from [projectName](atharva) project
 
 # all issues based on project name and assignee
 ---
@@ -73,11 +564,111 @@ slots:
     entity: userName
 utterances:
   - Give me issues from [projectName](google) project assigned to [userName](atharvaveer)
-  - Give me issues from [projectName](google) project assigned to [userName](divypatel9881)
-  - Give me issues from [projectName](ethereum) project assigned to [userName](divypatel9881)
   - Show me issues from [projectName](google) project assigned to [userName](divypatel9881)
-  - Show me issues from [projectName](google) project assigned to [userName](yashjain)
-  - Show me issues from [projectName](google) project assigned to [userName](harshchheda)
+  - Give me issues from [projectName] assigned to [userName](atharvaveer)
+  - Show me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - display me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - display me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - present me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - present me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - render me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - render me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - express me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - express me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - indicate me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - indicate me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - point me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - point me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - show_up me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - show_up me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - read me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - read me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - yield me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - yield me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - throw me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - throw me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - gift me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - gift me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - generate me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - generate me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - impart me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - impart me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - leave me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - leave me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - import issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - import issues from [projectName](atharva)
+  - pass me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - pass me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - hand me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - hand me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - turn_over to me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - turn_over to me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - grant me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - grant me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - feed me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - feed me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - open me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - open me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - supply me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - supply me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - ply me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - ply me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - cater me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - cater me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - provide me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - provide me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please Give me issues from [projectName] assigned to [userName](atharvaveer)
+  - Please Show me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please display me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please display me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please present me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please present me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please render me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please render me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please express me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please express me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please indicate me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please indicate me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please point me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please point me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please show_up me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please show_up me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please read me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please read me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please yield me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please yield me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please throw me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please throw me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please gift me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please gift me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please generate me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please generate me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please impart me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please impart me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please leave me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please leave me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please import issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please import issues from [projectName](atharva)
+  - Please pass me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please pass me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please hand me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please hand me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please turn_over to me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please turn_over to me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please grant me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please grant me issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please feed me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please feed me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - Please open me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please open me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - Please supply me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please supply me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - Please ply me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please ply me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - Please cater me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please cater me issues assigned to [userName](divypatel9881) from [projectName](google)
+  - Please provide me issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please provide me issues assigned to [userName](divypatel9881) from [projectName](google)
 
 # all issues based on project name, assignee and issue type
 ---
@@ -92,11 +683,111 @@ slots:
     entity: issueType
 utterances:
   - Give me [issueType](todo) issues from [projectName](google) project assigned to [userName](atharvaveer)
-  - Give me [issueType](done) issues from [projectName](google) project assigned to [userName](divypatel9881)
-  - Give me [issueType](in progress) issues from [projectName](ethereum) project assigned to [userName](divypatel9881)
   - Show me [issueType](todo) issues from [projectName](google) project assigned to [userName](divypatel9881)
-  - Show me [issueType](all) issues from [projectName](google) project assigned to [userName](yashjain)
-  - Show me [issueType](done) issues from [projectName](google) project assigned to [userName](harshchheda)
+  - Give me [issueType](todo) issues from [projectName] assigned to [userName](atharvaveer)
+  - Show me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - display me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - display me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - present me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - present me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - render me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - render me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - express me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - express me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - indicate me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - indicate me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - point me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - point me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - show_up me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - show_up me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - read me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - read me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - yield me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - yield me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - throw me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - throw me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - gift me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - gift me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - generate me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - generate me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - impart me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - impart me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - leave me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - leave me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - import issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - import issues from [projectName](atharva)
+  - pass me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - pass me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - hand me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - hand me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - turn_over to me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - turn_over to me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - grant me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - grant me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - feed me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - feed me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - open me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - open me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - supply me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - supply me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - ply me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - ply me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - cater me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - cater me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - provide me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - provide me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please Give me [issueType](todo) issues from [projectName] assigned to [userName](atharvaveer)
+  - Please Show me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please display me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please display me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please present me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please present me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please render me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please render me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please express me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please express me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please indicate me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please indicate me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please point me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please point me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please show_up me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please show_up me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please read me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please read me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please yield me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please yield me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please throw me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please throw me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please gift me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please gift me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please generate me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please generate me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please impart me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please impart me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please leave me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please leave me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please import issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please import issues from [projectName](atharva)
+  - Please pass me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please pass me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please hand me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please hand me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please turn_over to me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please turn_over to me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please grant me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please grant me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google) project
+  - Please feed me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please feed me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - Please open me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please open me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - Please supply me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please supply me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - Please ply me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please ply me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - Please cater me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please cater me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
+  - Please provide me [issueType](todo) issues from [projectName](google) assigned to [userName](atharvaveer)
+  - Please provide me [issueType](todo) issues assigned to [userName](divypatel9881) from [projectName](google)
 
 # issue based on issue key
 ---
@@ -107,8 +798,108 @@ slots:
     entity: issueKey
 utterances:
   - Give me issue of [issueKey](hac-7) issue key
-  - Give me issue of [issueKey](hac-3) issue key
-  - Give me issue of [issueKey](hac-5) issue key
   - Show me issue of [issueKey](hac-9) issue key
-  - Show me issue of [issueKey](hac-7) issue key
-  - Show me issue of [issueKey](hac-8) issue key
+  - Give me issue of [issueKey](hac-7) issue key
+  - Show me [issueKey](hac-9) issue key issues
+  - display me issue of [issueKey](hac-7) issue key
+  - display me [issueKey](hac-9) issue key issues
+  - present me issue of [issueKey](hac-7) issue key
+  - present me [issueKey](hac-9) issue key issues
+  - render me issue of [issueKey](hac-7) issue key
+  - render me [issueKey](hac-9) issue key issues
+  - express me issue of [issueKey](hac-7) issue key
+  - express me [issueKey](hac-9) issue key issues
+  - indicate me issue of [issueKey](hac-7) issue key
+  - indicate me [issueKey](hac-9) issue key issues
+  - point me issue of [issueKey](hac-7) issue key
+  - point me [issueKey](hac-9) issue key issues
+  - show_up me issue of [issueKey](hac-7) issue key
+  - show_up me [issueKey](hac-9) issue key issues
+  - read me issue of [issueKey](hac-7) issue key
+  - read me [issueKey](hac-9) issue key issues
+  - yield me issue of [issueKey](hac-7) issue key
+  - yield me [issueKey](hac-9) issue key issues
+  - throw me issue of [issueKey](hac-7) issue key
+  - throw me [issueKey](hac-9) issue key issues
+  - gift me issue of [issueKey](hac-7) issue key
+  - gift me [issueKey](hac-9) issue key issues
+  - generate me issue of [issueKey](hac-7) issue key
+  - generate me [issueKey](hac-9) issue key issues
+  - impart me issue of [issueKey](hac-7) issue key
+  - impart me [issueKey](hac-9) issue key issues
+  - leave me issue of [issueKey](hac-7) issue key
+  - leave me [issueKey](hac-9) issue key issues
+  - import [issueKey](hac-9) issue key issues
+  - import issues from [projectName](atharva)
+  - pass me issue of [issueKey](hac-7) issue key
+  - pass me [issueKey](hac-9) issue key issues
+  - hand me issue of [issueKey](hac-7) issue key
+  - hand me [issueKey](hac-9) issue key issues
+  - turn_over to me issue of [issueKey](hac-7) issue key
+  - turn_over to me [issueKey](hac-9) issue key issues
+  - grant me issue of [issueKey](hac-7) issue key
+  - grant me [issueKey](hac-9) issue key issues
+  - feed me issue of [issueKey](hac-7) issue key
+  - feed me [issueKey](hac-9) issue key issues
+  - open me issue of [issueKey](hac-7) issue key
+  - open me [issueKey](hac-9) issue key issues
+  - supply me issue of [issueKey](hac-7) issue key
+  - supply me [issueKey](hac-9) issue key issues
+  - ply me issue of [issueKey](hac-7) issue key
+  - ply me [issueKey](hac-9) issue key issues
+  - cater me issue of [issueKey](hac-7) issue key
+  - cater me [issueKey](hac-9) issue key issues
+  - provide me issue of [issueKey](hac-7) issue key
+  - provide me [issueKey](hac-9) issue key issues
+  - Please Give me issue of [issueKey](hac-7) issue key project
+  - Please Show me [issueKey](hac-9) issue key issues
+  - Please display me issue of [issueKey](hac-7) issue key
+  - Please display me [issueKey](hac-9) issue key issues
+  - Please present me issue of [issueKey](hac-7) issue key
+  - Please present me [issueKey](hac-9) issue key issues
+  - Please render me issue of [issueKey](hac-7) issue key
+  - Please render me [issueKey](hac-9) issue key issues
+  - Please express me issue of [issueKey](hac-7) issue key
+  - Please express me [issueKey](hac-9) issue key issues
+  - Please indicate me issue of [issueKey](hac-7) issue key
+  - Please indicate me [issueKey](hac-9) issue key issues
+  - Please point me issue of [issueKey](hac-7) issue key
+  - Please point me [issueKey](hac-9) issue key issues
+  - Please show_up me issue of [issueKey](hac-7) issue key
+  - Please show_up me [issueKey](hac-9) issue key issues
+  - Please read me issue of [issueKey](hac-7) issue key
+  - Please read me [issueKey](hac-9) issue key issues
+  - Please yield me issue of [issueKey](hac-7) issue key
+  - Please yield me [issueKey](hac-9) issue key issues
+  - Please throw me issue of [issueKey](hac-7) issue key
+  - Please throw me [issueKey](hac-9) issue key issues
+  - Please gift me issue of [issueKey](hac-7) issue key
+  - Please gift me [issueKey](hac-9) issue key issues
+  - Please generate me issue of [issueKey](hac-7) issue key
+  - Please generate me [issueKey](hac-9) issue key issues
+  - Please impart me issue of [issueKey](hac-7) issue key
+  - Please impart me [issueKey](hac-9) issue key issues
+  - Please leave me issue of [issueKey](hac-7) issue key
+  - Please leave me [issueKey](hac-9) issue key issues
+  - Please import [issueKey](hac-9) issue key issues
+  - Please import issues from [projectName](atharva)
+  - Please pass me issue of [issueKey](hac-7) issue key
+  - Please pass me [issueKey](hac-9) issue key issues
+  - Please hand me issue of [issueKey](hac-7) issue key
+  - Please hand me [issueKey](hac-9) issue key issues
+  - Please turn_over to me issue of [issueKey](hac-7) issue key
+  - Please turn_over to me [issueKey](hac-9) issue key issues
+  - Please grant me issue of [issueKey](hac-7) issue key
+  - Please grant me [issueKey](hac-9) issue key issues
+  - Please feed me issue of [issueKey](hac-7) issue key
+  - Please feed me [issueKey](hac-9) issue key issues
+  - Please open me issue of [issueKey](hac-7) issue key
+  - Please open me [issueKey](hac-9) issue key issues
+  - Please supply me issue of [issueKey](hac-7) issue key
+  - Please supply me [issueKey](hac-9) issue key issues
+  - Please ply me issue of [issueKey](hac-7) issue key
+  - Please ply me [issueKey](hac-9) issue key issues
+  - Please cater me issue of [issueKey](hac-7) issue key
+  - Please cater me [issueKey](hac-9) issue key issues
+  - Please provide me issue of [issueKey](hac-7) issue key
+  - Please provide me [issueKey](hac-9) issue key issues

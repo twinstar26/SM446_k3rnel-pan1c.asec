@@ -8,7 +8,7 @@ def allIssuesByProject(p_name):
     html = "<div class='container p-4'><h1>Issues for Project: {}</h1>".format(p_name)
     for issue in data["issues"]:
         html += '''
-            <div class="card p-4 mt-4" style="display: block; width: 25rem;">
+            <div class="card p-4 mt-4" style="display: block; width: 25rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
                 <h3>{}</h3>
                 <hr>
                 <div><b>Reporter:</b> {}</div>
@@ -33,7 +33,7 @@ def allIssuesByProjectAndIssueType(p_name, i_type):
     for issue in data["issues"]:
         if (issue["fields"]["status"]["name"] == i_type):
             html += '''
-                <div class="card p-4 mt-4" style="display: block; width: 25rem;">
+                <div class="card p-4 mt-4" style="display: block; width: 25rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
                     <h3>{}</h3>
                     <hr>
                     <div><b>Reporter:</b> {}</div>
@@ -58,7 +58,7 @@ def allIssuesByAssigneeAndIssueType(assignee, i_type):
     for issue in data["issues"]:
         if (issue["fields"]["status"]["name"] == i_type):
             html += '''
-                <div class="card p-4 mt-4" style="display: block; width: 25rem;">
+                <div class="card p-4 mt-4" style="display: block; width: 25rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
                     <h3>{}</h3>
                     <hr>
                     <div><b>Reporter:</b> {}</div>
@@ -83,7 +83,7 @@ def allIssuesByAssigneeAndProjectName(assignee, p_name):
     for issue in data["issues"]:
         if (issue["fields"]["name"] == p_name):
             html += '''
-                <div class="card p-4 mt-4" style="display: block; width: 25rem;">
+                <div class="card p-4 mt-4" style="display: block; width: 25rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
                     <h3>{}</h3>
                     <hr>
                     <div><b>Reporter:</b> {}</div>
@@ -108,7 +108,7 @@ def allIssuesByAssigneeProjectNameAndIssueType(assignee, p_name, i_type):
     for issue in data["issues"]:
         if (issue["fields"]["name"] == p_name and issue["fields"]["status"]["name"] == i_type):
             html += '''
-                <div class="card p-4 mt-4" style="display: block; width: 25rem;">
+                <div class="card p-4 mt-4" style="display: block; width: 25rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
                     <h3>{}</h3>
                     <hr>
                     <div><b>Reporter:</b> {}</div>
@@ -131,7 +131,7 @@ def issueByIssueKey(i_key):
     issue = r.json()
     html = "<div class='container p-4'><h1>Issue for ID: {}</h1>".format(i_key)
     html += '''
-        <div class="card p-4 mt-4" style="display: block; width: 40rem;">
+        <div class="card p-4 mt-4" style="display: block; width: 40rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
             <h3>{}</h3>
             <hr>
             <div><b>Reporter:</b> {}</div>
@@ -171,8 +171,8 @@ def issueByIssueKey(i_key):
     for comment in comments["comments"]:
         html += '<span><b>{}</b></span>'.format(comment["author"]["displayName"])
         html += '<span style="color: gray;">{}</span></div>'.format(comment["created"][:10])
-        html += '<div>{}</div><hr></div>'.format(comment["body"])
-
+        html += '<div class="mt-1">{}</div><hr></div>'.format(comment["body"])
+    print(html)
     return html
 
 # ------------------------------------------------------------------------ #
@@ -181,11 +181,11 @@ def allEpicsByProject(p_name):
     r = requests.get('https://kernel-panic.atlassian.net/rest/api/2/search?jql=project={}'.format(p_name), \
         auth=('yashjain0530@gmail.com', 'Pt6yTlLgfFeNjvBOnSeL32B1'))
     data = r.json()
-    html = "<div class='container p-4'><h1>Issues for Project: {}</h1>".format(p_name)
+    html = "<div class='container p-4'><h1>Epics for Project: {}</h1>".format(p_name)
     for issue in data["issues"]:
         if (issue["fields"]["issuetype"]["name"] == 'Epic'):
             html += '''
-                <div class="card p-4 mt-4" style="display: block; width: 25rem;">
+                <div class="card p-4 mt-4" style="display: block; width: 25rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
                     <h3>{}</h3>
                     <hr>
                     <div><b>Reporter:</b> {}</div>
@@ -206,11 +206,11 @@ def allEpicsByProjectAndIssueType(p_name, i_type):
     r = requests.get('https://kernel-panic.atlassian.net/rest/api/2/search?jql=project={}'.format(p_name), \
         auth=('yashjain0530@gmail.com', 'Pt6yTlLgfFeNjvBOnSeL32B1'))
     data = r.json()
-    html = "<div class='container p-4'><h1>Issues for Project: {}</h1>".format(p_name)
+    html = "<div class='container p-4'><h1>Epics for Project: {}</h1>".format(p_name)
     for issue in data["issues"]:
         if (issue["fields"]["issuetype"]["name"] == 'Epic' and issue["fields"]["status"]["name"] == i_type):
             html += '''
-                <div class="card p-4 mt-4" style="display: block; width: 25rem;">
+                <div class="card p-4 mt-4" style="display: block; width: 25rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
                     <h3>{}</h3>
                     <hr>
                     <div><b>Reporter:</b> {}</div>
@@ -231,11 +231,11 @@ def allEpicsByAssigneeAndIssueType(assignee, i_type):
     r = requests.get('https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee={}'.format(assignee), \
         auth=('yashjain0530@gmail.com', 'Pt6yTlLgfFeNjvBOnSeL32B1'))
     data = r.json()
-    html = "<div class='container p-4'><h1>Issues for Assignee: {}</h1>".format(assignee)
+    html = "<div class='container p-4'><h1>Epics for Assignee: {}</h1>".format(assignee)
     for issue in data["issues"]:
         if (issue["fields"]["issuetype"]["name"] == 'Epic' and issue["fields"]["status"]["name"] == i_type):
             html += '''
-                <div class="card p-4 mt-4" style="display: block; width: 25rem;">
+                <div class="card p-4 mt-4" style="display: block; width: 25rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
                     <h3>{}</h3>
                     <hr>
                     <div><b>Reporter:</b> {}</div>
@@ -256,11 +256,11 @@ def allEpicsByAssigneeAndProjectName(assignee, p_name):
     r = requests.get('https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee={}&'.format(assignee), \
         auth=('yashjain0530@gmail.com', 'Pt6yTlLgfFeNjvBOnSeL32B1'))
     data = r.json()
-    html = "<div class='container p-4'><h1>Issues for Assignee: {}</h1>".format(assignee)
+    html = "<div class='container p-4'><h1>Epics for Assignee: {}</h1>".format(assignee)
     for issue in data["issues"]:
         if (issue["fields"]["issuetype"]["name"] == 'Epic' and issue["fields"]["name"] == p_name):
             html += '''
-                <div class="card p-4 mt-4" style="display: block; width: 25rem;">
+                <div class="card p-4 mt-4" style="display: block; width: 25rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
                     <h3>{}</h3>
                     <hr>
                     <div><b>Reporter:</b> {}</div>
@@ -281,11 +281,11 @@ def allEpicsByAssigneeProjectNameAndIssueType(assignee, p_name, i_type):
     r = requests.get('https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee={}'.format(assignee), \
         auth=('yashjain0530@gmail.com', 'Pt6yTlLgfFeNjvBOnSeL32B1'))
     data = r.json()
-    html = "<div class='container p-4'><h1>Issues for Assignee: {}</h1>".format(assignee)
+    html = "<div class='container p-4'><h1>Epics for Assignee: {}</h1>".format(assignee)
     for issue in data["issues"]:
         if (issue["fields"]["issuetype"]["name"] == 'Epic' and issue["fields"]["name"] == p_name and issue["fields"]["status"]["name"] == i_type):
             html += '''
-                <div class="card p-4 mt-4" style="display: block; width: 25rem;">
+                <div class="card p-4 mt-4" style="display: block; width: 25rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
                     <h3>{}</h3>
                     <hr>
                     <div><b>Reporter:</b> {}</div>
@@ -306,9 +306,9 @@ def epicByIssueKey(i_key):
     r = requests.get('https://kernel-panic.atlassian.net/rest/api/2/issue/{}'.format(i_key), \
         auth=('yashjain0530@gmail.com', 'Pt6yTlLgfFeNjvBOnSeL32B1'))
     issue = r.json()
-    html = "<div class='container p-4'><h1>Issue for ID: {}</h1>".format(i_key)
+    html = "<div class='container p-4'><h1>Epic ID: {}</h1>".format(i_key)
     html += '''
-        <div class="card p-4 mt-4" style="display: block; width: 40rem;">
+        <div class="card p-4 mt-4" style="display: block; width: 40rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
             <h3>{}</h3>
             <hr>
             <div><b>Reporter:</b> {}</div>
@@ -348,6 +348,25 @@ def epicByIssueKey(i_key):
     for comment in comments["comments"]:
         html += '<span><b>{}</b></span>'.format(comment["author"]["displayName"])
         html += '<span style="color: gray;">{}</span></div>'.format(comment["created"][:10])
-        html += '<div>{}</div><hr></div>'.format(comment["body"])
+        html += '<div class="mt-1">{}</div><hr></div>'.format(comment["body"])
 
     return html
+
+# -------------------------------------------------------------------- #
+
+def allProjects():
+    r = requests.get('https://kernel-panic.atlassian.net/rest/api/2/project', \
+        auth=('yashjain0530@gmail.com', 'Pt6yTlLgfFeNjvBOnSeL32B1'))
+    data = r.json()
+    html = '''
+        <div class='container p-4'><h3>PROJECTS</h3>
+        <div class="jumbotron p-3">
+    '''
+    for project in data:
+        html += '<li style="font-size: 1.25rem;">{}</li>'.format(project["name"])
+    html += "</div></div>"
+    return html
+
+# allProjects()
+# allIssuesByProject("Hackathon")
+issueByIssueKey("HAC-4")

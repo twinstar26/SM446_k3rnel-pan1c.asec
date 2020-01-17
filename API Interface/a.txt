@@ -1,13 +1,15 @@
-<div class='container p-4'><h1>Issue for ID: HAC-4</h1>
-        <div class="card p-4 mt-4" style="display: block; width: 40rem;">
-            <h3>Hi How are you</h3>
-            <hr>
-            <div><b>Reporter:</b> Yash Jain</div>
-            <div><b>Assignee:</b> Yash Jain</div>
-            <div><b>Status:</b> To Do</div>
-            <div><b>Priority:</b> Medium</div>
-            <div><b>Watches:</b> 2</div>
-            <div><b>Created:</b> 2020-01-16T12:04:32.614+0530</div>
-    <hr><div><b>Description</b></div><div>This is a *Image*</div><hr><div><b>Attachments</b></div><div><li><a href='https://kernel-panic.atlassian.net/secure/attachment/10001/test.py'>test.py</a></li><li><a href='https://kernel-panic.atlassian.net/secure/attachment/10000/WhatsApp+Image+2020-01-13+at+1.02.54+PM+%281%29.jpeg'>WhatsApp Image 2020-01-13 at 1.02.54 PM (1).jpeg</a></li></div><hr><div><b>Comments</b></div><div class="jumbotron mt-2" style="padding: 20px;"><div><div style="display: flex; justify-content: space-between;"><span><b>Kritika Ravishankar</b></span><span style="color: gray;">2020-01-16</span></div><div>HeeloHello
 
-</div><hr></div>
+<div class='container p-4'><h2>Page Details for YASH JAIN</h2><div class="card p-4 mt-4" style="box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
+        <div style="font-size: 1.25rem;">YASH JAIN</div>
+        <hr>
+        <div><b>Author:</b> Kritika Ravishankar</div>
+        <div><b>Type: </b> page</div>
+        <div><b>Space: </b> Hackathon</div>
+        <div><b>Status: </b> current</div>
+        <div><b>Created: </b> Jan 16, 2020</div>
+        <hr>
+        <div><b>Content: </b> <p>YAsh Yash Yash yash</p></div>
+        <hr>
+        <div><b>Descrption</b><br></div>
+    </div>
+</div>
