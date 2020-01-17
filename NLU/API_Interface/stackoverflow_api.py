@@ -56,5 +56,3 @@ def topPostAnswer(error):
         '''.format(i)
     print(html)
     return html
-
-getResult("How to update node?")

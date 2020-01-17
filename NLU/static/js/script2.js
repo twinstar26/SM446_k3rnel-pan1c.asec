@@ -9,13 +9,15 @@ $(".query-form" ).submit(function(e) {
         let str = $("#query").val();
         $("#query").val("");
 
+        $("#results").html("Loading....");
+
         $.post("/chatbot/", {
             user_query: str
         }, function(data, status) {
             if (status == "success") {
                 $("#results").html(data);
             } else {
-                $("#results").html("Some Error Occured Please Try Again...."); 
+                $("#results").html("Some Error Occured Please Try Again....");
             }
         });
     }
