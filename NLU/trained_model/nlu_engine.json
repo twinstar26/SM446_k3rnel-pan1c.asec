@@ -197,6 +197,9 @@
   "custom_entity_parser": "custom_entity_parser",
   "dataset_metadata": {
     "entities": {
+      "error": {
+        "automatically_extensible": true
+      },
       "id": {
         "automatically_extensible": true
       },
@@ -307,6 +310,9 @@
       },
       "pageByTitle": {
         "title": "title"
+      },
+      "topPostAnswer": {
+        "error": "error"
       },
       "versionByProjectNameAndWorkspace": {
         "projectName": "projectName",

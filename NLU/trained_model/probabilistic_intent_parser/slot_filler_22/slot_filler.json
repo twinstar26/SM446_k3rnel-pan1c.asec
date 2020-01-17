@@ -117,8 +117,8 @@
       {
         "args": {
           "entities": [
-            "issueKey",
-            "projectName"
+            "projectName",
+            "issueKey"
           ],
           "entity_filter": {
             "automatically_extensible": true
