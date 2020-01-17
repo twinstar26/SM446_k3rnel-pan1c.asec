@@ -11,8 +11,8 @@ CORS(app)
 
 @app.route("/chatbot/", methods=["GET", "POST"])
 def index():
-    parsing = engine.parse("How are you?")
-    print(parsing['intent'])
+    # parsing = engine.parse("How are you?")
+    # print(parsing['intent'])
     if request.method == "POST":
         print("behwbehwehwjvdewvewjvh")
         user_query = request.form["user_query"]
@@ -25,7 +25,5 @@ def index():
     else:
         return "<h1>CHATBOT RUNNING....</h1>"
 
-# def GiveHTMLFromUserQuery(json_response):
-#     if 
 if __name__=="__main__":
     app.run(debug=True)
