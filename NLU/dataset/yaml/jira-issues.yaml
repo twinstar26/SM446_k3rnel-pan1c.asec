@@ -10,6 +10,10 @@ utterances:
   - Give me issues from [projectName](atharva) project
   - Show me the issues from [projectName](atharva) project
   - Show me the issues from [projectName](harsh chheda) project
+  - Give me issues from [projectName](google)
+  - Give me issues from [projectName](atharva)
+  - Show me the issues from [projectName](atharva)
+  - Show me the issues from [projectName](harsh chheda)
 
 # all issues from specific project and issue type
 ---
@@ -68,12 +72,12 @@ slots:
   - name: userName
     entity: userName
 utterances:
-  - Give me issues from [projectType](google) project assigned to [userName](atharvaveer)
-  - Give me issues from [projectType](google) project assigned to [userName](divypatel9881)
-  - Give me issues from [projectType](ethereum) project assigned to [userName](divypatel9881)
-  - Show me issues from [projectType](google) project assigned to [userName](divypatel9881)
-  - Show me issues from [projectType](google) project assigned to [userName](yashjain)
-  - Show me issues from [projectType](google) project assigned to [userName](harshchheda)
+  - Give me issues from [projectName](google) project assigned to [userName](atharvaveer)
+  - Give me issues from [projectName](google) project assigned to [userName](divypatel9881)
+  - Give me issues from [projectName](ethereum) project assigned to [userName](divypatel9881)
+  - Show me issues from [projectName](google) project assigned to [userName](divypatel9881)
+  - Show me issues from [projectName](google) project assigned to [userName](yashjain)
+  - Show me issues from [projectName](google) project assigned to [userName](harshchheda)
 
 # all issues based on project name, assignee and issue type
 ---
@@ -87,17 +91,17 @@ slots:
   - name: issueType
     entity: issueType
 utterances:
-  - Give me [issueType](todo) issues from [projectType](google) project assigned to [userName](atharvaveer)
-  - Give me [issueType](done) issues from [projectType](google) project assigned to [userName](divypatel9881)
-  - Give me [issueType](in progress) issues from [projectType](ethereum) project assigned to [userName](divypatel9881)
-  - Show me [issueType](todo) issues from [projectType](google) project assigned to [userName](divypatel9881)
-  - Show me [issueType](all) issues from [projectType](google) project assigned to [userName](yashjain)
-  - Show me [issueType](done) issues from [projectType](google) project assigned to [userName](harshchheda)
+  - Give me [issueType](todo) issues from [projectName](google) project assigned to [userName](atharvaveer)
+  - Give me [issueType](done) issues from [projectName](google) project assigned to [userName](divypatel9881)
+  - Give me [issueType](in progress) issues from [projectName](ethereum) project assigned to [userName](divypatel9881)
+  - Show me [issueType](todo) issues from [projectName](google) project assigned to [userName](divypatel9881)
+  - Show me [issueType](all) issues from [projectName](google) project assigned to [userName](yashjain)
+  - Show me [issueType](done) issues from [projectName](google) project assigned to [userName](harshchheda)
 
 # issue based on issue key
 ---
 type: intent
-name: allIssuesByIssueKey
+name: issueByIssueKey
 slots:
   - name: issueKey
     entity: issueKey

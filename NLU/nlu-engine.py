@@ -1,12 +1,15 @@
 import json
 import sys
+import pathlib
 from snips_nlu import SnipsNLUEngine
 from snips_nlu.default_configs import CONFIG_EN
 
 seed = 42
 engine = SnipsNLUEngine(config=CONFIG_EN, random_state=seed)
 
-with open("/k3rnel-pan1c.asec/NLU/dataset/json/dataset1.json",encoding='utf-16', errors='ignore') as f:
+# dataset name here
+datasetName = 'dataset1.json'
+with open(str(pathlib.Path().absolute()) + '/dataset/json/' + datasetName, encoding='utf-8', errors='ignore') as f:
      dataset = json.load(f, strict=False)
 
 engine.fit(dataset)

@@ -1,12 +1,11 @@
-
-from gtts import gTTS 
+from gtts import gTTS
 import playsound
 
 #import os
 
 mytext = 'Hello'
 
-# Language in which you want to convert 
+# Language in which you want to convert
 language = 'en'
 
 # Passing the text and language to the engine, here we have marked slow=False. Which tells 

@@ -1,0 +1,11 @@
+# title entity
+---
+type: entity
+name: title
+automatically_extensible: yes
+values:
+- SIH 2020
+- Atharva Veer
+- ATHARVA Veer
+- HARSH CHHEDA
+- YASH JAIN

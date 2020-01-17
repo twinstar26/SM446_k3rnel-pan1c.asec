@@ -68,12 +68,12 @@ slots:
   - name: userName
     entity: userName
 utterances:
-  - Give me epics from [projectType](google) project assigned to [userName](atharvaveer)
-  - Give me epics from [projectType](google) project assigned to [userName](divypatel9881)
-  - Give me epics from [projectType](ethereum) project assigned to [userName](divypatel9881)
-  - Show me epics from [projectType](google) project assigned to [userName](divypatel9881)
-  - Show me epics from [projectType](google) project assigned to [userName](yashjain)
-  - Show me epics from [projectType](google) project assigned to [userName](harshchheda)
+  - Give me epics from [projectName](google) project assigned to [userName](atharvaveer)
+  - Give me epics from [projectName](google) project assigned to [userName](divypatel9881)
+  - Give me epics from [projectName](ethereum) project assigned to [userName](divypatel9881)
+  - Show me epics from [projectName](google) project assigned to [userName](divypatel9881)
+  - Show me epics from [projectName](google) project assigned to [userName](yashjain)
+  - Show me epics from [projectName](google) project assigned to [userName](harshchheda)
 
 # all epics based on project name, assignee and issue type
 ---
@@ -87,17 +87,17 @@ slots:
   - name: issueType
     entity: issueType
 utterances:
-  - Give me [issueType](todo) epics from [projectType](google) project assigned to [userName](atharvaveer)
-  - Give me [issueType](done) epics from [projectType](google) project assigned to [userName](divypatel9881)
-  - Give me [issueType](in progress) epics from [projectType](ethereum) project assigned to [userName](divypatel9881)
-  - Show me [issueType](todo) epics from [projectType](google) project assigned to [userName](divypatel9881)
-  - Show me [issueType](all) epics from [projectType](google) project assigned to [userName](yashjain)
-  - Show me [issueType](done) epics from [projectType](google) project assigned to [userName](harshchheda)
+  - Give me [issueType](todo) epics from [projectName](google) project assigned to [userName](atharvaveer)
+  - Give me [issueType](done) epics from [projectName](google) project assigned to [userName](divypatel9881)
+  - Give me [issueType](in progress) epics from [projectName](ethereum) project assigned to [userName](divypatel9881)
+  - Show me [issueType](todo) epics from [projectName](google) project assigned to [userName](divypatel9881)
+  - Show me [issueType](all) epics from [projectName](google) project assigned to [userName](yashjain)
+  - Show me [issueType](done) epics from [projectName](google) project assigned to [userName](harshchheda)
 
 # epic based on issue key
 ---
 type: intent
-name: allEpicsByIssueKey
+name: epicByIssueKey
 slots:
   - name: issueKey
     entity: issueKey
