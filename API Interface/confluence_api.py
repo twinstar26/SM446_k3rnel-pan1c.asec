@@ -76,6 +76,3 @@ def allBlogPost():
 
 def blogPostbyTitle(title):
     pageByTitle(title)
-
-    
-pageByTitle("YASH JAIN")
