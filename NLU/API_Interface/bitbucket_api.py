@@ -122,8 +122,3 @@ def allPullRequestByProjectNameAndWorkspace(pname, workspace):
             pr["state"], pr["created_on"][:10], pr["description"])
 
     return html
-
-def versionByProjectNameAndWorkspace(pname, workspace):
-    pass
-
-allIssuesByProjectNameAndWorkspace('test', 'atharvaveer')
