@@ -1,0 +1,11 @@
+# top post answer from stack overflow
+---
+type: intent
+name: topPostAnswer
+slots:
+  - name: error
+    entity: error
+utterances:
+  - Give me answers for [error](ClassName not Found)
+  - Display me answers for [error](ClassName not Found)
+  - Show me answers for [error](ClassName not Found)
