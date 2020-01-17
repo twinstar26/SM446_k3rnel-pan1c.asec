@@ -1,5 +1,5 @@
 ## BLOGPOSTS
-* Get all the blogposts  
+* Get all the blogposts
 https://kernel-panic.atlassian.net/wiki/rest/api/content?type=blogpost&expand=space,body.view,version,container
 
 * Get blogpostby id: ID
