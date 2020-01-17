@@ -1,13 +1,17 @@
 import json
 import requests
 
-from flask import Flask
+from flask import Flask, render_template
 from flask import request
 from engine.chatbot import engine
 from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
+
+@app.route("/", methods=["GET"])
+def home():
+    return render_template("index2.html")
 
 @app.route("/chatbot/", methods=["GET", "POST"])
 def index():
