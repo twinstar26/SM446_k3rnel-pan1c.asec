@@ -6,7 +6,7 @@ app.use(express.static(__dirname + "/static"));
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-    res.render("index.ejs");
+    res.render("index2.ejs");
 });
 
 app.listen(process.env.PORT || 3000, process.env.IP);
