@@ -119,8 +119,8 @@
       {
         "args": {
           "entities": [
-            "userName",
-            "projectName"
+            "projectName",
+            "userName"
           ],
           "entity_filter": {
             "automatically_extensible": true
