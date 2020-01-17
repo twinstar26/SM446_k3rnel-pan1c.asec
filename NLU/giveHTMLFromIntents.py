@@ -25,6 +25,8 @@ def giveHTMLFromIntents(jsonResponse):
         return allEpicsByAssigneeProjectNameAndIssueType(jsonResponse["slots"][0]["rawValue"], jsonResponse["slots"][1]["rawValue"], jsonResponse["slots"][2]["rawValue"])
     elif jsonResponse['intent']["intentName"] == "epicByIssueKey":
         return epicByIssueKey(jsonResponse["slots"][0]["rawValue"])
+    else:
+        return "GHAR JAAA...."
     
     
     
