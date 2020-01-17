@@ -172,7 +172,7 @@ def issueByIssueKey(i_key):
         html += '<span><b>{}</b></span>'.format(comment["author"]["displayName"])
         html += '<span style="color: gray;">{}</span></div>'.format(comment["created"][:10])
         html += '<div class="mt-1">{}</div><hr></div>'.format(comment["body"])
-
+    print(html)
     return html
 
 # ------------------------------------------------------------------------ #
@@ -365,7 +365,8 @@ def allProjects():
     for project in data:
         html += '<li style="font-size: 1.25rem;">{}</li>'.format(project["name"])
     html += "</div></div>"
-    print(html)
     return html
 
-allProjects()
+# allProjects()
+# allIssuesByProject("Hackathon")
+issueByIssueKey("HAC-4")
