@@ -3,7 +3,7 @@ import shutil
 from snips_nlu import SnipsNLUEngine
 from snips_nlu.default_configs import CONFIG_EN
 
-seed = 42
+seed = 42   
 engine = SnipsNLUEngine(config=CONFIG_EN, random_state=seed)
 
 datasetName = 'dataset1.json'

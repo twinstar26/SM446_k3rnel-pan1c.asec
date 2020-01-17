@@ -280,6 +280,7 @@
         "projectName": "projectName",
         "userName": "userName"
       },
+      "allPages": {},
       "allProjects": {},
       "allPullRequestByProjectNameAndWorkspace": {
         "projectName": "projectName",
@@ -297,11 +298,20 @@
       "blogPostByTitle": {
         "title": "title"
       },
+      "commentById": {
+        "id": "id"
+      },
       "epicByIssueKey": {
         "issueKey": "issueKey"
       },
       "issueByIssueKey": {
         "issueKey": "issueKey"
+      },
+      "pageById": {
+        "id": "id"
+      },
+      "pageByTitle": {
+        "title": "title"
       },
       "versionByProjectNameAndWorkspace": {
         "projectName": "projectName",

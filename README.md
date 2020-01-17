@@ -1,3 +1,13 @@
+# Todo
+- [ ] Stack overflow API
+- [ ] Inflate intents
+- [ ] Chatbot hosting
+- [ ] Frontent hosting
+- [ ] Frontend UI
+- [ ] Construct Info HTML
+- [ ] Meeting
+- [ ] STT and TTS
+
 # k3rnel-pan1c.asec
 Smart India Hackathon 2020
 

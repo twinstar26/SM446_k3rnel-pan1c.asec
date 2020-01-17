@@ -117,8 +117,7 @@
       {
         "args": {
           "entities": [
-            "userName",
-            "projectName"
+            "issueKey"
           ],
           "entity_filter": {
             "automatically_extensible": true
@@ -177,10 +176,9 @@
     "unit_name": "crf_slot_filler"
   },
   "crf_model_file": "model.crfsuite",
-  "intent": "versionByProjectNameAndWorkspace",
+  "intent": "epicByIssueKey",
   "language_code": "en",
   "slot_name_mapping": {
-    "projectName": "projectName",
-    "userName": "userName"
+    "issueKey": "issueKey"
   }
 }

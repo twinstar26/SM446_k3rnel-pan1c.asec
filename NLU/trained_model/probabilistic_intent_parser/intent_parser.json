@@ -254,40 +254,56 @@
       "slot_filler_name": "slot_filler_16"
     },
     {
-      "intent": "allProjects",
+      "intent": "allPages",
       "slot_filler_name": "slot_filler_17"
     },
     {
-      "intent": "allPullRequestByProjectNameAndWorkspace",
+      "intent": "allProjects",
       "slot_filler_name": "slot_filler_18"
     },
     {
-      "intent": "allPullRequestByUserName",
+      "intent": "allPullRequestByProjectNameAndWorkspace",
       "slot_filler_name": "slot_filler_19"
     },
     {
-      "intent": "allRepositoriesByWorkspace",
+      "intent": "allPullRequestByUserName",
       "slot_filler_name": "slot_filler_20"
     },
     {
-      "intent": "blogPostById",
+      "intent": "allRepositoriesByWorkspace",
       "slot_filler_name": "slot_filler_21"
     },
     {
-      "intent": "blogPostByTitle",
+      "intent": "blogPostById",
       "slot_filler_name": "slot_filler_22"
     },
     {
-      "intent": "epicByIssueKey",
+      "intent": "blogPostByTitle",
       "slot_filler_name": "slot_filler_23"
     },
     {
-      "intent": "issueByIssueKey",
+      "intent": "commentById",
       "slot_filler_name": "slot_filler_24"
     },
     {
-      "intent": "versionByProjectNameAndWorkspace",
+      "intent": "epicByIssueKey",
       "slot_filler_name": "slot_filler_25"
+    },
+    {
+      "intent": "issueByIssueKey",
+      "slot_filler_name": "slot_filler_26"
+    },
+    {
+      "intent": "pageById",
+      "slot_filler_name": "slot_filler_27"
+    },
+    {
+      "intent": "pageByTitle",
+      "slot_filler_name": "slot_filler_28"
+    },
+    {
+      "intent": "versionByProjectNameAndWorkspace",
+      "slot_filler_name": "slot_filler_29"
     }
   ]
 }
