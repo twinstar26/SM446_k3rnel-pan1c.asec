@@ -18,3 +18,8 @@ $(".query-form" ).submit(function(e) {
         }
     });
 });
+
+$("#stt").on("click", (e) => {
+    e.preventDefault();
+    
+})

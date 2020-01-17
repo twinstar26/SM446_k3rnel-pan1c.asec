@@ -31,6 +31,11 @@
         .alert {
             height: fit-content; 
         }
+        .query-form {
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+        }
     </style>
     <title>IPM</title>
 </head>
@@ -47,12 +52,12 @@
                         </div>
                     </div>
                     <div class="query-lower x">
-                        <form class="row query-form">
-                            <div class="col-9">
-                              <input type="text" class="form-control" id="query" placeholder="Enter Query">
+                        <form class="query-form">
+                            <div style="width: 75%;">
+                              <input type="text" class="form-control mr-1" style="height: 100%;" id="query" placeholder="Enter Query">
                             </div>
-                            <div class="col-3">
-                                <button type="submit" class="btn btn-outline-dark mb-2  xyz"><i class="fas fa-microphone-alt"></i></button>
+                            <div style="width: 20%;">
+                                <button class="btn btn-outline-dark mb-2  xyz" id="stt">M</button>
                             </div>
                         </form>
                     </div>
