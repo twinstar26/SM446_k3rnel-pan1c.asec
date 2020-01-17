@@ -1,0 +1,15 @@
+
+<div class='container p-4'><h2>Page Details for YASH JAIN</h2><div class="card p-4 mt-4" style="box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
+        <div style="font-size: 1.25rem;">YASH JAIN</div>
+        <hr>
+        <div><b>Author:</b> Kritika Ravishankar</div>
+        <div><b>Type: </b> page</div>
+        <div><b>Space: </b> Hackathon</div>
+        <div><b>Status: </b> current</div>
+        <div><b>Created: </b> Jan 16, 2020</div>
+        <hr>
+        <div><b>Content: </b> <p>YAsh Yash Yash yash</p></div>
+        <hr>
+        <div><b>Descrption</b><br></div>
+    </div>
+</div>
