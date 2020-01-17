@@ -15,17 +15,19 @@ def home():
 
 @app.route("/chatbot/", methods=["GET", "POST"])
 def index():
-    parsing = engine.parse("How are you?")
-    print(parsing['intent'])
+    # parsing = engine.parse("How are you?")
+    # print(parsing['intent'])
     if request.method == "POST":
-        print("behwbehwehwjvdewvewjvh")
-        user_query = request.form["user_query"]
-        parsing = engine.parse(user_query)
-        print(parsing.intent)
-        json_response = json.dumps(parsing, indent=2)
-        url = ""
-        requests.post(url, json_response)
-        return json_response
+        print(request.form)
+        # print("behwbehwehwjvdewvewjvh")
+        # user_query = request.form["user_query"]
+        # parsing = engine.parse(user_query)
+        # print(parsing.intent)
+        # json_response = json.dumps(parsing, indent=2)
+        # url = ""
+        # requests.post(url, json_response)
+        # return json_response
+        return "5"
     else:
         return "<h1>CHATBOT RUNNING....</h1>"
 

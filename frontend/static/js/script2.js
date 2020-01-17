@@ -7,7 +7,7 @@ $(".query-form" ).submit(function(e) {
     `);
     let str = $("#query").val();
     $("#query").val("");
-    $.post("http://localhost:5000/", {
+    $.post("/chatbot", {
         user_query: str
     }, function(data, status) {
         console.log("Data: " + data + "\nStatus: " + status);
