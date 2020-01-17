@@ -1,0 +1,1 @@
+snips-nlu generate-dataset en ../yaml/jira-projects.yaml ../yaml/jira-issues.yaml ../yaml/jira-epics.yaml ../yaml/projectName.yaml ../yaml/issueKey.yaml ../yaml/issueType.yaml ../yaml/userName.yaml ../yaml/bitbucket.yaml ../yaml/blogposts.yaml > ../json/dataset1.json ; python ../../nlu-engine.py

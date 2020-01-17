@@ -1,0 +1,12 @@
+# comment by ID
+---
+type: intent
+name: commentById
+slots:
+  - name: id
+    entity: id
+utterances:
+  - Give me comment of [id](5265353) id
+  - Give me comment of [id](5265353)
+  - Show me comment of [id](5265353) id
+  - Show me comment of [id](5265353)

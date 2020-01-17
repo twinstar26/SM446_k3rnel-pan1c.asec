@@ -4,8 +4,10 @@ from snips_nlu import SnipsNLUEngine
 
 engine = SnipsNLUEngine.from_path("/k3rnel-pan1c.asec/NLU/trained_model")
 
-parsing = engine.parse(sys.argv[1])
-intents = engine.get_intents(sys.argv[1])
+user_intent_text = input()
+
+parsing = engine.parse(user_intent_text)
+intents = engine.get_intents(user_intent_text)
 
 print(json.dumps(parsing, indent=2))
 print(json.dumps(intents, indent=2))
