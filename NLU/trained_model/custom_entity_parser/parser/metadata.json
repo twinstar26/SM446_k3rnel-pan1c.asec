@@ -1,0 +1,28 @@
+{
+  "parsers_metadata": [
+    {
+      "entity_identifier": "id",
+      "entity_parser": "parser_1"
+    },
+    {
+      "entity_identifier": "issueKey",
+      "entity_parser": "parser_2"
+    },
+    {
+      "entity_identifier": "issueType",
+      "entity_parser": "parser_3"
+    },
+    {
+      "entity_identifier": "projectName",
+      "entity_parser": "parser_4"
+    },
+    {
+      "entity_identifier": "title",
+      "entity_parser": "parser_5"
+    },
+    {
+      "entity_identifier": "userName",
+      "entity_parser": "parser_6"
+    }
+  ]
+}
