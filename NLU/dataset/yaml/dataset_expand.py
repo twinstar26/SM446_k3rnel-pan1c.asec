@@ -2,10 +2,7 @@ import sys
 
 from nltk.corpus import wordnet
 
-sen1 = "me pages"
-# sen2 = "me details on all projects"
-# sen3 = "all projects"
-# sen4 = "all project names"
+sen1 = "me answers for [error](ClassName not Found)"
 
 
 for syn in wordnet.synsets(sys.argv[1]):

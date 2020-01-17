@@ -186,124 +186,112 @@
   },
   "slot_fillers": [
     {
-      "intent": "allAttachmentsByIssueKey",
+      "intent": "allBlogPosts",
       "slot_filler_name": "slot_filler_0"
     },
     {
-      "intent": "allBlogPosts",
+      "intent": "allCommitsByProjectNameAndWorkspace",
       "slot_filler_name": "slot_filler_1"
     },
     {
-      "intent": "allCommentsByIssueKey",
+      "intent": "allEpicsByAssigneeAndIssueType",
       "slot_filler_name": "slot_filler_2"
     },
     {
-      "intent": "allCommitsByProjectNameAndWorkspace",
+      "intent": "allEpicsByAssigneeAndProjectName",
       "slot_filler_name": "slot_filler_3"
     },
     {
-      "intent": "allDescriptionByIssueKey",
+      "intent": "allEpicsByAssigneeProjectNameAndIssueType",
       "slot_filler_name": "slot_filler_4"
     },
     {
-      "intent": "allEpicsByAssigneeAndIssueType",
+      "intent": "allEpicsByProject",
       "slot_filler_name": "slot_filler_5"
     },
     {
-      "intent": "allEpicsByAssigneeAndProjectName",
+      "intent": "allEpicsByProjectAndIssueType",
       "slot_filler_name": "slot_filler_6"
     },
     {
-      "intent": "allEpicsByAssigneeProjectNameAndIssueType",
+      "intent": "allForksByProjectNameAndWorkspace",
       "slot_filler_name": "slot_filler_7"
     },
     {
-      "intent": "allEpicsByProject",
+      "intent": "allIssuesByAssigneeAndIssueType",
       "slot_filler_name": "slot_filler_8"
     },
     {
-      "intent": "allEpicsByProjectAndIssueType",
+      "intent": "allIssuesByAssigneeAndProjectName",
       "slot_filler_name": "slot_filler_9"
     },
     {
-      "intent": "allForksByProjectNameAndWorkspace",
+      "intent": "allIssuesByAssigneeProjectNameAndIssueType",
       "slot_filler_name": "slot_filler_10"
     },
     {
-      "intent": "allIssuesByAssigneeAndIssueType",
+      "intent": "allIssuesByProject",
       "slot_filler_name": "slot_filler_11"
     },
     {
-      "intent": "allIssuesByAssigneeAndProjectName",
+      "intent": "allIssuesByProjectAndIssueType",
       "slot_filler_name": "slot_filler_12"
     },
     {
-      "intent": "allIssuesByAssigneeProjectNameAndIssueType",
+      "intent": "allIssuesByProjectNameAndWorkspace",
       "slot_filler_name": "slot_filler_13"
     },
     {
-      "intent": "allIssuesByProject",
+      "intent": "allPages",
       "slot_filler_name": "slot_filler_14"
     },
     {
-      "intent": "allIssuesByProjectAndIssueType",
+      "intent": "allProjects",
       "slot_filler_name": "slot_filler_15"
     },
     {
-      "intent": "allIssuesByProjectNameAndWorkspace",
+      "intent": "allPullRequestByProjectNameAndWorkspace",
       "slot_filler_name": "slot_filler_16"
     },
     {
-      "intent": "allPages",
+      "intent": "allPullRequestByUserName",
       "slot_filler_name": "slot_filler_17"
     },
     {
-      "intent": "allProjects",
+      "intent": "allRepositoriesByWorkspace",
       "slot_filler_name": "slot_filler_18"
     },
     {
-      "intent": "allPullRequestByProjectNameAndWorkspace",
+      "intent": "blogPostById",
       "slot_filler_name": "slot_filler_19"
     },
     {
-      "intent": "allPullRequestByUserName",
+      "intent": "blogPostByTitle",
       "slot_filler_name": "slot_filler_20"
     },
     {
-      "intent": "allRepositoriesByWorkspace",
+      "intent": "commentById",
       "slot_filler_name": "slot_filler_21"
     },
     {
-      "intent": "blogPostById",
+      "intent": "epicByIssueKey",
       "slot_filler_name": "slot_filler_22"
     },
     {
-      "intent": "blogPostByTitle",
+      "intent": "issueByIssueKey",
       "slot_filler_name": "slot_filler_23"
     },
     {
-      "intent": "commentById",
+      "intent": "pageById",
       "slot_filler_name": "slot_filler_24"
     },
     {
-      "intent": "epicByIssueKey",
+      "intent": "pageByTitle",
       "slot_filler_name": "slot_filler_25"
     },
     {
-      "intent": "issueByIssueKey",
-      "slot_filler_name": "slot_filler_26"
-    },
-    {
-      "intent": "pageById",
-      "slot_filler_name": "slot_filler_27"
-    },
-    {
-      "intent": "pageByTitle",
-      "slot_filler_name": "slot_filler_28"
-    },
-    {
       "intent": "versionByProjectNameAndWorkspace",
-      "slot_filler_name": "slot_filler_29"
+      "slot_filler_name": "slot_filler_26"
     }
   ]
 }
