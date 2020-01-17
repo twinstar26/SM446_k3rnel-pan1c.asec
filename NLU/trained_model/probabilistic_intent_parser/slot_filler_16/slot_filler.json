@@ -177,7 +177,7 @@
     "unit_name": "crf_slot_filler"
   },
   "crf_model_file": "model.crfsuite",
-  "intent": "allIssuesByProjectNameAndWorkspace",
+  "intent": "allPullRequestByProjectNameAndWorkspace",
   "language_code": "en",
   "slot_name_mapping": {
     "projectName": "projectName",
