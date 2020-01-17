@@ -1,0 +1,8 @@
+# projectName entity
+---
+type: entity
+name: error
+automatically_extensible: yes
+values:
+- ClassName not Found
+- Nameerror error found 

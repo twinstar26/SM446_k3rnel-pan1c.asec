@@ -218,22 +218,14 @@
     },
     "language_code": "en",
     "slot_name_mappings": {
-      "allAttachmentsByIssueKey": {
-        "issueKey": "issueKey"
-      },
       "allBlogPosts": {},
-      "allCommentsByIssueKey": {
-        "issueKey": "issueKey"
-      },
       "allCommitsByProjectNameAndWorkspace": {
         "projectName": "projectName",
         "userName": "userName"
       },
-      "allDescriptionByIssueKey": {
-        "issueKey": "issueKey"
-      },
       "allEpicsByAssigneeAndIssueType": {
         "issueType": "issueType",
+        "projectName": "projectName",
         "userName": "userName"
       },
       "allEpicsByAssigneeAndProjectName": {
@@ -258,6 +250,7 @@
       },
       "allIssuesByAssigneeAndIssueType": {
         "issueType": "issueType",
+        "projectName": "projectName",
         "userName": "userName"
       },
       "allIssuesByAssigneeAndProjectName": {
@@ -302,10 +295,12 @@
         "id": "id"
       },
       "epicByIssueKey": {
-        "issueKey": "issueKey"
+        "issueKey": "issueKey",
+        "projectName": "projectName"
       },
       "issueByIssueKey": {
-        "issueKey": "issueKey"
+        "issueKey": "issueKey",
+        "projectName": "projectName"
       },
       "pageById": {
         "id": "id"
