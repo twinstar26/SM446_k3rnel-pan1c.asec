@@ -1,0 +1,29 @@
+# all pages
+---
+type: intent 
+name: allPages
+utterances:
+  - Give me pages
+  - Show me pages
+
+# page by ID
+---
+type: intent
+name: pageById
+slots:
+  - name: id
+    entity: id
+utterances:
+  - Give me page of [id](5265353) id
+  - Show me page of [id](5265353) id
+
+# blog post by ID
+---
+type: intent
+name: pageByTitle
+slots:
+  - name: title
+    entity: title
+utterances:
+  - Give me page of [title](SIH 2020) title
+  - Show me page of [title](SIH 2020) title

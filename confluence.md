@@ -2,7 +2,7 @@
 * Get all the blogposts
 https://kernel-panic.atlassian.net/wiki/rest/api/content?type=blogpost&expand=space,body.view,version,container
 
-* Get blogpostby id: ID
+* Get blogpost by id: ID
 https://kernel-panic.atlassian.net/wiki/rest/api/content/{ID}?expand=space,body.view,version,container
 
 * Get blogpost by title: Title

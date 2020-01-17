@@ -1,0 +1,41 @@
+# all blog posts
+---
+type: intent 
+name: allBlogPosts
+utterances:
+  - Give me blogposts
+  - Give me blog posts
+  - Give me blog-posts
+  - Show me blog posts
+  - Show me blogposts
+  - Show me blog-posts
+
+# blog post by ID
+---
+type: intent
+name: blogPostById
+slots:
+  - name: id
+    entity: id
+utterances:
+  - Give me blogposts of [id](5265353) id
+  - Give me blog posts of [id](5265353) id
+  - Give me blog-posts of [id](5265353) id
+  - Show me blog posts of [id](5265353) id
+  - Show me blogposts of [id](5265353) id
+  - Show me blog-posts of [id](5265353) id
+
+# blog post by ID
+---
+type: intent
+name: blogPostByTitle
+slots:
+  - name: title
+    entity: title
+utterances:
+  - Give me blogposts of [title](SIH 2020) title
+  - Give me blog posts of [title](SIH 2020) title
+  - Give me blog-posts of [title](SIH 2020) title
+  - Show me blog posts of [title](SIH 2020) title
+  - Show me blogposts of [title](SIH 2020) title
+  - Show me blog-posts of [title](SIH 2020) title
