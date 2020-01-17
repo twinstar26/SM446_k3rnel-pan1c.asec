@@ -7,7 +7,9 @@ from snips_nlu.default_configs import CONFIG_EN
 seed = 42
 engine = SnipsNLUEngine(config=CONFIG_EN, random_state=seed)
 
-with open(str(pathlib.Path().absolute()) + '/dataset/json/dataset1.json', errors='ignore') as f:
+# dataset name here
+datasetName = 'dataset1.json'
+with open(str(pathlib.Path().absolute()) + '/dataset/json/' + datasetName, encoding='utf-8', errors='ignore') as f:
      dataset = json.load(f, strict=False)
 
 engine.fit(dataset)

@@ -10,6 +10,10 @@ utterances:
   - Give me issues from [projectName](atharva) project
   - Show me the issues from [projectName](atharva) project
   - Show me the issues from [projectName](harsh chheda) project
+  - Give me issues from [projectName](google)
+  - Give me issues from [projectName](atharva)
+  - Show me the issues from [projectName](atharva)
+  - Show me the issues from [projectName](harsh chheda)
 
 # all issues from specific project and issue type
 ---
