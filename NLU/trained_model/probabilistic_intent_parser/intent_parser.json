@@ -290,8 +290,12 @@
       "slot_filler_name": "slot_filler_25"
     },
     {
-      "intent": "versionByProjectNameAndWorkspace",
+      "intent": "topPostAnswer",
       "slot_filler_name": "slot_filler_26"
+    },
+    {
+      "intent": "versionByProjectNameAndWorkspace",
+      "slot_filler_name": "slot_filler_27"
     }
   ]
 }

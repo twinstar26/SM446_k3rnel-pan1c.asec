@@ -8,6 +8,34 @@ from flask_cors import CORS
 
 from giveHTMLFromIntents import giveHTMLFromIntents
 
+import smtplib, ssl, sys
+
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
+def sendEmail(you, html):
+  me = "kernelpanic.asec@gmail.com"
+  # Create message container - the correct MIME type is multipart/alternative.
+  msg = MIMEMultipart('alternative')
+  msg['Subject'] = "Response from chatbot"
+  msg['From'] = me
+  msg['To'] = you
+  part2 = MIMEText(html, 'html')
+  # Attach parts into message container.
+  msg.attach(part2)
+
+  # sendmail function takes 3 arguments: sender's address, recipient's address
+  # and message to send - here it is sent as one string.
+  s = smtplib.SMTP('smtp.gmail.com', 587)
+
+  s.ehlo()
+  s.starttls()
+  print("before login")
+  s.login('kernelpanic.asec@gmail.com', 'k3rnel-pan1c.asec')
+  print("after")
+  s.sendmail(me, you, msg.as_string())
+  s.quit()
+
 app = Flask(__name__)
 CORS(app)
 
@@ -31,6 +59,12 @@ def index():
         return giveHTMLFromIntents(parsing)
     else:
         return "<h1>CHATBOT RUNNING....</h1>"
+
+@app.route("/email/", methods=["POST"])
+def email():
+    if request.method == "POST":
+        sendEmail("yashjain0530@gmail.com", request.form["content"])
+    return "Hopefully done"
 
 if __name__=="__main__":
     app.run(debug=True)

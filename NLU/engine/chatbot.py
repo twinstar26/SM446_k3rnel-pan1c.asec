@@ -2,7 +2,7 @@ import json
 import sys
 from snips_nlu import SnipsNLUEngine
 
-# engine = SnipsNLUEngine.from_path("/k3rnel-pan1c.asec/NLU/trained_model")
+#engine = SnipsNLUEngine.from_path("/k3rnel-pan1c.asec/NLU/trained_model")
 engine = SnipsNLUEngine.from_path("/home/yash/Documents/k3rnel-pan1c.asec/NLU/trained_model")
 
 if __name__=="__main__":
