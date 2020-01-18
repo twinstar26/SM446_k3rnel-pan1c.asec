@@ -9,16 +9,34 @@ $(".query-form" ).submit(function(e) {
         let str = $("#query").val();
         $("#query").val("");
 
+        $("#email").hide();
+        $("#email").attr("disabled", false);
+        $("#email").html("Send Via Email");
         $("#results").html("Loading....");
 
         $.post("/chatbot/", {
             user_query: str
         }, function(data, status) {
             if (status == "success") {
+                $("#email").show();
                 $("#results").html(data);
             } else {
                 $("#results").html("Some Error Occured Please Try Again....");
             }
         });
     }
+});
+
+$("#email").on("click", (e) => {
+    $("#email").attr("disabled", true);
+    let content = $("#results").html();
+    $.post("/email/", {
+        content
+    }, (data, status) => {
+        $("#email").html("Sent");
+    })
+});
+
+$("#stt").on("click", (e) => {
+
 });
