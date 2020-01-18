@@ -66,5 +66,17 @@ def email():
         sendEmail("yashjain0530@gmail.com", request.form["content"])
     return "Hopefully done"
 
+
+@app.route("/stt/", methods=["POST"])
+def stt():
+    if request.method == "POST":
+
+        f = open('./file.wav', 'wb')
+        f.write(request.data)
+        print(request.data)
+
+    return request.data
+
+
 if __name__=="__main__":
     app.run(debug=True)

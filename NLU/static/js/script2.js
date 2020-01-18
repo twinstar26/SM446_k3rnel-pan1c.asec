@@ -38,5 +38,54 @@ $("#email").on("click", (e) => {
 });
 
 $("#stt").on("click", (e) => {
+    navigator.mediaDevices.getUserMedia({ audio: true })
+  .then(stream => {
+    const mediaRecorder = new MediaRecorder(stream);
+    mediaRecorder.start();
+ 
+    const audioChunks = [];
+    mediaRecorder.addEventListener("dataavailable", event => {
+      audioChunks.push(event.data);
+    });
+ 
+    mediaRecorder.addEventListener("stop", () => {
+      const audioBlob = new Blob(audioChunks, { 'type' : 'audio/wav;' });
+      console.log(audioBlob);
+      const audioUrl = URL.createObjectURL(audioBlob);
+      const audio = new Audio(audioUrl);
+    //   console.log(audio)
+    //   audio.play();
+        var formData = new FormData();
+        formData.append('audio',audioBlob);
+        formData.append('name',String('sound.wav'))
+
+        // $.post("/stt/", {
+        //     data: formData,
+        //     processData: false,
+        //     contentType: false,
+        // }, (data, status) => {
+        //     if (status == "success") {
+        //         console.log(data);
+        //     } else {
+        //         console.log("Some Error Occured");
+        //     }
+        // })
+
+        fetch('/stt/', {
+             method: 'POST',
+                body: formData
+            })
+            // .then(res => res.json())
+            .then(data => {
+                console.log(data)
+            })
+            .catch(err => console.log('err', err))
+    });
+ 
+    setTimeout(() => {
+      mediaRecorder.stop();
+    }, 5000);
+  });
 
 });
+
