@@ -39,26 +39,14 @@
         "builtin": [],
         "custom": [
           "userName",
-          "issueType",
-          "projectName"
+          "projectName",
+          "issueType"
         ]
       },
       "intent_group": [
         "allEpicsByAssigneeAndIssueType",
-        "allIssuesByAssigneeAndIssueType"
-      ]
-    },
-    {
-      "entity_scope": {
-        "builtin": [],
-        "custom": [
-          "issueType",
-          "userName",
-          "projectName"
-        ]
-      },
-      "intent_group": [
         "allEpicsByAssigneeProjectNameAndIssueType",
+        "allIssuesByAssigneeAndIssueType",
         "allIssuesByAssigneeProjectNameAndIssueType"
       ]
     },
