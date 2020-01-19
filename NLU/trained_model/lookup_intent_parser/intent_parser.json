@@ -39,8 +39,8 @@
         "builtin": [],
         "custom": [
           "userName",
-          "projectName",
-          "issueType"
+          "issueType",
+          "projectName"
         ]
       },
       "intent_group": [
@@ -66,8 +66,8 @@
       "entity_scope": {
         "builtin": [],
         "custom": [
-          "projectName",
-          "issueType"
+          "issueType",
+          "projectName"
         ]
       },
       "intent_group": [
@@ -116,8 +116,8 @@
       "entity_scope": {
         "builtin": [],
         "custom": [
-          "projectName",
-          "issueKey"
+          "issueKey",
+          "projectName"
         ]
       },
       "intent_group": [
