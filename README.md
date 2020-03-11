@@ -6,8 +6,10 @@
 - [ ] Practicability
 - [ ] UX
 - [ ] Overall application performance benchmarking
+- [ ] Prepare video of navigation
 
 # Todo
+- [ ] EMail HTML embedded (11 - 20) Y H
 - [ ] Cross platform support (11 - 20) D Dh K
 - [ ] Increase API features(include Write, Modify, Delete queries.) (11 - 20) D Dh K
 - [ ] Speech to Text (11 - 20) D Dh K
