@@ -1,12 +1,21 @@
+# PPT Preparation
+- [ ] Scalability
+- [ ] Complexity
+- [ ] Clarity
+- [ ] Feasibility in the market
+- [ ] Practicability
+- [ ] UX
+- [ ] Overall application performance benchmarking
+
 # Todo
-- [ ] Stack overflow API
+- [ ] Increase API features(include Write, Modify, Delete queries.)
+- [ ] Speech to Text
+- [ ] Text to Speech
+- [ ] Refactor UI
 - [ ] Inflate intents
-- [ ] Chatbot hosting
-- [ ] Frontent hosting
-- [ ] Frontend UI
-- [ ] Construct Info HTML
-- [ ] Meeting
-- [ ] STT and TTS
+- [ ] Integrate Meeting feature
+- [ ] Optimize HTML templates for display
+- [ ] PPT preparation
 
 # k3rnel-pan1c.asec
 Smart India Hackathon 2020
