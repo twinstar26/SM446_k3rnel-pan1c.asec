@@ -8,6 +8,7 @@
 - [ ] Overall application performance benchmarking
 
 # Todo
+- [ ] Cross platform support
 - [ ] Increase API features(include Write, Modify, Delete queries.)
 - [ ] Speech to Text
 - [ ] Text to Speech
