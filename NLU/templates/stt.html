@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STT</title>
+</head>
+<body>
+    <h2>Record</h2>
+      		<p>
+      			<button id=record>Record</button>
+      			<button id=stopRecord disabled>Stop</button>
+      		</p>
+      		<p>
+      			<audio id=recordedAudio></audio>
+      	
+      		</p>
+</body>
+<script src="{{url_for('static', filename='js/jquery.js')}}""></script>
+<script>
+    navigator.mediaDevices.getUserMedia({audio:true})
+      .then(stream => {handlerFunction(stream)})
+
+            function handlerFunction(stream) {
+            rec = new MediaRecorder(stream);
+            rec.ondataavailable = e => {
+              audioChunks.push(e.data);
+              if (rec.state == "inactive"){
+                let blob = new Blob(audioChunks,{type:'audio/mpeg-3'});
+                recordedAudio.src = URL.createObjectURL(blob);
+                console.log(recordedAudio.src);
+                submit(blob);
+              }
+            }
+          }
+
+        function submit(blob) {
+        // var reader = new window.FileReader();
+        // reader.readAsDataURL(blob);
+        // reader.onloadend = function() {
+            var fd = new FormData();
+            fd.append('file', blob);
+            $.ajax({
+            type: 'POST',
+            url: '/stt/',
+            data: fd,
+            cache: false,
+            processData: false,
+            contentType: false,
+            enctype: 'multipart/form-data'
+            }).done(function(data) {
+              console.log(data);
+            });
+        // }
+        }
+
+
+        record.onclick = e => {
+          console.log('I was clicked')
+          record.disabled = true;
+          record.style.backgroundColor = "blue"
+          stopRecord.disabled=false;
+          audioChunks = [];
+          rec.start();
+        }
+
+        stopRecord.onclick = e => {
+          console.log("I was clicked")
+          record.disabled = false;
+          stop.disabled=true;
+          record.style.backgroundColor = "red"
+          rec.stop();
+        }
+</script>
+</html>
