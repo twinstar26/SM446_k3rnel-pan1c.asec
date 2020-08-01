@@ -7,10 +7,12 @@ def topPostAnswer(error):
     links = []
     count = 0
     for item in r.json()["items"]:
-        count += 1
-        links.append(item["link"])
-        if (count == 5):
-            break
+        if item["is_answered"] == True:
+            count += 1
+            links.append(item["link"])
+            if (count == 5):
+                break
+
 
     # print(links[0])
     r = requests.get(links[0])
