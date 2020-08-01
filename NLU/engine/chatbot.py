@@ -1,9 +1,14 @@
+import os
 import json
 import sys
 from snips_nlu import SnipsNLUEngine
 
-#engine = SnipsNLUEngine.from_path("/k3rnel-pan1c.asec/NLU/trained_model")
-engine = SnipsNLUEngine.from_path("/home/yash/Documents/k3rnel-pan1c.asec/NLU/trained_model")
+get_current_working_directory = os.getcwd()
+splitted_current_working_directory = os.path.split(get_current_working_directory)
+directory_index = splitted_current_working_directory.index('NLU')
+root_directory_path = os.path.join(*splitted_current_working_directory[:directory_index+1])
+
+engine = SnipsNLUEngine.from_path(os.path.join(root_directory_path, 'trained_model'))
 
 if __name__=="__main__":
     user_intent_text = input()
