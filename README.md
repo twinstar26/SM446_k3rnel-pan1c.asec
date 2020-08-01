@@ -1,4 +1,41 @@
-# PPT Preparation
+# JARVIS for Corporate
+
+## K3RNEL-PAN1C.ASEC (Team Members)
+- Atharva Veer (Team Leader)
+- Yash Jain
+- Harsh Chheda
+- Kritika Ravishankar
+- Dhwani Agarwal
+- Divy Patel
+
+## Technology Stack
+- SNIPS NLU for intent parsing in chatbot
+- Flask for server-side development
+- HTML-CSS-JS Web technologies for building user interface
+- Bootstrap for stying HTML
+- SMTP@gmail.com for sending E-Mails
+
+## Application Architecture
+![Application Architecture](./Model/architecture.jpg)
+
+## Working of Chatbot
+![Chatbot-Internals](./Model/chatbot-internals.png)
+
+## Comparison between various Chatbots
+![Comparisons](./Model/comparison.jpg)
+
+## Features implemented
+- Decent user-interface for chat interaction and result output
+- Integrating chatbot to our application
+- Supporting Stack-Overflow queries
+- Sending response as a mail
+
+## Features to be implemented
+- MoM (Minutes of Meeting)
+- Speech to Text
+- 
+
+<!-- # PPT Preparation
 - [ ] Scalability
 - [ ] Complexity
 - [ ] Clarity
@@ -40,4 +77,4 @@ pip install -r requirements.txt
 ```
 ```
 python -m snips_nlu download en
-```
+``` -->
