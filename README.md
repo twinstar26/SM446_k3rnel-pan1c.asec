@@ -1,4 +1,6 @@
 # JARVIS for Corporate
+- Problem Statement Number : **SM446**
+- Organization : **FIS Global**
 
 ## K3RNEL-PAN1C.ASEC (Team Members)
 - Atharva Veer (Team Leader)
@@ -25,15 +27,31 @@
 ![Comparisons](./Model/comparison.jpg)
 
 ## Features implemented
-- Decent user-interface for chat interaction and result output
+- User-interface for chat interaction and query output
 - Integrating chatbot to our application
 - Supporting Stack-Overflow queries
+- Supporting Read-Only queries for Jira, Confluence and BitBucket
+    - Jira
+        - Issues
+            - TODO
+            - In-Progress
+            - Done
+        - Epics
+        - Progress
+    - Confluence
+        - BlogPosts
+        - Pages
+        - Comments
+    - BitBucket
+        - Pull-Requests
+        - Repositories
+
 - Sending response as a mail
 
 ## Features to be implemented
 - MoM (Minutes of Meeting)
 - Speech to Text
-- 
+- Supporting Create, Update and Delete queries for Jira, Confluence and BitBucket
 
 <!-- # PPT Preparation
 - [ ] Scalability
