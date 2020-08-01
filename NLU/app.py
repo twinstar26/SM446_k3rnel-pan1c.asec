@@ -41,7 +41,7 @@ CORS(app)
 
 @app.route("/", methods=["GET"])
 def home():
-    return render_template("index2.html")
+    return render_template("index.html")
 
 @app.route("/chatbot/", methods=["GET", "POST"])
 def index():
@@ -52,6 +52,7 @@ def index():
         # print("behwbehwehwjvdewvewjvh")
         user_query = request.form["user_query"]
         parsing = engine.parse(user_query)
+        # print(parsing)
         # print(parsing.intent)
         # json_response = json.dumps(parsing, indent=2)
         # url = ""
@@ -63,7 +64,9 @@ def index():
 @app.route("/email/", methods=["POST"])
 def email():
     if request.method == "POST":
-        sendEmail("yashjain0530@gmail.com", request.form["content"])
+        print(request.form['content'])
+        print('inside email route.')
+        sendEmail("divy9881@gmail.com", request.form["content"])
     return "Hopefully done"
 
 

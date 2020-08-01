@@ -30,8 +30,9 @@ $(".query-form" ).submit(function(e) {
 $("#email").on("click", (e) => {
     $("#email").attr("disabled", true);
     let content = $("#results").html();
+    console.log(content)
     $.post("/email/", {
-        content
+        content: content
     }, (data, status) => {
         $("#email").html("Sent");
     })

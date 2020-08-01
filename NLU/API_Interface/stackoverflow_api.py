@@ -12,7 +12,7 @@ def topPostAnswer(error):
         if (count == 5):
             break
 
-    print(links[0])
+    # print(links[0])
     r = requests.get(links[0])
     x = str(r._content)
 
@@ -54,5 +54,5 @@ def topPostAnswer(error):
             {}            
         </div>
         '''.format(i)
-    print(html)
+    # print(html)
     return html
