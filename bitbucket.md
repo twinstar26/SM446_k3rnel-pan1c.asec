@@ -44,3 +44,6 @@ https://api.bitbucket.org/2.0/repositories/{workspace}/{repo_slug}/versions
 
 * Creating a pull request 
 /rest/api/1.0/projects/{projectKey}/repos/{repositorySlug}/pull-requests
+
+* Get all users
+/rest/api/1.0/admin/users?filter
