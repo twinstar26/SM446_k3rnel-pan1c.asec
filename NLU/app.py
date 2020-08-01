@@ -41,7 +41,7 @@ CORS(app)
 
 @app.route("/", methods=["GET"])
 def home():
-    return render_template("index.html")
+    return render_template("stt.html")
 
 @app.route("/chatbot/", methods=["GET", "POST"])
 def index():
@@ -74,7 +74,7 @@ def email():
 def stt():
     if request.method == "POST":
         file = request.files["file"]
-        file.save("./audio.mp3")
+        file.save("./audio.wav")
 
     return request.data
 
