@@ -73,7 +73,7 @@ def email():
 @app.route("/stt/", methods=["POST"])
 def stt():
     if request.method == "POST":
-        file = request.files["file"]
+        file = request.files["audio_data"]
         file.save("./audio.wav")
 
     return request.data
