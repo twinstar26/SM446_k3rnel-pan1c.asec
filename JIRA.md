@@ -75,6 +75,25 @@ https://kernel-panic.atlassian.net/rest/api/2/issue/IssueKEY?fields=description
 * Updated
 * Linked Issues
 
+## REST API QUERIES
+* Creating a new issue
+/rest/api/2/issue [POST]
+
+* Getting a issue
+/rest/api/2/issue/{issueIdOrKey}
+
+* Deleting a issue
+/rest/api/2/issue/{issueIdOrKey}
+
+* Getting all projects
+/rest/api/2/project
+
+* Creating a project
+/rest/api/2/project
+
+* Delete a Project
+/rest/api/2/project/{projectIdOrKey}
+
 # EPICS: ALMOST SAME AS ISSUES
 * fields.issuetype.name = "Epic"
 

@@ -22,3 +22,28 @@ https://api.bitbucket.org/2.0/repositories/{workspace}/{repo_slug}/pullrequests
 
 - version {workspace}, {repo_slug}
 https://api.bitbucket.org/2.0/repositories/{workspace}/{repo_slug}/versions
+
+## Bitbucket new REST APIS
+* Creating a new project
+/rest/api/1.0/projects
+
+* Deleting a new project
+/rest/api/1.0/projects/{projectKey}
+
+* Getting a project by project key
+/rest/api/1.0/projects/{projectKey}
+
+* Create a new repository
+/rest/api/1.0/projects/{projectKey}/repos
+
+* Getting repos with project key
+/rest/api/1.0/projects/{projectKey}/repos
+
+* Getting all pull requests from repos
+/rest/api/1.0/projects/{projectKey}/repos/{repositorySlug}/pull-request
+
+* Creating a pull request 
+/rest/api/1.0/projects/{projectKey}/repos/{repositorySlug}/pull-requests
+
+* Get all users
+/rest/api/1.0/admin/users?filter
