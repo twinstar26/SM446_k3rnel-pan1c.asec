@@ -13,6 +13,8 @@ import smtplib, ssl, sys
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
+from stt import listenToAudio
+
 def sendEmail(you, html):
   me = "kernelpanic.asec@gmail.com"
   # Create message container - the correct MIME type is multipart/alternative.
@@ -70,13 +72,19 @@ def email():
     return "Hopefully done"
 
 
-@app.route("/stt/", methods=["POST"])
+@app.route("/stt/", methods=["GET", "POST"])
 def stt():
     if request.method == "POST":
-        file = request.files["file"]
+        file = request.files["audio_data"]
         file.save("./audio.wav")
-
-    return request.data
+        text = listenToAudio("audio.wav")
+        # print(text)
+        parsing = engine.parse(text)
+        # print(parsing)
+        # print(text+"|"+str(giveHTMLFromIntents(parsing)))
+        return text+"|"+str(giveHTMLFromIntents(parsing))
+    elif request.method == "GET":
+        return render_template("stt.html")
 
 
 if __name__=="__main__":

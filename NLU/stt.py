@@ -1,7 +1,7 @@
 import speech_recognition as sr
-from pydub import AudioSegment
+# from pydub import AudioSegment
 
-def listenToAudio():
+def listenToAudio(filename):
     print(sr.__version__)
     r = sr.Recognizer()
 
@@ -9,7 +9,7 @@ def listenToAudio():
     # sound = AudioSegment.from_mp3("./audio.mp3")
     # sound.export("./audio.wav", format="wav")
 
-    file_audio = sr.AudioFile('audio.wav')
+    file_audio = sr.AudioFile(filename)
     print(file_audio)
     # audio = ""
     with file_audio as source:
@@ -18,7 +18,7 @@ def listenToAudio():
 
         try:
             audio_text = r.recognize_google(audio)
-            print(type(audio_text))
+            return audio_text
         except Exception as e:
             print(str(e))
 
