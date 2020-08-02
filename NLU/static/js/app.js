@@ -85,19 +85,14 @@ function stopRecording() {
 
 	//create the wav blob and pass it on to createDownloadLink
 	rec.exportWAV(createDownloadLink);
-<<<<<<< HEAD
 	button.removeEventListener("click", stopRecording);
 	button.addEventListener("click", startRecording);
 	button.innerHTML="<i class='fa fa-microphone' style='font-size: 1.25rem;'></i>";
-=======
-	
->>>>>>> 15f437db716522765d1b4fb28faa4f6389cd5ae1
 }
 
 function createDownloadLink(blob) {
 	var filename = new Date().toISOString();
 
-<<<<<<< HEAD
 	var xhr=new XMLHttpRequest();
 	xhr.onload=function(e) {
 		if(this.readyState === 4) {
@@ -122,46 +117,4 @@ function createDownloadLink(blob) {
 	}
 	xhr.open("POST","/stt/",true);
 	xhr.send(fd);
-=======
-	//add controls to the <audio> element
-	au.controls = true;
-	au.src = url;
-
-	//save to disk link
-	link.href = url;
-	link.download = filename+".wav"; //download forces the browser to donwload the file using the  filename
-	link.innerHTML = "Save to disk";
-
-	//add the new audio element to li
-	li.appendChild(au);
-
-	//add the filename to the li
-	li.appendChild(document.createTextNode(filename+".wav "))
-
-	//add the save to disk link to li
-	li.appendChild(link);
-
-	//upload link
-	var upload = document.createElement('a');
-	upload.href="#";
-	upload.innerHTML = "Upload";
-	// upload.addEventListener("click", function(event){
-		console.log("Reached");
-		  var xhr=new XMLHttpRequest();
-		  xhr.onload=function(e) {
-		      if(this.readyState === 4) {
-		          console.log("Server returned: ",e.target.responseText);
-		      }
-		  };
-		  var fd=new FormData();
-		  fd.append("audio_data",blob, filename);
-		  xhr.open("POST","/stt/",true);
-		  xhr.send(fd);
-	// })
-	li.appendChild(document.createTextNode (" "))//add a space in between
-	li.appendChild(upload)//add the upload link to li
-
-	//add the li element to the ol
-	recordingsList.appendChild(li);
->>>>>>> 15f437db716522765d1b4fb28faa4f6389cd5ae1
 }

@@ -71,7 +71,6 @@ def email():
         sendEmail("divy9881@gmail.com", request.form["content"])
     return "Hopefully done"
 
-
 @app.route("/stt/", methods=["GET", "POST"])
 def stt():
     if request.method == "POST":
@@ -85,7 +84,6 @@ def stt():
         return text+"|"+str(giveHTMLFromIntents(parsing))
     elif request.method == "GET":
         return render_template("stt.html")
-
 
 if __name__=="__main__":
     app.run(debug=True)
