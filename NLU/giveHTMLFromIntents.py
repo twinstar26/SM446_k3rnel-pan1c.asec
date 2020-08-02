@@ -5,6 +5,7 @@ from API_Interface.bitbucket_api import *
 
 def giveHTMLFromIntents(jsonResponse):
     try:
+        print(jsonResponse)
         if jsonResponse['intent']["intentName"] == "allIssuesByProject":
             return allIssuesByProject(jsonResponse["slots"][0]["rawValue"])
         elif jsonResponse['intent']["intentName"] == "topPostAnswer":
@@ -48,6 +49,7 @@ def giveHTMLFromIntents(jsonResponse):
         elif jsonResponse['intent']["intentName"] == "allPages":
             return allPages()
         elif jsonResponse['intent']["intentName"] == "pageByTitle":
+            print("Atharva Choor: " + jsonResponse["slots"][0]["rawValue"])
             return pageByTitle(jsonResponse["slots"][0]["rawValue"])
         elif jsonResponse['intent']["intentName"] == "allBlogPost":
             return allBlogPost()

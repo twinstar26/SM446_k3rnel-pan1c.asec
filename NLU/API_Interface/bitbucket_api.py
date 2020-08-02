@@ -1,8 +1,8 @@
 import requests
 
-def allPullRequestByUserName(uname):
-    r = requests.get("https://api.bitbucket.org/2.0/pullrequests/{}".format(uname), \
-        auth=('atharvaveer', 'einstien@123'))
+def allPullRequests():
+    r = requests.get("http://localhost:7990/rest/api/1.0/dashboard/pull-requests", \
+        auth=('sm446-sih2020', 'halva@puri123'))
     data = r.json()
 
     html = "<div class='container p-4'><h2>Pull Requests by @{}</h2>".format(uname)
@@ -13,16 +13,41 @@ def allPullRequestByUserName(uname):
                     <hr>
                     <div><b>Author:</b> {}</div>
                     <div><b>Repo:</b> {}</div>
-                    <div><b>Branch: </b> {}</div>
                     <div><b>State: </b> {}</div>
                     <div><b>Created: </b> {}</div>
                     <hr>
                     <div><b>Descrption</b><br> {}</div>
                 </div>
             </div>
-        '''.format(pr["title"], pr["author"]["display_name"], \
-            pr["destination"]["repository"]["full_name"], pr["destination"]["branch"]["name"], \
-            pr["state"], pr["created_on"][:10], pr["description"])
+        '''.format(pr["title"], pr["author"]["user"]["displayName"], \
+            pr["fromRef"]["repository"]["name"], \
+            pr["state"], pr["createdDate"], pr["description"])
+
+    return html
+
+def allPullRequestByUserName(uname):
+    r = requests.get("http://localhost:7990/rest/api/1.0/dashboard/pull-requests", \
+        auth=('sm446-sih2020', 'halva@puri123'))
+    data = r.json()
+
+    html = "<div class='container p-4'><h2>Pull Requests by @{}</h2>".format(uname)
+    for pr in data["values"]:
+        if (pr["author"]["user"]["name"] == uname):
+            html += '''
+                    <div class="card p-4 mt-4" style="width: 30rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
+                        <div style="font-size: 1.25rem;">{}</div>
+                        <hr>
+                        <div><b>Author:</b> {}</div>
+                        <div><b>Repo:</b> {}</div>
+                        <div><b>State: </b> {}</div>
+                        <div><b>Created: </b> {}</div>
+                        <hr>
+                        <div><b>Descrption</b><br> {}</div>
+                    </div>
+                </div>
+            '''.format(pr["title"], pr["author"]["user"]["displayName"], \
+                pr["fromRef"]["repository"]["name"], \
+                pr["state"], pr["createdDate"], pr["description"])
 
     return html
 
