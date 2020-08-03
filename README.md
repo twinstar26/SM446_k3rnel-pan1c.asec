@@ -13,45 +13,29 @@
 ## Technology Stack
 - SNIPS NLU for intent parsing in chatbot
 - Flask for server-side development
-- HTML-CSS-JS Web technologies for building user interface
-- Bootstrap for stying HTML
+- HTML-CSS-JS / Bootstrap Web technologies for building user interface
+- Py Audio for chunking required for Minutes of the Meetings
 - SMTP@gmail.com for sending E-Mails
 
 ## Application Architecture
 ![Application Architecture](./Model/architecture.jpg)
+
+
+## Features implemented
+- User-interface for chat interaction and query output
+- User-interface can take query in form of speech or text
+- User-interface can return respone of the query on the chatbot screen or via email
+- Supportes recording the meeting, summarizing and getting the apt. meeting from database depending on the keyword
+- Supporting Stack-Overflow queries
+- Supporting queries for Jira, Confluence and Bitbucket
+- Supports taking feedback from the user on the response of the query and tweak the model depending on the feedback and continuously improving the model performance
+
 
 ## Working of Chatbot
 ![Chatbot-Internals](./Model/chatbot-internals.png)
 
 ## Comparison between various Chatbots
 ![Comparisons](./Model/comparison.jpg)
-
-## Features implemented
-- User-interface for chat interaction and query output
-- Integrating chatbot to our application
-- Supporting Stack-Overflow queries
-- Supporting Read-Only queries for Jira, Confluence and BitBucket
-    - Jira
-        - Issues
-            - TODO
-            - In-Progress
-            - Done
-        - Epics
-        - Progress
-    - Confluence
-        - BlogPosts
-        - Pages
-        - Comments
-    - BitBucket
-        - Pull-Requests
-        - Repositories
-
-- Sending response as a mail
-
-## Features to be implemented
-- MoM (Minutes of Meeting)
-- Speech to Text
-- Supporting Create, Update and Delete queries for Jira, Confluence and BitBucket
 
 <!-- # PPT Preparation
 - [ ] Scalability

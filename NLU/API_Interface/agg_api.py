@@ -127,4 +127,3 @@ def allUsers_Project():
         html += '<li style="font-size: 1.25rem;">{}</li>'.format(project["name"])
     html += "</div></div>"
     return html
-
