@@ -18,7 +18,7 @@
 - SMTP@gmail.com for sending E-Mails
 
 ## Application Architecture
-![Application Architecture](./Model/architecture.jpg)
+![Application Architecture](./Model/Arch.png)
 
 
 ## Features implemented
