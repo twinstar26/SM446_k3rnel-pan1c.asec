@@ -1,4 +1,3 @@
-# all pages
 ---
 type: intent 
 name: allPages
@@ -55,9 +54,6 @@ utterances:
   - please ply me pages
   - please cater me pages
   - please leave me pages
-
-
-# page by ID
 ---
 type: intent
 name: pageById
@@ -169,8 +165,6 @@ utterances:
   - please ply me page of [id](5265353) id
   - please cater me page of [id](5265353) id
   - please leave me page of [id](5265353) id
-
-# blog post by ID
 ---
 type: intent
 name: pageByTitle
