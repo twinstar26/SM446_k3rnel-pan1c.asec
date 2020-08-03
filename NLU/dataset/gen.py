@@ -1,8 +1,8 @@
 
 import nltk
-# nltk.download('wordnet')
-# nltk.download('punkt')
-# nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 from nltk.corpus import wordnet as wn
 from string import punctuation
 

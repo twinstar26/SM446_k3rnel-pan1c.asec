@@ -2,3 +2,5 @@ snips-nlu==0.20.2
 flask
 flask-cors
 SpeechRecognition
+nltk
+ruamel.yaml
