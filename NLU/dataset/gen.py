@@ -40,7 +40,7 @@ def _convert_nltk_to_wordnet_tag(pos_tag):
   if pos_tag.startswith("J"):
     return wn.ADJ
 
-def synonymous_examples(examples, include_verbs = True):
+def synonymous(examples, include_verbs = True):
   synonymous = []
   for example in examples:
     for idx,sentence in enumerate(example):
@@ -59,11 +59,11 @@ def synonymous_examples(examples, include_verbs = True):
 # token = _tokenise("Give me pull-request made by josh")
 # print(_infer_pos_tags(token))
 
-res = (synonymous_examples([["Give me pull-request made by josh"]]))
+# res = (synonymous([["Give me pull-request made by josh"]]))
 
-file = open('op.txt', 'w')
+# file = open('op.txt', 'w')
 
-for r in res:
-  for rr in r:
-    file.write("  " + "-" + " " +rr + "\n")
+# for r in res:
+#   for rr in r:
+#     file.write("  " + "-" + " " +rr + "\n")
 

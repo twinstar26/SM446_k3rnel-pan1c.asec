@@ -1,4 +1,3 @@
-# returns all pull requests authored by workspace
 ---
 type: intent
 name: allPullRequestByUserName
@@ -174,9 +173,6 @@ utterances:
   - supply me pull requests made by [userName](atharvaveer)
   - render me pull requests made by [userName](atharvaveer) username
   - render me pull requests made by [userName](atharvaveer)
-
-
-# returns all public repositories by workspace
 ---
 type: intent
 name: allRepositoriesByWorkspace
@@ -640,9 +636,6 @@ utterances:
   - Please leave me public repos made in [userName](atharvaveer)
   - Please cater me public repos made in [userName](atharvaveer) workspace
   - Please cater me public repos made in [userName](atharvaveer)
-
-
-# returns all commits made in repository by workspace and project name
 ---
 type: intent
 name: allCommitsByProjectNameAndWorkspace
@@ -1228,9 +1221,6 @@ utterances:
   - Please cater me commits committed in [projectName](google) in [userName](atharvaveer)
   - Please leave me commits committed in [projectName](google) in [userName](atharvaveer) workspace
   - Please leave me commits committed in [projectName](google) in [userName](atharvaveer)
-
-
-# returns all forks made in project by workspace and repository
 ---
 type: intent
 name: allForksByProjectNameAndWorkspace
@@ -1816,8 +1806,6 @@ utterances:
   - Please cater me forks forked in [projectName](google) in [userName](atharvaveer)
   - Please leave me forks forked in [projectName](google) in [userName](atharvaveer) workspace
   - Please leave me forks forked in [projectName](google) in [userName](atharvaveer)  
-
-# returns all issues made in project in workspace
 ---
 type: intent
 name: allIssuesByProjectNameAndWorkspace
@@ -2403,9 +2391,6 @@ utterances:
   - Please cater me issues issued in [projectName](google) in [userName](atharvaveer)
   - Please leave me issues issued in [projectName](google) in [userName](atharvaveer) workspace
   - Please leave me issues issued in [projectName](google) in [userName](atharvaveer)  
-
-
-# returns all version of repository by workspace and project name
 ---
 type: intent
 name: allPullRequestByProjectNameAndWorkspace
@@ -3567,9 +3552,6 @@ utterances:
   - Please cater me pr created in [projectName](google) in [userName](atharvaveer)
   - Please leave me pr created in [projectName](google) in [userName](atharvaveer) workspace
   - Please leave me pr created in [projectName](google) in [userName](atharvaveer)
-
-
-# returns version of project by workspace and project name
 ---
 type: intent
 name: versionByProjectNameAndWorkspace
