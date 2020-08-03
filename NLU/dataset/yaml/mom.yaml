@@ -14,9 +14,6 @@ utterances:
 ---
 type: intent
 name: summarizeMeeting
-slots:
-  - name: keyword
-    entity: keyword
 utterances:
   - Give me summary on previous meeting
   - Get me summary on previous meeting

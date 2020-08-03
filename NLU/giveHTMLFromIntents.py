@@ -2,6 +2,7 @@ from API_Interface.jira_api import *
 from API_Interface.confluence_api import *
 from API_Interface.stackoverflow_api import *
 from API_Interface.bitbucket_api import *
+from API_Interface.mom_api import *
 
 def giveHTMLFromIntents(jsonResponse):
     try:
@@ -55,6 +56,8 @@ def giveHTMLFromIntents(jsonResponse):
             return allBlogPost()
         elif jsonResponse['intent']["intentName"] == "blogPostbyTitle":
             return blogPostbyTitle(jsonResponse["slots"][0]["rawValue"])
+        elif jsonResponse['intent']['intentName'] == "momDetails":
+            return momDetails(jsonResponse["slots"][0]["rawValue"])
         # else:
         #     return topPostAnswer(jsonResponse["slots"][0]["rawValue"])
             # return "Nothing relative found"
