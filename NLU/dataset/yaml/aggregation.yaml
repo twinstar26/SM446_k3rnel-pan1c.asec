@@ -1,0 +1,26 @@
+---
+type: intent
+name: allPR_RecentlyUpdatedIssues
+utterances:
+  - Give me all pull requests and recently updated issues
+  - Give me all pull requests and recently editted issues
+  - Get me all pull requests and recently editted issue
+  - Get me all pull requests and recently updated issue
+  - Generate all pull requests and recently updated issues
+  - Generate all pull requests and recently editted issues
+
+---
+type: intent
+name: allPR_Pages
+utterances:
+  - Give me all pull requests and pages
+  - Get me all pull requests and pages
+  - Generate all pull requests and pages
+
+---
+type: intent
+name: allUsers_Project
+utterances:
+  - Give me all users and their projects
+  - Get me all users and their projects
+  - Generate all users and their projects

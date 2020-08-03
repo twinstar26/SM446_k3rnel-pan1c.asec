@@ -225,10 +225,6 @@
     "language_code": "en",
     "slot_name_mappings": {
       "allBlogPosts": {},
-      "allCommitsByProjectNameAndWorkspace": {
-        "projectName": "projectName",
-        "userName": "userName"
-      },
       "allEpicsByAssigneeAndIssueType": {
         "issueType": "issueType",
         "projectName": "projectName",
@@ -275,22 +271,17 @@
         "issueType": "issueType",
         "projectName": "projectName"
       },
-      "allIssuesByProjectNameAndWorkspace": {
-        "projectName": "projectName",
-        "userName": "userName"
-      },
+      "allPR_Pages": {},
+      "allPR_RecentlyUpdatedIssues": {},
       "allPages": {},
       "allProjects": {},
-      "allPullRequestByProjectNameAndWorkspace": {
-        "projectName": "projectName",
-        "userName": "userName"
-      },
       "allPullRequestByUserName": {
         "userName": "userName"
       },
-      "allRepositoriesByWorkspace": {
-        "userName": "userName"
-      },
+      "allPullRequests": {},
+      "allRecentlyUpdateIssues": {},
+      "allUsers": {},
+      "allUsers_Project": {},
       "blogPostById": {
         "id": "id"
       },

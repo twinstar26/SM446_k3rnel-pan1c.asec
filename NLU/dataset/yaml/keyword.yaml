@@ -1,0 +1,8 @@
+---
+type: entity
+name: keyword
+automatically_extensible: yes
+values:
+- java
+- python
+- xiomi

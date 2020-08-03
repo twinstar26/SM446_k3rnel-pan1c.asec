@@ -892,3 +892,11 @@ utterances:
   - Please cater me [issueKey](hac-9) issue key issues
   - Please provide me issue of [issueKey](hac-7) issue key
   - Please provide me [issueKey](hac-9) issue key issues
+
+---
+type: intent
+name: allRecentlyUpdateIssues
+utterances:
+  - Give me recently updated issues
+  - Get me recently updated issues
+  - Generate recently updated issues
