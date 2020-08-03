@@ -200,8 +200,6 @@ def allRecentlyUpdateIssues():
     html += "</div>"
     return html
 
-# print(allRecentlyUpdateIssues())
-
 def allProjects():
     r = requests.get('http://localhost:8080/rest/api/2/project', auth=('sm446-sih2020', 'halva@puri123'))
     data = r.json()
