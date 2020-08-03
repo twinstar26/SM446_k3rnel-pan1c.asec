@@ -100,9 +100,7 @@
       },
       {
         "args": {
-          "entities": [
-            "issueType"
-          ],
+          "entities": [],
           "entity_filter": {
             "automatically_extensible": false
           },
@@ -119,6 +117,7 @@
       {
         "args": {
           "entities": [
+            "userName",
             "projectName"
           ],
           "entity_filter": {
@@ -178,10 +177,10 @@
     "unit_name": "crf_slot_filler"
   },
   "crf_model_file": "model.crfsuite",
-  "intent": "allEpicsByProjectAndIssueType",
+  "intent": "allForksByProjectNameAndWorkspace",
   "language_code": "en",
   "slot_name_mapping": {
-    "issueType": "issueType",
-    "projectName": "projectName"
+    "projectName": "projectName",
+    "userName": "userName"
   }
 }

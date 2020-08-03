@@ -100,7 +100,9 @@
       },
       {
         "args": {
-          "entities": [],
+          "entities": [
+            "issueType"
+          ],
           "entity_filter": {
             "automatically_extensible": false
           },
@@ -177,9 +179,10 @@
     "unit_name": "crf_slot_filler"
   },
   "crf_model_file": "model.crfsuite",
-  "intent": "allForksByProjectNameAndWorkspace",
+  "intent": "allIssuesByAssigneeAndIssueType",
   "language_code": "en",
   "slot_name_mapping": {
+    "issueType": "issueType",
     "projectName": "projectName",
     "userName": "userName"
   }
