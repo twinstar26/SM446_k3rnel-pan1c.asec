@@ -1,0 +1,23 @@
+# MoM details from all previous meetings
+---
+type: intent
+name: momDetails
+slots:
+  - name: keyword
+    entity: keyword
+utterances:
+  - Give me details on [keyword](Java) from previous meetings
+  - Get me details on [keyword](Java) from previous meetings
+  - Generate details on [keyword](Java) from previous meetings
+
+# Give summary of the previous meeting
+---
+type: intent
+name: summarizeMeeting
+slots:
+  - name: keyword
+    entity: keyword
+utterances:
+  - Give me summary on previous meeting
+  - Get me summary on previous meeting
+  - Generate summary on previous meeting
