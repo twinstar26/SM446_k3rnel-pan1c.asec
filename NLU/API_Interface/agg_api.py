@@ -5,7 +5,7 @@ def allPR_RecentlyUpdatedIssues():
         auth=('sm446-sih2020', 'halva@puri123'))
     data = r.json()
 
-    html = "<div class='container p-4'><h2>Pull Requests by @{}</h2>".format(uname)
+    html = "<div class='container p-4'><h2>Pull Requests</h2>"
     for pr in data["values"]:
         html += '''
                 <div class="card p-4 mt-4" style="width: 30rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
@@ -52,7 +52,7 @@ def allPR_Pages():
         auth=('sm446-sih2020', 'halva@puri123'))
     data = r.json()
 
-    html = "<div class='container p-4'><h2>Pull Requests by @{}</h2>".format(uname)
+    html = "<div class='container p-4'><h2>Pull Requests by</h2>"
     for pr in data["values"]:
         html += '''
                 <div class="card p-4 mt-4" style="width: 30rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">

@@ -49,7 +49,10 @@ def momDetails(keyword):
 
 def summarizeMeeting():
     d = os.getcwd()
-    matches = [os.listdir(d + "\minutes_of_meeting")[-1]]
+    matches = os.listdir(d + "\minutes_of_meeting")
+    matches.reverse()
+    print(matches)
+    matches = [matches[-2]]
     
     html = '''
         <div class='container p-4'><h2>Previous Meeting</h2>
