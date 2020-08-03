@@ -209,6 +209,9 @@
       "issueType": {
         "automatically_extensible": false
       },
+      "keyword": {
+        "automatically_extensible": true
+      },
       "projectName": {
         "automatically_extensible": true
       },
@@ -305,12 +308,16 @@
         "issueKey": "issueKey",
         "projectName": "projectName"
       },
+      "momDetails": {
+        "keyword": "keyword"
+      },
       "pageById": {
         "id": "id"
       },
       "pageByTitle": {
         "title": "title"
       },
+      "summarizeMeeting": {},
       "topPostAnswer": {},
       "versionByProjectNameAndWorkspace": {
         "projectName": "projectName",

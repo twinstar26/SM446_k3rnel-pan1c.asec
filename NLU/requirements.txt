@@ -4,3 +4,5 @@ flask-cors
 SpeechRecognition
 nltk
 ruamel.yaml
+pydub
+spacy

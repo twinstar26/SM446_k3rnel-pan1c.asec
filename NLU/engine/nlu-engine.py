@@ -10,10 +10,12 @@ engine = SnipsNLUEngine(config=CONFIG_EN, random_state=seed)
 dataset_name = 'dataset1.json'
 
 get_current_working_directory = os.getcwd()
-splitted_current_working_directory = os.path.split(get_current_working_directory)
+splitted_current_working_directory = get_current_working_directory.split(os.sep)
+# print(splitted_current_working_directory)
 directory_index = splitted_current_working_directory.index('NLU')
-root_directory_path = os.path.join(*splitted_current_working_directory[:directory_index+1])
-
+# print(directory_index)
+root_directory_path = os.sep.join(splitted_current_working_directory[:directory_index+1])
+# print(root_directory_path)
 dataset_path = os.path.join(root_directory_path, 'dataset', 'json', dataset_name)
 
 with open(dataset_path, encoding='utf-16', errors='ignore') as f:
