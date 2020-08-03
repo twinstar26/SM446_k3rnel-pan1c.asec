@@ -3,6 +3,7 @@ from API_Interface.confluence_api import *
 from API_Interface.stackoverflow_api import *
 from API_Interface.bitbucket_api import *
 from API_Interface.mom_api import *
+from API_Interface.agg_api import *
 
 def giveHTMLFromIntents(jsonResponse):
     try:
@@ -54,6 +55,14 @@ def giveHTMLFromIntents(jsonResponse):
             return pageByTitle(jsonResponse["slots"][0]["rawValue"])
         elif jsonResponse['intent']["intentName"] == "allBlogPost":
             return allBlogPost()
+
+        # AGG..
+        elif jsonResponse['intent']['intentName'] == 'allUsers_Project':
+            return allUsers_Project()
+        elif jsonResponse['intent']['intentName'] == 'allPR_RecentlyUpdatedIssues':
+            return allPR_RecentlyUpdatedIssues()
+        elif jsonResponse['intent']['intentName'] == 'allPR_Pages':
+            return allPR_Pages()
 
     except Exception as e:
         print(e)

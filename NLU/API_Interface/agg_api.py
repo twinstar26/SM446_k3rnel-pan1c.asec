@@ -1,4 +1,5 @@
 import requests
+from datetime import date
 
 def allPR_RecentlyUpdatedIssues():
     r = requests.get("http://localhost:7990/rest/api/1.0/dashboard/pull-requests", \
@@ -44,7 +45,6 @@ def allPR_RecentlyUpdatedIssues():
                 issue["fields"]["status"]["name"], issue["key"], issue["fields"]["priority"]["name"], issue["fields"]["watches"]["watchCount"], \
                     issue["fields"]["created"])
     html += "</div>"
-    print(html)
     return html
 
 
@@ -127,4 +127,7 @@ def allUsers_Project():
     for project in data:
         html += '<li style="font-size: 1.25rem;">{}</li>'.format(project["name"])
     html += "</div></div>"
+
+    print(html)
+
     return html
