@@ -58,6 +58,8 @@ def giveHTMLFromIntents(jsonResponse):
             return blogPostbyTitle(jsonResponse["slots"][0]["rawValue"])
         elif jsonResponse['intent']['intentName'] == "momDetails":
             return momDetails(jsonResponse["slots"][0]["rawValue"])
+        elif jsonResponse['intent']['intentName'] == "summarizeMeeting":
+            return summarizeMeeting()
         # else:
         #     return topPostAnswer(jsonResponse["slots"][0]["rawValue"])
             # return "Nothing relative found"
