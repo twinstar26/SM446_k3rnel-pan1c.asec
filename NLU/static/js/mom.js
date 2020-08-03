@@ -25,7 +25,7 @@ function startRecording() {
 	var constraints = { audio: true, video:false }
 	button.removeEventListener("click", startRecording);
 	button.addEventListener("click", stopRecording);
-	button.innerHTML = "<i class='fa fa-stop' style='font-size: 1.25rem;'></i>";
+	button.innerHTML = "<i class='fa fa-stop' style='font-size: 10rem;'></i>";
  	/*
     	Disable the record button until we get a success or fail from getUserMedia()
 	*/
@@ -87,7 +87,7 @@ function stopRecording() {
 	rec.exportWAV(createDownloadLink);
 	button.removeEventListener("click", stopRecording);
 	button.addEventListener("click", startRecording);
-	button.innerHTML="<i class='fa fa-microphone' style='font-size: 1.25rem;'></i>";
+	button.innerHTML="<i class='fa fa-microphone' style='font-size: 10rem;'></i>";
 }
 
 function createDownloadLink(blob) {
