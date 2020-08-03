@@ -37,6 +37,27 @@
 ## Comparison between various Chatbots
 ![Comparisons](./Model/comparison.jpg)
 
+## Setup
+```
+Prerequisite:
+    Python 3.7
+    Local Instance of Jira, Bitbucket, Confluence running
+```
+```
+Commands to install the dependencies
+$ cd NLU
+$ pip install -r requirements.txt
+```
+
+```
+Starting the server
+$ python app.py
+```
+```
+Running the chatbot
+http://localhost:5000/
+```
+
 <!-- # PPT Preparation
 - [ ] Scalability
 - [ ] Complexity
