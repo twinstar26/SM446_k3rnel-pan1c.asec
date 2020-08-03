@@ -1,4 +1,7 @@
 import requests
+import sys
+sys.path.append('../')
+from engine.similar import *
 
 def allPullRequests():
     r = requests.get("http://localhost:7990/rest/api/1.0/dashboard/pull-requests", \
@@ -30,9 +33,16 @@ def allPullRequestByUserName(uname):
         auth=('sm446-sih2020', 'halva@puri123'))
     data = r.json()
 
-    html = "<div class='container p-4'><h2>Pull Requests by @{}</h2>".format(uname)
+    # FOR DEMO
+    # get all the users
+    users = getUsers()
+    current_user = [ uname ]
+
+    user = get_most_similar(current_user, users)[0]
+
+    html = "<div class='container p-4'><h2>Pull Requests by @{}</h2>".format(user)
     for pr in data["values"]:
-        if (pr["author"]["user"]["name"] == uname):
+        if (pr["author"]["user"]["name"] == user):
             html += '''
                     <div class="card p-4 mt-4" style="width: 30rem; box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);">
                         <div style="font-size: 1.25rem;">{}</div>
@@ -51,14 +61,14 @@ def allPullRequestByUserName(uname):
 
     return html
 
-def users():
+def getUsers():
     r = requests.get("http://localhost:7990/rest/api/1.0/admin/users", \
         auth=('sm446-sih2020', 'halva@puri123'))
     data = r.json()
 
     users = []
     for user in data["values"]:
-        users.append([user["name"], user["displayName"], user["emailAddress"]])
+        users.append(user["name"])
     
     return users
 
