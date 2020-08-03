@@ -4,8 +4,8 @@ name: allPR_RecentlyUpdatedIssues
 utterances:
   - Give me all pull requests and recently updated issues
   - Give me all pull requests and recently editted issues
-  - Get me all pull requests and recently editted issue
-  - Get me all pull requests and recently updated issue
+  - Get me all pull requests and recently editted issues
+  - Get me all pull requests and recently updated issues
   - Generate all pull requests and recently updated issues
   - Generate all pull requests and recently editted issues
 
