@@ -1,4 +1,4 @@
-snips-nlu==0.20.2
+snips-nlu
 flask
 flask-cors
 SpeechRecognition
