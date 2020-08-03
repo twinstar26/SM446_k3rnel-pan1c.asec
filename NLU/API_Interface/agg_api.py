@@ -44,6 +44,7 @@ def allPR_RecentlyUpdatedIssues():
                 issue["fields"]["status"]["name"], issue["key"], issue["fields"]["priority"]["name"], issue["fields"]["watches"]["watchCount"], \
                     issue["fields"]["created"])
     html += "</div>"
+    print(html)
     return html
 
 

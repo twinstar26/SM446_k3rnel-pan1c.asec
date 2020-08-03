@@ -5,7 +5,7 @@ from flask import Flask, render_template
 from flask import request
 from engine.chatbot import engine
 from flask_cors import CORS
-
+from mom import *
 from giveHTMLFromIntents import giveHTMLFromIntents
 
 import smtplib, ssl, sys
@@ -49,6 +49,8 @@ def mom():
     else:
         file = request.files["audio_data"]
         file.save("./audio.wav")
+        make_chunks_from_wav("./audio.wav", 10)
+        create_text_from_chunks('audio')
         return 'success'
 
 @app.route("/chatbot/", methods=["GET", "POST"])
