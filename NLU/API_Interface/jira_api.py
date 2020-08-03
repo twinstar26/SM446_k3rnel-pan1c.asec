@@ -3,8 +3,6 @@ from pprint import pprint
 from datetime import date
 
 def allIssuesByProject(p_name):
-    # r = requests.get('https://kernel-panic.atlassian.net/rest/api/2/search?jql=project={}'.format(p_name), \
-    #     auth=('yashjain0530@gmail.com', 'Pt6yTlLgfFeNjvBOnSeL32B1'))
     r = requests.get('http://localhost:8080/rest/api/2/search?jql=project={}'.format(p_name), auth=('sm446-sih2020', 'halva@puri123'))
     data = r.json()
     html = "<div class='container p-4'><h1>Issues for Project: {}</h1>".format(p_name)
@@ -28,8 +26,6 @@ def allIssuesByProject(p_name):
     return html
 
 def allIssuesByProjectAndIssueType(p_name, i_type):
-    # r = requests.get('https://kernel-panic.atlassian.net/rest/api/2/search?jql=project={}'.format(p_name), \
-    #     auth=('yashjain0530@gmail.com', 'Pt6yTlLgfFeNjvBOnSeL32B1'))
     r = requests.get('http://localhost:8080/rest/api/2/search?jql=project={}'.format(p_name), auth=('sm446-sih2020', 'halva@puri123'))
     data = r.json()
     html = "<div class='container p-4'><h1>Issues for Project: {}</h1>".format(p_name)
@@ -55,8 +51,6 @@ def allIssuesByProjectAndIssueType(p_name, i_type):
     return html
 
 def allIssuesByAssigneeAndIssueType(assignee, i_type):
-    # r = requests.get('https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee={}'.format(assignee), \
-    #     auth=('yashjain0530@gmail.com', 'Pt6yTlLgfFeNjvBOnSeL32B1'))
     r = requests.get('http://localhost:8080/rest/api/2/search?jql=assignee={}'.format(assignee), auth=('sm446-sih2020', 'halva@puri123'))
     data = r.json()
     html = "<div class='container p-4'><h1>Issues for Assignee: {}</h1>".format(assignee)
@@ -82,8 +76,6 @@ def allIssuesByAssigneeAndIssueType(assignee, i_type):
     return html
 
 def allIssuesByAssigneeAndProjectName(assignee, p_name):
-    # r = requests.get('https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee={}&'.format(assignee), \
-    #     auth=('yashjain0530@gmail.com', 'Pt6yTlLgfFeNjvBOnSeL32B1'))
     r = requests.get('http://localhost:8080/rest/api/2/search?jql=assignee={}'.format(assignee), auth=('sm446-sih2020', 'halva@puri123'))
     data = r.json()
     html = "<div class='container p-4'><h1>Issues for Assignee: {}</h1>".format(assignee)
@@ -108,8 +100,6 @@ def allIssuesByAssigneeAndProjectName(assignee, p_name):
     return html
 
 def allIssuesByAssigneeProjectNameAndIssueType(assignee, p_name, i_type):
-    # r = requests.get('https://kernel-panic.atlassian.net/rest/api/2/search?jql=assignee={}'.format(assignee), \
-    #     auth=('yashjain0530@gmail.com', 'Pt6yTlLgfFeNjvBOnSeL32B1'))
     r = requests.get('http://localhost:8080/rest/api/2/search?jql=assignee={}'.format(assignee), auth=('sm446-sih2020', 'halva@puri123'))
     data = r.json()
     html = "<div class='container p-4'><h1>Issues for Assignee: {}</h1>".format(assignee)
@@ -136,8 +126,6 @@ def allIssuesByAssigneeProjectNameAndIssueType(assignee, p_name, i_type):
     return html
 
 def issueByIssueKey(i_key):
-    # r = requests.get('https://kernel-panic.atlassian.net/rest/api/2/issue/{}'.format(i_key), \
-    #     auth=('yashjain0530@gmail.com', 'Pt6yTlLgfFeNjvBOnSeL32B1'))
     r = requests.get('http://localhost:8080/rest/api/2/issue/{}'.format(i_key), auth=('sm446-sih2020', 'halva@puri123'))
     issue = r.json()
     html = "<div class='container p-4'><h1>Issue for ID: {}</h1>".format(i_key)

@@ -1,4 +1,3 @@
-# all blog posts
 ---
 type: intent 
 name: allBlogPosts
@@ -153,10 +152,6 @@ utterances:
   - Please cater me blogposts
   - Please cater me blog posts
   - Please cater me blog-posts
-
-
-
-# blog post by ID
 ---
 type: intent
 name: blogPostById
@@ -464,8 +459,6 @@ utterances:
   - Please cater me blogposts of [id](5265353)
   - Please cater me blog posts of [id](5265353)
   - Please cater me blog-posts of [id](5265353)
-
-# blog post by title
 ---
 type: intent
 name: blogPostByTitle
