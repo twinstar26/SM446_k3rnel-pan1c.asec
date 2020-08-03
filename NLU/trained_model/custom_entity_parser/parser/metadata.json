@@ -17,16 +17,20 @@
       "entity_parser": "parser_4"
     },
     {
-      "entity_identifier": "projectName",
+      "entity_identifier": "keyword",
       "entity_parser": "parser_5"
     },
     {
-      "entity_identifier": "title",
+      "entity_identifier": "projectName",
       "entity_parser": "parser_6"
     },
     {
-      "entity_identifier": "userName",
+      "entity_identifier": "title",
       "entity_parser": "parser_7"
+    },
+    {
+      "entity_identifier": "userName",
+      "entity_parser": "parser_8"
     }
   ]
 }

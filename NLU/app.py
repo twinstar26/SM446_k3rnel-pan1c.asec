@@ -17,17 +17,14 @@ from stt import listenToAudio
 
 def sendEmail(you, html):
   me = "kernelpanic.asec@gmail.com"
-  # Create message container - the correct MIME type is multipart/alternative.
+
   msg = MIMEMultipart('alternative')
   msg['Subject'] = "Response from chatbot"
   msg['From'] = me
   msg['To'] = you
   part2 = MIMEText(html, 'html')
-  # Attach parts into message container.
   msg.attach(part2)
 
-  # sendmail function takes 3 arguments: sender's address, recipient's address
-  # and message to send - here it is sent as one string.
   s = smtplib.SMTP('smtp.gmail.com', 587)
 
   s.ehlo()
@@ -44,6 +41,15 @@ CORS(app)
 @app.route("/", methods=["GET"])
 def home():
     return render_template("index.html")
+
+@app.route("/mom/", methods=["GET", 'POST'])
+def mom():
+    if request.method == 'GET':
+        return render_template("mom.html")
+    else:
+        file = request.files["audio_data"]
+        file.save("./audio.wav")
+        return 'success'
 
 @app.route("/chatbot/", methods=["GET", "POST"])
 def index():
@@ -77,10 +83,7 @@ def stt():
         file = request.files["audio_data"]
         file.save("./audio.wav")
         text = listenToAudio("audio.wav")
-        # print(text)
         parsing = engine.parse(text)
-        # print(parsing)
-        # print(text+"|"+str(giveHTMLFromIntents(parsing)))
         return text+"|"+str(giveHTMLFromIntents(parsing))
     elif request.method == "GET":
         return render_template("stt.html")
